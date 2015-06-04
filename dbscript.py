@@ -31,20 +31,13 @@ for root, dirs, files in os.walk('NSF_data/'):
 				abstract = doc.xpath('//AbstractNarration')
 				awardid = doc.xpath('//AwardID')
 				investigators = doc.xpath('//Investigator')
+				institution = doc.xpath('//Institution/Name')
+
 
 				for investigator in investigators:
 					fname = doc.xpath('//Investigator/FirstName')
 					lname = doc.xpath('//Investigator/LastName')
 					email = doc.xpath('//Investigator/EmailAddress')
-
-				institution = doc.xpath('//Institution/Name')
-
-				peopleheaders = ['PersonID', 'FirstName', 'LastName', 'Email', 'Institution']
-
-				grantheaders = ['PersonID', 'Title', 'EffDate','ExpirDate',
-								'Amount', 'Directorate', 'Division' , 'Abstract' , 'AwardID']
-
-				grantforheaders = ['PersonID', 'AwardID']
 
 
 				for i in range(len(investigators)):
@@ -61,6 +54,13 @@ for root, dirs, files in os.walk('NSF_data/'):
 			except Exception, e :
 				print "Error with file %s" % fullpath	
 				print e
+
+			peopleheaders = ['PersonID', 'FirstName', 'LastName', 'Email', 'Institution']
+
+			grantheaders = ['PersonID', 'Title', 'EffDate','ExpirDate',
+											'Amount', 'Directorate', 'Division' , 'Abstract' , 'AwardID']
+
+			grantforheaders = ['PersonID', 'AwardID']
 
 #generate 3 csv files
 with open('people.csv', 'w') as f:
