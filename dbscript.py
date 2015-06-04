@@ -79,27 +79,27 @@ with open('grantfor.csv', 'w') as f:
 	f_csv.writerows(grantforrows)
 
 
-# """
-# TABLE people
-# id varchar(20), 
-# first_name text,
-# last_name text,
-# email text,
+"""
+TABLE people
+id varchar(20), 
+first_name text,
+last_name text,
+email text,
 
-# TABLE grant
-# id varchar(20),
-# person_id ....
-# title text
-# eff_date date
-# expir_date date
-# amount int 
-# directorate text
-# division text
-# abstract text
-# awardid text
+TABLE grant
+id varchar(20),
+person_id ....
+title text
+eff_date date
+expir_date date
+amount int 
+directorate text
+division text
+abstract text
+awardid text
 
-# TABLE grant_for
-# grant_id
-# person_id
+TABLE grant_for
+grant_id
+person_id
 
-# """
+"""
