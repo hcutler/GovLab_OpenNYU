@@ -1,0 +1,39 @@
+from lxml import etree
+import lxml
+from xml.etree.ElementTree import ElementTree
+
+
+f = open('NSF_data/1427987.xml')
+
+doc = etree.parse(f)
+
+title = doc.xpath('//AwardTitle')
+
+# for item in doc.iterfind:
+# 	title = doc.xpath('//AwardTitle')
+# 	effdate = doc.xpath('//AwardEffectiveDate')
+# 	expirdate = doc.xpath('//AwardExpirationDate')
+# 	amount = doc.xpath('//AwardAmount')
+# 	directorate = doc.xpath('//Directorate')
+# 	division = doc.xpath('//Division')
+# 	abstract = doc.xpath('//AbstractNarration')
+# 	ident = doc.xpath('//AwardID')
+# 	investigator = doc.xpath('//Investigator/FirstName | //Investigator/LastName | //Investigator/EmailAddress')
+# 	institution = doc.xpath('//Institution')
+
+
+print etree.tostring(title[0])
+# print etree.tostring(effdate[0])
+# print etree.tostring(expirdate[0])
+# print etree.tostring(amount[0])
+# print etree.tostring(directorate[0])
+# print etree.tostring(division[0])
+# print etree.tostring(abstract[0])
+# print etree.tostring(ident[0])
+# print etree.tostring(investigator[0])
+# print etree.tostring(institution[0])
+
+
+
+
+
