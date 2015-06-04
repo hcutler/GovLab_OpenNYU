@@ -30,17 +30,14 @@ for root, dirs, files in os.walk('NSF_data/'):
 				division = doc.xpath('//Organization/Division/LongName')
 				abstract = doc.xpath('//AbstractNarration')
 				awardid = doc.xpath('//AwardID')
-				
-				first = doc.xpath('//Investigator/FirstName')
-				last = doc.xpath('//Investigator/LastName')
-				# investigatorname = first[0].text + " " + last[0].text
-				investors = doc.xpath('//Investigator')
-				for investor in investigators:
-					fname = 
-				investigatoremail = doc.xpath('//Investigator/EmailAddress')
-				institution = doc.xpath('//Institution/Name')
+				investigators = doc.xpath('//Investigator')
 
-				#investigators messed up
+				for investigator in investigators:
+					fname = doc.xpath('//Investigator/FirstName')
+					lname = doc.xpath('//Investigator/LastName')
+					email = doc.xpath('//Investigator/EmailAddress')
+
+				institution = doc.xpath('//Institution/Name')
 
 				peopleheaders = ['PersonID', 'FirstName', 'LastName', 'Email', 'Institution']
 
@@ -50,16 +47,17 @@ for root, dirs, files in os.walk('NSF_data/'):
 				grantforheaders = ['PersonID', 'AwardID']
 
 
-				peoplerows.append({'PersonID': investigatoremail[0].text, 'FirstName': first[0].text,
-						'LastName': last[0].text, 'Email': investigatoremail[0].text,
-						'Institution': institution[0].text})
+				for i in range(len(investigators)):
+					peoplerows.append({'PersonID': email[i].text, 'FirstName': fname[i].text,
+							'LastName': lname[i].text, 'Email': email[i].text,
+							'Institution': institution[0].text})
 
-				grantrows.append({'PersonID': investigatoremail[0].text, 'Title': title[0].text, 'EffDate': effdate[0].text,
-						'ExpirDate': expirdate[0].text, 'Amount': amount[0].text, 'Directorate': directorate[0].text,
-						'Division': division[0].text, 'Abstract': abstract[0].text, 'AwardID': awardid[0].text})
+					grantrows.append({'PersonID': email[i].text, 'Title': title[0].text, 'EffDate': effdate[0].text,
+							'ExpirDate': expirdate[0].text, 'Amount': amount[0].text, 'Directorate': directorate[0].text,
+							'Division': division[0].text, 'Abstract': abstract[0].text, 'AwardID': awardid[0].text})
 
-				grantforrows.append({'PersonID': investigatoremail[0].text, 'AwardID': awardid[0].text})
-			
+					grantforrows.append({'PersonID': email[i].text, 'AwardID': awardid[0].text})
+				
 			except Exception, e :
 				print "Error with file %s" % fullpath	
 				print e
@@ -81,27 +79,27 @@ with open('grantfor.csv', 'w') as f:
 	f_csv.writerows(grantforrows)
 
 
-"""
-TABLE people
-id varchar(20), 
-first_name text,
-last_name text,
-email text,
+# """
+# TABLE people
+# id varchar(20), 
+# first_name text,
+# last_name text,
+# email text,
 
-TABLE grant
-id varchar(20),
-person_id ....
-title text
-eff_date date
-expir_date date
-amount int 
-directorate text
-division text
-abstract text
-awardid text
+# TABLE grant
+# id varchar(20),
+# person_id ....
+# title text
+# eff_date date
+# expir_date date
+# amount int 
+# directorate text
+# division text
+# abstract text
+# awardid text
 
-TABLE grant_for
-grant_id
-person_id
+# TABLE grant_for
+# grant_id
+# person_id
 
-"""
+# """
