@@ -58,7 +58,7 @@ for root, dirs, files in os.walk('NSF_data/'):
 
 			peopleheaders = ['PersonID', 'FirstName', 'LastName', 'Email', 'Institution']
 
-			grantheaders = ['PersonID', 'Title', 'EffDate','ExpirDate',
+			grantheaders = ['Title', 'EffDate','ExpirDate',
 											'Amount', 'Directorate', 'Division' , 'Abstract' , 'AwardID']
 
 			grantforheaders = ['PersonID', 'AwardID']
