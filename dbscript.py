@@ -45,12 +45,13 @@ for root, dirs, files in os.walk('NSF_data/'):
 							'LastName': lname[i].text, 'Email': email[i].text,
 							'Institution': institution[0].text})
 
-					grantrows.append({'PersonID': email[i].text, 'Title': title[0].text, 'EffDate': effdate[0].text,
-							'ExpirDate': expirdate[0].text, 'Amount': amount[0].text, 'Directorate': directorate[0].text,
-							'Division': division[0].text, 'Abstract': abstract[0].text, 'AwardID': awardid[0].text})
-
 					grantforrows.append({'PersonID': email[i].text, 'AwardID': awardid[0].text})
 				
+
+				grantrows.append({'Title': title[0].text, 'EffDate': effdate[0].text,
+						'ExpirDate': expirdate[0].text, 'Amount': amount[0].text, 'Directorate': directorate[0].text,
+							'Division': division[0].text, 'Abstract': abstract[0].text, 'AwardID': awardid[0].text})
+
 			except Exception, e :
 				print "Error with file %s" % fullpath	
 				print e
@@ -79,27 +80,27 @@ with open('grantfor.csv', 'w') as f:
 	f_csv.writerows(grantforrows)
 
 
-"""
-TABLE people
-id varchar(20), 
-first_name text,
-last_name text,
-email text,
+# """
+# TABLE people
+# id varchar(20), 
+# first_name text,
+# last_name text,
+# email text,
 
-TABLE grant
-id varchar(20),
-person_id ....
-title text
-eff_date date
-expir_date date
-amount int 
-directorate text
-division text
-abstract text
-awardid text
+# TABLE grant
+# id varchar(20),
+# person_id ....
+# title text
+# eff_date date
+# expir_date date
+# amount int 
+# directorate text
+# division text
+# abstract text
+# awardid text
 
-TABLE grant_for
-grant_id
-person_id
+# TABLE grant_for
+# grant_id
+# person_id
 
-"""
+# """
