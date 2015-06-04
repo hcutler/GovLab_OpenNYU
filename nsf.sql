@@ -10,7 +10,7 @@ email TEXT,
 institution TEXT
 )
 
-%% PersonID	Title	EffDate	ExpirDate	Amount	Directorate	Division	Abstract	AwardID
+%% Title	EffDate	ExpirDate	Amount	Directorate	Division	Abstract	AwardID
 
 CREATE TABLE grants(
 award_id TEXT PRIMARY KEY,
@@ -27,4 +27,22 @@ CREATE TABLE grants_for(
 award_id TEXT REFERENCES grants(award_id), 
 grantee_id TEXT REFERENCES grantees(id)
 )
+
+COPY grantees(id, first_name, last_name, email, institution)
+FROM '/home/ubuntu/GovLab_OpenNYU/people.csv'
+WITH DELIMITER ',' CSV HEADER
+
+COPY grants(title, effective_date, expiration_date, amount, directorate, division, abstract, award_id)
+FROM '/home/ubuntu/GovLab_OpenNYU/grants.csv'
+WITH DELIMITER ',' CSV HEADER
+
+COPY grants_for(grantee_id, award_id)
+FROM '/home/ubuntu/GovLab_OpenNYU/grantfor.csv'
+WITH DELIMITER ',' CSV HEADER
+
+DELETE FROM grants_for;
+DELETE FROM grants;
+DELETE FROM grantees;
+
+
 
