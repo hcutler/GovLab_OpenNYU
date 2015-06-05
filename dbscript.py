@@ -11,15 +11,35 @@ peoplerows = []
 grantrows = []
 grantforrows = []
 
+peopleheaders = ['PersonID', 'FirstName', 'LastName', 'Email', 'Institution']
+grantheaders = ['Title', 'EffDate','ExpirDate', 'Amount', 'Directorate', 'Division' , 'Abstract' , 'AwardID']
+grantforheaders = ['PersonID', 'AwardID']
+
+#generate 3 csv files
+with open('people.csv', 'w') as f:
+	f_csv = csv.DictWriter(f, peopleheaders)
+	f_csv.writeheader()
+	f_csv.writerows(peoplerows)
+
+with open('grants.csv', 'w') as f:
+	f_csv = csv.DictWriter(f, grantheaders)
+	f_csv.writeheader()
+	f_csv.writerows(grantrows)
+
+with open('grantfor.csv', 'w') as f:
+	f_csv = csv.DictWriter(f, grantforheaders)
+	f_csv.writeheader()
+	f_csv.writerows(grantforrows)
+	
 #parse XML files to extract data
 for root, dirs, files in os.walk('NSF_data/'):
-	for filename in files[0:1]:
+	for filename in files:
 		if filename.endswith('.xml'):
 			fullpath = os.path.join(root, filename)
 
 			try:
 				f = open(fullpath)
-				print fullpath
+				#print fullpath
 				doc = etree.parse(f)
 
 				title = doc.xpath('//AwardTitle')
@@ -56,51 +76,5 @@ for root, dirs, files in os.walk('NSF_data/'):
 				print "Error with file %s" % fullpath	
 				print e
 
-			peopleheaders = ['PersonID', 'FirstName', 'LastName', 'Email', 'Institution']
 
-			grantheaders = ['Title', 'EffDate','ExpirDate',
-											'Amount', 'Directorate', 'Division' , 'Abstract' , 'AwardID']
-
-			grantforheaders = ['PersonID', 'AwardID']
-
-#generate 3 csv files
-with open('people.csv', 'w') as f:
-	f_csv = csv.DictWriter(f, peopleheaders)
-	f_csv.writeheader()
-	f_csv.writerows(peoplerows)
-
-with open('grants.csv', 'w') as f:
-	f_csv = csv.DictWriter(f, grantheaders)
-	f_csv.writeheader()
-	f_csv.writerows(grantrows)
-
-with open('grantfor.csv', 'w') as f:
-	f_csv = csv.DictWriter(f, grantforheaders)
-	f_csv.writeheader()
-	f_csv.writerows(grantforrows)
-
-
-# """
-# TABLE people
-# id varchar(20), 
-# first_name text,
-# last_name text,
-# email text,
-
-# TABLE grant
-# id varchar(20),
-# person_id ....
-# title text
-# eff_date date
-# expir_date date
-# amount int 
-# directorate text
-# division text
-# abstract text
-# awardid text
-
-# TABLE grant_for
-# grant_id
-# person_id
-
-# """
+print "finished!"
