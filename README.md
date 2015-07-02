@@ -2,8 +2,16 @@
 
 Scrapers and crawlers for The GovLab Open NYU project.
 
-NSF:
-Scrapes XML files of NSF grant data (2006-2014), converts to .csv format and will generate SQL database. Will then query database and run various document classification algorithms for analysis.
+nsf:
+Scrapes XML files of NSF grant data (2006-2014), converts >> .csv format >> SQL database that can be easily queried.
 
-TWITTER:
-Uses Twython (python wrapper for Twitter API) to get info for a given Twitter username(s). Prints out JSON format and generates .txt file
+twitter:
+--use twython to get stats for Twitter user (by username), prints out .json format and generates .txt file
+--streams tweets containing a given keyword (supports hashtags)
+--searches tweets for a term and stores data in SQLite database
+
+cds-nyu:
+scrapes Faculty page on Center for Data Science @ NYU "people" page
+
+
+
