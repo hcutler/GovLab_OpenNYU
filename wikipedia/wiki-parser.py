@@ -12,15 +12,16 @@ title = wikipedia.page(topic) #store contents
 summary = title.summary
 categ = title.categories #get attributes
 links = title.links
-sections = title.sections
-suggestions = title.suggest
-
+# sections = title.sections
+# suggestions = title.suggest
+content = title.content
 
 def print_all_contents(t):
 	print_summary(title)
 	print_categories(title)
 	print_links(title)
 	# print_sections(title)
+	# print_all_contents(title)
 
 def print_summary(t):
 	print("\nSummary: \n") + summary + '\n'
@@ -51,6 +52,9 @@ def print_links(t):
 # 		print s
 # 	print '\n'
 
+# def print_content(t):
+# 	print "\nPage content of'" + topic + "''s wiki page: \n"
+# 	print content
 
 def main():
 	print_all_contents(title)
