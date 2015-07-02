@@ -1,5 +1,8 @@
 # create day, month, year vars to name output file
 import datetime
+import tweepy
+import twython
+
 now = datetime.datetime.now()
 day=int(now.day)
 month=int(now.month)
