@@ -12,31 +12,45 @@ title = wikipedia.page(topic) #store contents
 summary = title.summary
 categ = title.categories #get attributes
 links = title.links
-section = title.section
+sections = title.sections
+suggestions = title.suggest
 
 
 def print_all_contents(t):
 	print_summary(title)
 	print_categories(title)
 	print_links(title)
-
-def print_categories(t):
-	print "\nCategories associated with '" + topic + "':"
-	for c in categ:
-		print c
+	# print_sections(title)
 
 def print_summary(t):
 	print("\nSummary: \n") + summary + '\n'
 	# print '\n' + str(section) + '\n' + summary + '\n'
 
+def print_categories(t):
+	print "\nCategories associated with '" + topic + "':"
+	for c in categ:
+		print c
+	print '\n'
+
 def print_links(t):
 	print "\nPage links associated with '" + topic + "':"
-
 	if len(links) == 0:
 		print "\nNo links associated with '" + topic + "' \n"
 	else:
 		for l in links:
 			print l
+	print '\n'
+
+# def print_sections(t):
+# 	print "\nSections associated with '" + topic + "':"
+
+# 	# if len(sections) == 0:
+# 	# 	print "No sections on '" + topic + "''s page\n"
+# 	# else:
+# 	for s in sections:
+# 		print s
+# 	print '\n'
+
 
 def main():
 	print_all_contents(title)
