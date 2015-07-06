@@ -16,7 +16,7 @@ API_SECRET = 'NllPQrOxRDcXUGK6' #CONSUMER_SECRET
 
 #USER_TOKEN (oauth_token)
 #USER_SECRET (oauth_secret)
-RETURN_URL = 'http://localhost:8000'
+RETURN_URL = 'http://localhost:8080'
 
 authentication = linkedin.LinkedInAuthentication(API_KEY, API_SECRET, RETURN_URL, linkedin.PERMISSIONS.enums.values())
 print authentication.authorization_url  # open this url on your browser
