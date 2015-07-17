@@ -1,0 +1,26 @@
+unique id for person (name)
+array of components
+each component has attributes with values
+at top, has source of contents
+
+- generate JSON for each person
+
+
+ * twitter stats
+ * NSF grant data
+
+ * generate JSON docs for all NYU faculty with objects for info from different sources
+
+ look at a bio
+
+ mini map of what you're doing : BeautifulSoup
+ NLP: nltp, clips (example they have on kind of extra)
+
+
+ Scraper tool:
+
+Working scrapers:
+-Wikipedia
+-Center for Data Science @ NYU page
+-Twitter (Tweets for keyword, stats for a user -- need to modify to get tweets for a user)
+-
