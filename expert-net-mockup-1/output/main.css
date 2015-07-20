@@ -22,7 +22,7 @@
   top:100px;
 }
 
-/*.jumbotron h1 {
+.jumbotron h1 {
   color: #0a;
   font-size: 48px;  
   font-family: 'Shift', sans-serif;
@@ -32,7 +32,7 @@
 .jumbotron p {
   font-size: 20px;
   color: #0a;
-}*/
+}
 
 .neighborhood-guides {
     background-color: #efefef;
@@ -54,6 +54,7 @@
     border: 1px solid #000;
     margin-left: 65px;
     margin-right: 60px;
+    border-radius: 10px;
 }
 
 .neighborhood-guides .container .row .col-md-5 .contact {
@@ -62,27 +63,32 @@
     margin-bottom: 20px;
     margin-left: 65px;
     margin-right: 60px;
+    border-radius: 10px;
 }
 
 .neighborhood-guides .container .row .col-md-4 .name {
     border: 2px solid #000;
     margin: 20px;
+    border-radius: 10px;
 }
 
 .neighborhood-guides .container .row .col-md-4 .position {
     border: 1px solid #000;
     margin: 20px;
+    border-radius: 10px;
 }
 
 
 .neighborhood-guides .container .row .col-md-4 .skills-expertise {
     border: 1px solid #000;
     margin: 20px;
+    border-radius: 10px;
 }
 
 .neighborhood-guides .container .row .col-md-4 .bibliography {
     border: 1px solid #000;
     margin: 20px;
+    border-radius: 10px;
 }
 
 
