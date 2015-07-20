@@ -1,6 +1,7 @@
 from jinja2 import Environment, FileSystemLoader
 from yaml import load, Loader
 import shutil
+import string
 
 import os
 
@@ -31,8 +32,21 @@ def copy_css():
 	dest = "/Users/hannahcutler/Documents/Dev/ENV/GovLab_OpenNYU/expert-net-mockup-1/output/"
 	for basename in os.listdir(source):
 		if basename.endswith(".css"):
+			# delete existing .css file in new directory
 			shutil.copy2(basename,dest)
 			
+			# # main.css -> main_output.css
+			# for char in basename:
+			# 	i = len(basename) - 4
+			# 	oldbase = basename[0:i]
+			# 	newbase = basename[0:i] + '_output'
+			# 	newname = basename.replace(oldbase, newbase)
+			# 	basename = newname
+
+
+
+
+
 
 if __name__ == '__main__':
     render()
