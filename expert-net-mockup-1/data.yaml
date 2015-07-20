@@ -3,8 +3,9 @@ fullname:   Hannah Cutler
 firstname:  Hannah
 lastname:   Cutler
 position:   Undergraduate
-department: CIS
-school:     Penn Engineering
+department: Computer and Information Science (CIS)
+school: School of Engineering and Applied Science (SEAS)
+institution: University of Pennsylvania
 
 location:
     city:   Philadelphia
@@ -13,10 +14,10 @@ location:
 contact:
     phone:      (xxx)-xxx-xxxx
     email:      hcutler@seas.upenn.edu 
-    twitter:    hannahrcutler
-    linkedin:   LXXXX
-    facebook:   FXXXXX
-    github:     https://github.com/hcutler/
+    twitter:    <a href="https://twitter.com/hannahrcutler">Twitter</a>
+    linkedin:   <a href="https://www.linkedin.com/pub/hannah-cutler/83/743/b6b">LinkedIn</a>
+    facebook:   <a href="https://www.facebook.com/hcutler.94">Facebook</a>
+    github:     <a href="https://github.com/hcutler/">GitHub</a>
 
 skills:
     - Python
