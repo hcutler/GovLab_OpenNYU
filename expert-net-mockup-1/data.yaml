@@ -19,10 +19,10 @@ contact:
     github:     https://github.com/hcutler/
 
 skills:
-    - skill1: Python
-    - skill2: Java
-    - skill3: C
-    - skill4: Statistics
+    - Python
+    - Java
+    - C
+    - Statistics
 
 sources:
     - source1: NSF

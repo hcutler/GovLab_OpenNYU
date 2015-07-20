@@ -1,0 +1,101 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+/*.jumbotron {
+  background-image:url('https://griffsgraphs.files.wordpress.com/2012/07/facebook-network.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #0a;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #0a;
+}
+
+.neighborhood-guides {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h1 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.neighborhood-guides h3 {
+    font-size: 15px;
+    margin-bottom: 13px;
+
+}
+
+.neighborhood-guides .container .row .col-md-5 .location {
+    border: 1px solid #000;
+    margin-left: 65px;
+    margin-right: 60px;
+}
+
+.neighborhood-guides .container .row .col-md-5 .contact {
+    border: 1px solid #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 65px;
+    margin-right: 60px;
+}
+
+.neighborhood-guides .container .row .col-md-4 .name {
+    border: 2px solid #000;
+    margin: 20px;
+}
+
+.neighborhood-guides .container .row .col-md-4 .position {
+    border: 1px solid #000;
+    margin: 20px;
+}
+
+
+.neighborhood-guides .container .row .col-md-4 .skills-expertise {
+    border: 1px solid #000;
+    margin: 20px;
+}
+
+.neighborhood-guides .container .row .col-md-4 .bibliography {
+    border: 1px solid #000;
+    margin: 20px;
+}
+
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
