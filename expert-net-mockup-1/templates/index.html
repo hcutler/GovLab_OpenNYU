@@ -43,11 +43,12 @@
                     </div>
 
                     <div class="location">
-                        <h3>Current location: ________ </h3>
+                        <h3>Current location: </h3>
+                        <p> {{ location.city}}, {{ location.state }} </p>
                     </div>
                     <div class="contact">
-                        <h3>Contact ________ </h3>
-                        <p>Phone: ________</p>
+                        <h3>Contact &nbsp; {{ contact.phone }}: </h3>
+                        <p>Phone:</p>
                         <p>E-mail: ________</p>
                         <p>Twitter: ________</p>
                         <p>LinkedIn: ________</p>
@@ -57,7 +58,7 @@
 
                 <div class="col-md-4">
                     <div class="name">
-                      <h2>Name: {{ fullname }} </h2>
+                      <h2>&nbsp; {{ fullname }} </h2>
                     </div>
                     <div class="position">
                         <h3>Position:</h3>
@@ -68,7 +69,7 @@
                         <p>________</p>
                     </div>
                     <div class="skills-expertise">
-                      <h3> {{ firstname }} knows about....</h3>
+                      <h3>&nbsp;{{ firstname }} knows about....</h3>
                       <ul>
                         {% for skill in skills %}
                           <li> {{ skill }} </li>
@@ -77,8 +78,12 @@
                     </div>
 
                     <div class="bibliography">
-                      <h3>Bibliography for ________</h3>
-                      <p>________</p>
+                      <h3>&nbsp;Bibliography for {{ firstname }}: </h3>
+                      <ul>
+                        {% for source in sources %}
+                          <li> {{ source }} </li>
+                        {% endfor %}
+                      </ul>
                     </div>
                 </div>
             </div>

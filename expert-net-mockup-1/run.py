@@ -34,7 +34,7 @@ def copy_css():
 		if basename.endswith(".css"):
 			# delete existing .css file in new directory
 			shutil.copy2(basename,dest)
-			
+
 			# # main.css -> main_output.css
 			# for char in basename:
 			# 	i = len(basename) - 4
@@ -42,11 +42,6 @@ def copy_css():
 			# 	newbase = basename[0:i] + '_output'
 			# 	newname = basename.replace(oldbase, newbase)
 			# 	basename = newname
-
-
-
-
-
 
 if __name__ == '__main__':
     render()
