@@ -1,0 +1,29 @@
+---
+titles:
+	- Interim Director of Center for Data Science; Professor of Mathematics
+
+fullname:   S. R. Srinivasa Varadhan 
+expertise:  Various aspects of stochastic processes; Diffusion processes and their connection to the theory of partial differential equations; Scaling limits of large systems; Large deviations and the analysis of rare events
+namelink:
+
+---
+titles:
+	- Deputy Director of Center for Data Science; 
+	- Executive Director of the Moore-Sloan Data Science Environment
+	- Associate Professor of Physics
+
+fullname:   David W. Hogg
+expertise:  Various aspects of stochastic processes; Diffusion processes and their connection to the theory of partial differential equations; Scaling limits of large systems; Large deviations and the analysis of rare events
+namelink:
+
+...
+
+# {'title(s)': u'Interim Director of Center for Data Science; Professor of Mathematics', 
+# 'expertise': u'Various aspects of stochastic processes; Diffusion processes and their connection to the theory of partial differential equations; 
+# Scaling limits of large systems; Large deviations and the analysis of rare events',
+# 'name': u'S. R. Srinivasa Varadhan'}
+
+# {'title(s)': u'Deputy Director of Center for Data Science; 
+# Executive Director of the Moore-Sloan Data Science Environment; Associate Professor of Physics', 
+# 'expertise': u'Astronomy; Cosmology; Probabilistic inference; MCMC', 
+# 'name': u'David W. Hogg'}
