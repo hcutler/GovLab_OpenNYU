@@ -19,25 +19,42 @@ soup = BeautifulSoup(local_html)
 
 contents = soup.find_all('h3', attrs={"class": "accent"})
 
-# get and print NAME, EXPERTISE, TITLE of faculty member
+# get and print NAME, EXPERTISE, TITLE, LINK of faculty member
 people = []
 
 def get_person_data():
-	for item in contents[0:1]:
-	    name = item.text
+	for item in contents:
+	    fullname = item.text
 	    expertise = item.parent.parent.find('div', attrs={'class':'meta-info'}).text
-	
-		# titles = item.parent.parent.find('h6').text
-		# titles.split('; ')
-		# print titles
-		
-	    def get_namelink():
-	    	linkblock = item.parent.prettify()  # extract codeblock with link
-	    	link = linkblock.split("=")[1]	# extract link
-	    	namelink = link.split(" ")[0] #slice off extra stuff
-	    	print namelink
+	    
+	    #get titles
+	    titles = item.parent.parent.find('h6').text
+	    titles.split('; ')
 
-	get_namelink()
+
+	    #get link
+	    linkblock = item.parent.prettify()  # extract codeblock with link
+	    link = linkblock.split("=")[1]	# extract link
+	    namelink = link.split(" ")[0] #slice off extra stuff
+	
+
+	people.append({'titles': titles})
+	people.append({'fullname': fullname})
+	people.append({'expertise': expertise})
+	people.append({'namelink': namelink})
+	# only returning last value... this is why: http://stackoverflow.com/questions/20398242/python-list-iteration-only-returns-last-value
+
+get_person_data()
+
+
+with open('cds-data.yaml', 'w') as outfile:
+	for p in people:
+		outfile.write( yaml.dump(p, default_flow_style=True) )
+
+
+
+#####
+
 
 	   # print namelink
 	    # nl = namelink.find_all('href')
@@ -50,10 +67,3 @@ def get_person_data():
 
 	# for p in people:
 	# 	print p
-
-get_person_data()
-
-
-# with open('cds-data.yaml', 'w') as outfile:
-#     # outfile.write( yaml.dump(data, default_flow_style=True) )
-# 	outfile.write( yaml.dump(people, default_flow_style=True) )
