@@ -1,6 +1,7 @@
 import urllib2
 import time
 from bs4 import BeautifulSoup
+from yaml import load, Loader
 
 
 #get contents of CDS-NYU page
@@ -17,16 +18,19 @@ with open("cds-nyu.html", "r") as html_file:
 
 soup = BeautifulSoup(local_html)
 
-# get list of all people
-people = soup.find_all('h3')
-i = 0
-for person in people[0:2]:
-    print person.text
-    #     lname = person.text.split(' ', 1)[1]
-    # print lname
-    # print person.text
-    i += 1
-print '# of faculty: ' + str(i)
+#######
+# # get list of all people
+# people = soup.find_all('h3')
+# i = 0
+# for person in people[0:2]:
+#     fullname = person.text
+#     print fullname
+#     # print person.text
+#     # lname = person.text.split(' ', 2)[2]
+#     # print lname
+#     i +=1
+# print '# of faculty: ' + str(i)
+#######
 
 contents = soup.find_all('h3', attrs={"class": "accent"})
 
