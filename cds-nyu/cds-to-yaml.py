@@ -23,20 +23,36 @@ contents = soup.find_all('h3', attrs={"class": "accent"})
 people = []
 
 def get_person_data():
-	for item in contents[0:2]:
+	for item in contents[0:1]:
 	    name = item.text
 	    expertise = item.parent.parent.find('div', attrs={'class':'meta-info'}).text
-	    
-	    titles = item.parent.parent.find('h6').text #parse this further!! (posit / dept / school)
-	    titles.split('; ')
-	    link
-	    people.append({'name': name,'title(s)': titles, 'expertise': expertise, 'link': ____})
+	
+		# titles = item.parent.parent.find('h6').text
+		# titles.split('; ')
+		# print titles
+		
+	    def get_namelink():
+	    	linkblock = item.parent.prettify()  # extract codeblock with link
+	    	link = linkblock.split("=")[1]	# extract link
+	    	namelink = link.split(" ")[0] #slice off extra stuff
+	    	print namelink
 
+	get_namelink()
+
+	   # print namelink
+	    # nl = namelink.find_all('href')
+	    # ('a', attrs={"href":'meta-info'})
+
+	    #namelink = item.find('a', attrs={'href':'meta-info'}).text
+	    # people.append({'name': name, 'expertise': expertise})
+	    #people.append({'name': name,'title(s)': titles, 'expertise': expertise})
+	    #print namelink
+
+	# for p in people:
+	# 	print p
 
 get_person_data()
 
-for p in people:
-	print people
 
 # with open('cds-data.yaml', 'w') as outfile:
 #     # outfile.write( yaml.dump(data, default_flow_style=True) )
