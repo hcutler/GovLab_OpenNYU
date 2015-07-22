@@ -1,5 +1,480 @@
-{titles: !!python/unicode 'Moore-Sloan Data Science Fellow'}
-{fullname: !!python/unicode 'Daniela Huppenkothen'}
-{expertise: !!python/unicode 'High-energy Astrophysics, Black Holes and Neutron Stars,
-    Fourier Methods, Statistical Methods for Astronomical Time Series'}
-{namelink: !!python/unicode '"https://www.linkedin.com/pub/daniela-huppenkothen/7b/4a9/b4"'}
+- expertise: !!python/unicode 'Various aspects of stochastic processes; Diffusion
+    processes and their connection to the theory of partial differential equations;
+    Scaling limits of large systems; Large deviations and the analysis of rare events'
+  fullname: !!python/unicode 'S. R. Srinivasa Varadhan'
+  namelink: !!python/unicode '"http://www.math.nyu.edu/faculty/varadhan/"'
+  titles: !!python/unicode 'Interim Director of Center for Data Science; Professor
+    of Mathematics'
+- expertise: !!python/unicode 'Astronomy; Cosmology; Probabilistic inference; MCMC'
+  fullname: !!python/unicode 'David W. Hogg'
+  namelink: !!python/unicode '"http://cosmo.nyu.edu/hogg/"'
+  titles: !!python/unicode 'Deputy Director of Center for Data Science; Executive
+    Director of the Moore-Sloan Data Science Environment; Associate Professor of Physics'
+- expertise: "Large-scale information integration; Information visualization and visual\
+    \ analytics; Provenance management;\_ Big data management and analysis"
+  fullname: !!python/unicode 'Juliana Freire'
+  namelink: !!python/unicode '"http://vgc.poly.edu/~juliana/"'
+  titles: !!python/unicode 'Director of Graduate Studies; Professor of Computer Science
+    & Engineering and Data Science'
+- expertise: "email:\_lowrance@cims.nyu.edu"
+  fullname: !!python/unicode 'Roy Lowrance'
+  namelink: !!python/unicode '"http://www.linkedin.com/in/roylowrance"'
+  titles: !!python/unicode 'Managing Director of Center for Data Science'
+- expertise: !!python/unicode 'email: rebecca.liebe@nyu.edu'
+  fullname: !!python/unicode 'Rebecca Liebe'
+  namelink: !!python/unicode '"">
+
+    '
+  titles: !!python/unicode 'Manager, Academic Affairs of Center for Data Science'
+- expertise: !!python/unicode 'email: david.clark@nyu.edu'
+  fullname: !!python/unicode 'David Clark'
+  namelink: !!python/unicode '"">
+
+    '
+  titles: !!python/unicode 'Program Administrator for Center for Data Science'
+- expertise: "Large-scale information integration; Information visualization and visual\
+    \ analytics; Provenance management;\_ Big data management and analysis"
+  fullname: !!python/unicode 'Juliana Freire'
+  namelink: !!python/unicode '"http://vgc.poly.edu/~juliana/"'
+  titles: !!python/unicode 'Director of Graduate Studies; Professor of Computer Science
+    & Engineering and Data Science'
+- expertise: !!python/unicode 'Causal inference; Missing data; Bayesian nonparametrics'
+  fullname: !!python/unicode 'Jennifer Hill'
+  namelink: !!python/unicode '"http://steinhardt.nyu.edu/faculty_bios/view/Jennifer_Hill"'
+  titles: !!python/unicode 'Associate Professor of Applied Statistics'
+- expertise: !!python/unicode 'Astronomy; Cosmology; Probabilistic inference; MCMC'
+  fullname: !!python/unicode 'David W. Hogg'
+  namelink: !!python/unicode '"http://cosmo.nyu.edu/hogg/"'
+  titles: !!python/unicode 'Deputy Director of Center for Data Science; Executive
+    Director of the Moore-Sloan Data Science Environment; Associate Professor of Physics'
+- expertise: !!python/unicode 'Crowd-sourced data coding; Automated text analysis;
+    Agent-based modeling'
+  fullname: !!python/unicode 'Mik Laver'
+  namelink: !!python/unicode '"http://politics.as.nyu.edu/object/MichaelLaver"'
+  titles: !!python/unicode 'Professor of Politics; Dean for the Social Sciences'
+- expertise: !!python/unicode 'Machine learning; Computer vision; Mobile robotics;
+    Computational neuroscience.'
+  fullname: !!python/unicode 'Yann LeCun'
+  namelink: !!python/unicode '"http://yann.lecun.com/"'
+  titles: !!python/unicode 'Courant Institute of Mathematical Sciences Silver Professor
+    of Computer Science, Neural Science, and Electrical & Computer Engineering'
+- expertise: "Data science; Data mining; Knowledge discovery; Machine learning; Predictive\
+    \ modeling; Integrating human and machine computation; Learning; Inference in\
+    \ network data; \_Social network analysis, Crowdsourcing; Micro-outsourcing systems"
+  fullname: !!python/unicode 'Foster Provost'
+  namelink: !!python/unicode '"http://www.stern.nyu.edu/faculty/bio/foster-provost"'
+  titles: !!python/unicode 'Professor of Information Systems'
+- expertise: !!python/unicode 'Big Data and Urban Systems; Visualization and data
+    analysis; Geometry processing'
+  fullname: !!python/unicode 'Claudio Silva'
+  namelink: !!python/unicode '"http://vgc.poly.edu/~csilva/"'
+  titles: !!python/unicode 'Professor of Computer Science and Engineering at NYU-Poly'
+- expertise: !!python/unicode 'Probabilistic analysis and representation in biological
+    and machine vision (and audition); Statistical signal and image processing'
+  fullname: !!python/unicode 'Eero Simoncelli'
+  namelink: !!python/unicode '"http://www.cns.nyu.edu/~eero/"'
+  titles: !!python/unicode 'Professor of Neural Science, Mathematics, and Psychology'
+- expertise: !!python/unicode 'Theoretical and practical aspects of machine learning
+    and probabilistic inference; Medical informatics; Information retrieval; Natural
+    language processing'
+  fullname: !!python/unicode 'David Sontag'
+  namelink: !!python/unicode '"http://cs.nyu.edu/~dsontag/"'
+  titles: !!python/unicode 'Assistant Professor of Computer Science'
+- expertise: !!python/unicode 'Various aspects of stochastic processes; Diffusion
+    processes and their connection to the theory of partial differential equations;
+    Scaling limits of large systems; Large deviations and the analysis of rare events'
+  fullname: !!python/unicode 'S. R. Srinivasa Varadhan'
+  namelink: !!python/unicode '"http://www.math.nyu.edu/faculty/varadhan/"'
+  titles: !!python/unicode 'Interim Director of Center for Data Science; Professor
+    of Mathematics'
+- expertise: !!python/unicode 'Perceptual-motor learning and development; Open video
+    data sharing'
+  fullname: !!python/unicode 'Karen Adolph'
+  namelink: !!python/unicode '"http://www.psych.nyu.edu/adolph/"'
+  titles: !!python/unicode 'Professor in the Department of Psychology and the Center
+    for Neuroscience'
+- expertise: !!python/unicode 'Machine learning in medicine and biology, Causality
+    discovery, Data analytics methodology, Citation analysis.'
+  fullname: !!python/unicode 'Constantin Aliferis'
+  namelink: !!python/unicode '"http://www.nyuinformatics.org/people/faculty/constantin-aliferis-md-phd"'
+  titles: !!python/unicode 'Director or NYU Center for Health Informatics and Bioinformatics;
+    Director of Biomedical Informatics Cores of NYU Clinical and Translational Science
+    Institute and the NYU Cancer Center; Associate Professor, Department of Pathology'
+- expertise: !!python/unicode 'Political methodology, more specifically longitudinal
+    data and non-linear methods'
+  fullname: !!python/unicode 'Neal Beck'
+  namelink: !!python/unicode '"http://politics.as.nyu.edu/object/nathanielbeck"'
+  titles: !!python/unicode 'Professor of Politics'
+- expertise: !!python/unicode 'Computer-based analysis of musical signals and its
+    application to music information retrieval; Digital audio effects and interactive
+    music systems; Machine learning; Data mining; Audio signal processing'
+  fullname: !!python/unicode 'Juan Bello'
+  namelink: !!python/unicode '"http://steinhardt.nyu.edu/faculty_bios/view/Juan_Pablo_Bello"'
+  titles: !!python/unicode 'Associate Professor of Music and Music Education'
+- expertise: !!python/unicode 'Probability theory and its applications'
+  fullname: "G\xE9rard Ben Arous"
+  namelink: !!python/unicode '"http://www.cims.nyu.edu/~benarous/"'
+  titles: !!python/unicode 'Professor of Mathematics; Director of the Courant Institute
+    of Mathematical Sciences; Vice Provost for Science'
+- expertise: !!python/unicode 'Astronomical spectroscopy and image analysis- clustering
+    statistics in large-scale galaxy maps- demographics of the galaxy population'
+  fullname: !!python/unicode 'Michael Blanton'
+  namelink: !!python/unicode '"http://cosmo.nyu.edu/blanton"'
+  titles: !!python/unicode 'Associate Professor in the Department of Physics'
+- expertise: !!python/unicode 'Quantitative methods in policy research; Health management'
+  fullname: !!python/unicode 'Jan Blustein'
+  namelink: !!python/unicode '"http://wagner.nyu.edu/blustein"'
+  titles: !!python/unicode 'Professor of Health Policy and Medicine'
+- expertise: !!python/unicode 'Systems biology and protein modeling.
+
+    '
+  fullname: !!python/unicode 'Richard Bonneau'
+  namelink: !!python/unicode '"http://biology.as.nyu.edu/object/RichardBonneau"'
+  titles: !!python/unicode 'Associate Professor of Biology and Computer Science'
+- expertise: !!python/unicode 'Game theory, Business strategy, Quantum information'
+  fullname: !!python/unicode 'Adam Brandenburger'
+  namelink: !!python/unicode '"http://people.stern.nyu.edu/abranden/"'
+  titles: !!python/unicode 'J.P. Valles Professor, Stern School of Business'
+- expertise: !!python/unicode 'Theoretical and computational neuroscience; Applied
+    dynamical systems; Stochastic processes'
+  fullname: !!python/unicode 'David Cai'
+  namelink: !!python/unicode '"http://www.math.nyu.edu/~cai/"'
+  titles: !!python/unicode 'Professor of Mathematics and Neural Science'
+- expertise: !!python/unicode 'Combining theoretical and machine learning methods
+    to optimize financial offers and financial decisions at household level'
+  fullname: !!python/unicode 'Andrew Caplin'
+  namelink: !!python/unicode '"http://128.122.11.92/caplin/"'
+  titles: !!python/unicode 'Silver Professor of Economics '
+- expertise: !!python/unicode 'Machine learning, High-dimensional statistics, Optimization
+    under Uncertainty, Operations Research'
+  fullname: !!python/unicode 'Xi Chen'
+  namelink: !!python/unicode '"http://www.stern.nyu.edu/faculty/bio/xi-chen"'
+  titles: !!python/unicode 'Assistant Professor of Information, Operations and Management
+    Sciences'
+- expertise: !!python/unicode 'Gene network analysis; Data mining and visualization;
+    Systems biology and phylogenomics'
+  fullname: !!python/unicode 'Gloria Coruzzi'
+  namelink: !!python/unicode '"http://coruzzilab.bio.nyu.edu"'
+  titles: !!python/unicode 'Carroll & Milton Petrie Professor'
+- expertise: !!python/unicode 'Collaborative statistical modeling; Statistical methods
+    in particle physics; Data preservation and open access; Digital publishing; Data-analysis'
+  fullname: !!python/unicode 'Kyle Cranmer'
+  namelink: !!python/unicode '"http://physics.as.nyu.edu/object/kylecranmer.html"'
+  titles: !!python/unicode 'Assistant Professor of Physics'
+- expertise: !!python/unicode 'Quantitative methods in neuroscience; Computational
+    neuroscience; Machine learning; Data analysis'
+  fullname: !!python/unicode 'Nathaniel Daw'
+  namelink: !!python/unicode '"http://www.cns.nyu.edu/~daw"'
+  titles: !!python/unicode 'Associate Professor of Neural Science and Psychology'
+- expertise: !!python/unicode 'Long memory time series; Financial data modeling'
+  fullname: "Rohit\_Deo"
+  namelink: !!python/unicode '"http://www.stern.nyu.edu/faculty/bio/rohit-deo"'
+  titles: !!python/unicode 'Professor of Statistics and Operations Research'
+- expertise: !!python/unicode 'Data mining; Digital marketing'
+  fullname: !!python/unicode 'Vasant Dhar'
+  namelink: !!python/unicode '"http://www.stern.nyu.edu/faculty/bio/vasant-dhar"'
+  titles: !!python/unicode 'Professor and Head of the Information Systems Group, Co-Director
+    of the Center for Business Analytics'
+- expertise: !!python/unicode 'Social Epidemiology; Spatial Epidemiology; Neighborhoods;
+    Health Disparities'
+  fullname: !!python/unicode 'Dustin T. Duncan'
+  namelink: !!python/unicode '"http://spatialepilab.org/"'
+  titles: !!python/unicode 'Assistant Professor of Population Health'
+- expertise: !!python/unicode 'Computer Vision; Large scale object recognition; Deep
+    learning; Machine learning; Statistical methods in astronomy; Computational photography'
+  fullname: !!python/unicode 'Rob Fergus'
+  namelink: !!python/unicode '"http://cs.nyu.edu/~fergus/pmwiki/pmwiki.php"'
+  titles: !!python/unicode 'Associate Professor of Computer Science (on sabbattical)'
+- expertise: !!python/unicode 'Survival analysis; Stochastic models in finance and
+    labor economics; Corporate credit ratings migration; Mixtures of Markov chains'
+  fullname: !!python/unicode 'Halina Frydman'
+  namelink: !!python/unicode '"http://www.stern.nyu.edu/faculty/bio/halina-frydman#.URU8eLVn7T0.email"'
+  titles: !!python/unicode 'Professor of Statistics and Operations Research'
+- expertise: "Statistical methods for the design, conduct, and analysis of clinical\
+    \ and translational research; Statistical methods for epidemiology Survival analysis\
+    \ Statistical methods for the analysis of observational data Statistical issues\
+    \ in medical screening\n\n\_"
+  fullname: !!python/unicode 'Judith D. Goldberg'
+  namelink: !!python/unicode '"http://pophealth.med.nyu.edu/about-us/faculty#goldbj04"'
+  titles: !!python/unicode 'Professor of Biostatistics'
+- expertise: !!python/unicode 'Monte Carlo methods; Bayesian methods in astrophysics
+    and finance; Stochastic and deterministic optimization'
+  fullname: !!python/unicode 'Jonathan Goodman'
+  namelink: !!python/unicode '"http://www.math.nyu.edu/faculty/goodman/"'
+  titles: !!python/unicode 'Professor of Mathematics'
+- expertise: !!python/unicode 'Quantitative methods in biology and medicine; Scientific
+    computing; Electromagnetics; Acoustics; Fluid dynamics; Solid mechanics.'
+  fullname: !!python/unicode 'Leslie Greengard'
+  namelink: !!python/unicode '"http://www.math.nyu.edu/faculty/greengar/"'
+  titles: !!python/unicode 'Professor of Mathematics'
+- expertise: !!python/unicode 'Mathematics of analog-to-digital conversion; Sampling
+    and quantization theory; Sparse representations and redundant representations
+    of data in signal processing; Approximation theory and harmonic analysis methods
+    in data compression'
+  fullname: !!python/unicode 'Sinan Gunturk'
+  namelink: !!python/unicode '"http://www.cims.nyu.edu/~gunturk"'
+  titles: !!python/unicode 'Associate Professor of  Mathematics'
+- expertise: "Computational cognitive science, Unsupervised learning,\_Active Learning,\
+    \ \_Human decision making, Research applications\_of crowdsourcing"
+  fullname: !!python/unicode 'Todd Gureckis'
+  namelink: !!python/unicode '"http://gureckislab.org/"'
+  titles: !!python/unicode 'Associate Professor of Psychology'
+- expertise: !!python/unicode 'Psychometrics; Educational data mining; Computer supported
+    collaborative learning and assessment; Scalable methods for non-stationary time
+    series'
+  fullname: !!python/unicode 'Peter Halpin'
+  namelink: !!python/unicode '"https://files.nyu.edu/pfh3/public/"'
+  titles: !!python/unicode 'Associate Professor'
+- expertise: !!python/unicode 'Psychometrics; Item response theory; Measurement in
+    the applied health sciences; Model misspecification; Crowdsourcing'
+  fullname: !!python/unicode 'Daphna Harel'
+  namelink: !!python/unicode '"http://steinhardt.nyu.edu/faculty/Daphna_Harel"'
+  titles: !!python/unicode 'Assistant Professor of Applied Statistics'
+- expertise: !!python/unicode 'Computational neuroscience (developing and testing
+    computational theories of brain function); Characterizing how the activity of
+    large numbers of neurons represent sensory stimuli, motor actions, and cognitive
+    states; Dimensionality reduction; Vision and image processing; Statistics of images;
+    Bayesian estimation, inference, and prediction'
+  fullname: !!python/unicode 'David Heeger'
+  namelink: !!python/unicode '"http://www.cns.nyu.edu/~david/"'
+  titles: !!python/unicode 'Professor of Psychology and Neural Science'
+- expertise: !!python/unicode 'Computational learning theory; Machine learning; Algorithms;
+    Complexity theory; Discrete mathematics'
+  fullname: "Lisa\_Hellerstein"
+  namelink: !!python/unicode '"http://www.poly.edu/user/hstein"'
+  titles: !!python/unicode 'Professor of Computer Science and Engineering'
+- expertise: !!python/unicode 'Bayesian analysis in bioinformatics and statistical
+    genetics, with particular focus on analyzing the next generation sequencing data'
+  fullname: !!python/unicode 'Ming Hu'
+  namelink: !!python/unicode '"https://sites.google.com/site/afhuming/"'
+  titles: !!python/unicode 'Assistant Professor of Biostatistics'
+- expertise: !!python/unicode 'Time Series Analysis; Model selection for parametric
+    models as well as smoothing parameters and regularization parameters; FFT-Based
+    Algorithms for solving large ill-conditioned Toeplitz systems with applications
+    to forecasting; Point process methods with applications to high-frequency financial
+    data; Long-Range Dependence (scaling laws)'
+  fullname: !!python/unicode 'Clifford M. Hurvich'
+  namelink: !!python/unicode '"http://www.stern.nyu.edu/faculty/bio/clifford-hurvich"'
+  titles: !!python/unicode 'Leonard N. Stern Professor of Statistics & Operations
+    Research, Doctoral Coordinator of IOMS-Statistics'
+- expertise: !!python/unicode 'Crowdsourcing; Text mining; Web mining; Data mining;
+    Machine learning; Databases'
+  fullname: !!python/unicode 'Panos Ipeirotis'
+  namelink: !!python/unicode '"http://www.stern.nyu.edu/faculty/bio/panagiotis-ipeirotis"'
+  titles: !!python/unicode 'Associate Professor of Information, Operations and Management
+    Sciences'
+- expertise: !!python/unicode ''
+  fullname: !!python/unicode 'Srikanth Jagabathula'
+  namelink: !!python/unicode '"http://www.stern.nyu.edu/faculty/bio/srikanth-jagabathula"'
+  titles: !!python/unicode 'Assistant Professor of Information, Operations & Management
+    Sciences'
+- expertise: !!python/unicode 'Experimental social psychology; Public opinion survey
+    research methods; Quantitative and qualitative analysis of behavioral data in
+    the social sciences'
+  fullname: !!python/unicode 'John Jost'
+  namelink: !!python/unicode '"http://www.psych.nyu.edu/jost/"'
+  titles: !!python/unicode 'Professor of Psychology and Politics'
+- expertise: !!python/unicode 'Image processing, inverse problems, quantitative finance,
+    regret-minimization-based methods for prediction; The calculus of variations;
+    Pattern-formation problems from materials science (describing and explaining material
+    microstructure and its consequences)'
+  fullname: !!python/unicode 'Robert Kohn'
+  namelink: !!python/unicode '"http://math.nyu.edu/faculty/kohn/"'
+  titles: !!python/unicode 'Professor of Mathematical Science'
+- expertise: !!python/unicode 'Algorithmic and quantitative trading strategies, Econometrics,
+    Data exploration, Forecasting models, High frequency trading, Portfolio construction,
+    Portfolio optimization, Transaction costs, Risk management'
+  fullname: !!python/unicode 'Petter Kolm'
+  namelink: !!python/unicode '"http://www.cims.nyu.edu/~kolm/'
+  titles: !!python/unicode 'Director of the Mathematics in Finance M.S. Program, Clinical
+    Associate Professor of Mathematics'
+- expertise: !!python/unicode 'Global environmental science'
+  fullname: "Steven\_Koonin"
+  namelink: !!python/unicode '"http://www.stern.nyu.edu/faculty/bio/steven-koonin"'
+  titles: !!python/unicode 'Director of NYU Center for Urban Science and Progress
+    (CUSP); Professor of Information, Operations & Management Sciences'
+- expertise: !!python/unicode 'Probability; Stochastic processes; Stochastic optimization
+    and control'
+  fullname: !!python/unicode 'Peter Lakner'
+  namelink: !!python/unicode '"http://people.stern.nyu.edu/plakner/"'
+  titles: !!python/unicode 'Associate Professor of Statistics and Operations Research'
+- expertise: !!python/unicode ''
+  fullname: "John\_Leahy"
+  namelink: !!python/unicode '"http://econ.as.nyu.edu/object/JohnLeahy.html"'
+  titles: !!python/unicode 'Professor of Economics'
+- expertise: "Distributed and networked systems, the systems aspect of Big Data,\_\
+    wireless and mobile systems"
+  fullname: !!python/unicode 'Jinyang Li'
+  namelink: !!python/unicode '"http://www.news.cs.nyu.edu/~jinyang/"'
+  titles: !!python/unicode 'Associate Professor'
+- expertise: !!python/unicode 'Semiparametric modeling and inference for survival
+    data, including survival endpoint in joint analysis with longitudinal data'
+  fullname: !!python/unicode 'Mengling Liu'
+  namelink: !!python/unicode '"http://pophealth.med.nyu.edu/about-us/faculty#lium05"'
+  titles: !!python/unicode 'Associate Professor of Biostatistics'
+- expertise: !!python/unicode ''
+  fullname: !!python/unicode 'Alessandro Lizzeri'
+  namelink: !!python/unicode '"http://www.econ.nyu.edu/user/lizzeria/"'
+  titles: !!python/unicode 'Professor of Economics'
+- expertise: !!python/unicode 'Quantitative methodology in social and behavioral sciences;
+    Applications in demography; Health and political behavior; Model selection and
+    hypothesis testing'
+  fullname: !!python/unicode 'Ying Lu'
+  namelink: !!python/unicode '"http://steinhardt.nyu.edu/faculty_bios/view/ying_lu"'
+  titles: !!python/unicode 'Assistant Profesor of Applied Statistics'
+- expertise: !!python/unicode 'Modern applied mathematics: merging asymptotic methods,
+    numerical methods, physical reasoning and rigorous mathematical analysis'
+  fullname: !!python/unicode 'Andrew Majda'
+  namelink: !!python/unicode '"http://www.math.nyu.edu/faculty/majda/"'
+  titles: !!python/unicode 'Morse Professor of Arts and Sciences, Professor of Mathematics
+    and Atmosphere/Ocean Science'
+- expertise: !!python/unicode 'High performance computing architectures, Big Data
+    analytics, realtime systems, secure software engineering, virtualization'
+  fullname: !!python/unicode 'Suzanne McIntosh'
+  namelink: !!python/unicode '"https://www.linkedin.com/in/suzannekranjacmcintosh"'
+  titles: !!python/unicode 'Adjunct Professor of Computer Science and Engineering'
+- expertise: !!python/unicode 'Analysis of time series data; Developing time series
+    models and their statistical properties; Issues related to risk and especially
+    to homeland security'
+  fullname: !!python/unicode 'Edward Melnick'
+  namelink: !!python/unicode '"http://www.stern.nyu.edu/faculty/bio/edward-melnick"'
+  titles: !!python/unicode 'Professor of Statistics'
+- expertise: !!python/unicode 'Data-driven politics; Design-based estimation and causal
+    inference in randomized experiments; Experiments in voter behavior and political
+    persuasion'
+  fullname: !!python/unicode 'Joel Middleton'
+  namelink: !!python/unicode '"http://www.joelmiddleton.com/"'
+  titles: !!python/unicode 'Visiting Assistant Professor of Applied Statistics'
+- expertise: !!python/unicode 'Bayesian and Empirical Bayesian analysis; Shrinkage;
+    Rate-distortion theory; Redescription; Phenomenological models; Model checking
+    and causality analysis'
+  fullname: !!python/unicode 'Bud Mishra'
+  namelink: !!python/unicode '"http://cs.nyu.edu/mishra/"'
+  titles: !!python/unicode 'Professor of Computer Science and Mathematics'
+- expertise: !!python/unicode 'Probability Theory, especially interacting particle
+    systems and percolation models; Statistical Physics, especially Ising, spin glass
+    and coarsening models Monte Carlo and Analytic approaches to the above areas'
+  fullname: !!python/unicode 'Chuck Newman'
+  namelink: !!python/unicode '"http://math.nyu.edu/faculty/newman/'
+  titles: !!python/unicode 'Silver Professor of Mathematics'
+- expertise: !!python/unicode 'Modern multivariate statistics; Network and text data;
+    Statistical computing'
+  fullname: !!python/unicode 'Patrick Perry'
+  namelink: !!python/unicode '"http://www.stern.nyu.edu/faculty/bio/patrick-perry"'
+  titles: !!python/unicode 'Assistant Professor of Information, Operations and Management
+    Sciences'
+- expertise: !!python/unicode 'Neural dynamics and decision making; Brain-machine
+    interface'
+  fullname: !!python/unicode 'Bijan Pesaran'
+  namelink: !!python/unicode '"http://www.cns.nyu.edu/~bijan/"'
+  titles: !!python/unicode 'Associate Professor of Neural Science'
+- expertise: !!python/unicode 'Evolutionary and ecological genomics of plant adaptations.'
+  fullname: !!python/unicode 'Michael Purugganan'
+  namelink: !!python/unicode '"http://biology.as.nyu.edu/object/MichaelPurugganan"'
+  titles: !!python/unicode 'Dorothy Schiff Professor of Genomics, Professor of Biology,
+    Dean for Science'
+- expertise: !!python/unicode 'Data-driven privacy analysis, online social networks,
+    applied probability, Markov decision processes'
+  fullname: !!python/unicode 'Keith Ross'
+  namelink: !!python/unicode '"http://cis.poly.edu/~ross/"'
+  titles: !!python/unicode 'Leonard J. Shustek Chair Professor in Computer Science'
+- expertise: !!python/unicode 'Computationally Intensive Statistics; Categorical Data
+    Models &
+
+    Clustering Techniques; Statistics in Social Science and Health Applications'
+  fullname: !!python/unicode 'Marc Scott'
+  namelink: !!python/unicode '"http://steinhardt.nyu.edu/faculty_bios/view/Marc_A._Scott"'
+  titles: !!python/unicode 'Associate Professor of Applied Statistics'
+- expertise: !!python/unicode 'Statistical methodology and applications to medical
+    research'
+  fullname: !!python/unicode 'Youngzhao Shao'
+  namelink: !!python/unicode '"http://pophealth.med.nyu.edu/about-us/faculty#shaoy01"'
+  titles: !!python/unicode 'Professor of Biostatistics and Deputy Director of NYU
+    Cancer Institute Biostatistics Shared Resources (BSR)'
+- expertise: !!python/unicode 'Computational methods in biology, finance, and wireless
+    communication; Pattern recognition; Querying in trees and graphs; Pattern discovery
+    in time series; Cryptographic file systems; Database tuning'
+  fullname: !!python/unicode 'Dennis Shasha'
+  namelink: !!python/unicode '"http://www.cs.nyu.edu/shasha/"'
+  titles: !!python/unicode 'Professor of Computer Science'
+- expertise: !!python/unicode 'Applications of statistics; Statistical methodology;
+    Statistical properties of modern data analytic methods'
+  fullname: !!python/unicode 'Jeff Simonoff'
+  namelink: !!python/unicode '"http://www.stern.nyu.edu/faculty/bio/jeffrey-simonoff"'
+  titles: !!python/unicode 'Professor of Statistics'
+- expertise: !!python/unicode 'Computational causal discovery, variable selection,
+    and supervised learning in high-dimensional data; Comprehensive empirical benchmarking
+    of various machine learning methodologies'
+  fullname: !!python/unicode 'Alexander Statnikov'
+  namelink: !!python/unicode '"http://www.nyuinformatics.org/people/faculty/alexander-statnikov"'
+  titles: !!python/unicode 'Assistant Professor,  Department of Medicine, Division
+    of Clinical Pharmacology, NYU School of Medicine; Director, Computational Causal
+    Discovery Laboratory, Center for Health Informatics and Bioinformatics'
+- expertise: !!python/unicode 'Networked Systems; Big Data Analytics; Computing for
+    Development'
+  fullname: !!python/unicode 'Lakshminarayanan Subramanian'
+  namelink: !!python/unicode '"http://www.cs.nyu.edu/~lakshmi/Home.html"'
+  titles: !!python/unicode 'Associate Professor of Computer Science'
+- expertise: !!python/unicode 'Web Search Technology; Algorithms; Databases; Data
+    Compression; Distributed Computation'
+  fullname: !!python/unicode 'Torsten Suel'
+  namelink: !!python/unicode '"http://cis.poly.edu/suel/"'
+  titles: !!python/unicode 'Professor of Computer Science and Engineering'
+- expertise: !!python/unicode 'Online privacy; Social network analysis; Computational
+    social science; Causal inference; Econometrics; Text mining'
+  fullname: !!python/unicode 'Arun Sundararajan'
+  namelink: !!python/unicode '"http://www.stern.nyu.edu/faculty/bio/arun-sundararajan"'
+  titles: !!python/unicode 'Associate Professor of Information, Operations and Management
+    Sciences'
+- expertise: !!python/unicode 'Density estimation; Dimensional reduction; Classification;
+    Data-driven optimal transport; Bio-statistics; Data-based medical diagnosis'
+  fullname: !!python/unicode 'Esteban Tabak'
+  namelink: !!python/unicode '"http://www.math.nyu.edu/faculty/tabak/"'
+  titles: !!python/unicode 'Professor of Mathematics, Chair of the Department of Mathematics'
+- expertise: !!python/unicode 'Sampling; Regression analysis; Application to actuarial
+    problems in mortality estimation; Risk theory'
+  fullname: !!python/unicode 'Aaron Tennebein'
+  namelink: !!python/unicode '"http://www.stern.nyu.edu/faculty/bio/aaron-tenenbein"'
+  titles: !!python/unicode 'Professor of Statistics and Actuarial Science'
+- expertise: !!python/unicode 'Development of mathematical tools and numerical methods
+    for the analysis of dynamical system which are both stochastic and multiscale.'
+  fullname: !!python/unicode 'Eric Vanden-Eijnden'
+  namelink: !!python/unicode '"http://cims.nyu.edu/~eve2/"'
+  titles: !!python/unicode 'Professor of Mathematics'
+- expertise: !!python/unicode 'Application of quantitative methods in the social sciences'
+  fullname: !!python/unicode 'Sharon Weinberg'
+  namelink: !!python/unicode '"http://steinhardt.nyu.edu/faculty_bios/view/Sharon_L._Weinberg"'
+  titles: !!python/unicode 'Professor of Applied Statistics and Psychology'
+- expertise: !!python/unicode 'Optimization methods in science and engineering, especially
+    derivative-free methods and constrained nonlinear optimization.'
+  fullname: !!python/unicode 'Margaret Wright'
+  namelink: !!python/unicode '"http://www.cs.nyu.edu/mhw/"'
+  titles: !!python/unicode 'Professor of Computer Science'
+- expertise: !!python/unicode 'Workplace Ethnography especially Small Group Collaboration,
+    Professionalization, and Fields; Social media communities; Research methods'
+  fullname: !!python/unicode 'Laura Noren'
+  namelink: !!python/unicode '"">
+
+    '
+  titles: !!python/unicode 'Moore-Sloan Data Science Fellow; Adjunct Professor of
+    Media, Culture, and Communications and Stern School of Business'
+- expertise: !!python/unicode 'Machine Learning, Machine Learning Software, Computer
+    Vision, Open Source Development'
+  fullname: "Andreas M\xFCller"
+  namelink: !!python/unicode '"http://amueller.github.io/"'
+  titles: !!python/unicode 'Assistant Research Scientist'
+- expertise: !!python/unicode 'Machine learning, Music Information Retrieval, Recommender
+    Systems, Multimedia Signal Processing'
+  fullname: !!python/unicode 'Brian McFee'
+  namelink: !!python/unicode '"http://bmcfee.github.io/"'
+  titles: !!python/unicode 'Moore-Sloan Data Science Fellow'
+- expertise: !!python/unicode 'Computational Cognitive Science; Structured Probabilistic
+    Models, One-Shot Learning, Human-Inspired Machine Learning'
+  fullname: !!python/unicode 'Brenden Lake'
+  namelink: !!python/unicode '"http://cims.nyu.edu/~brenden/"'
+  titles: !!python/unicode 'Moore-Sloan Data Science Fellow'
+- expertise: !!python/unicode 'High-energy Astrophysics, Black Holes and Neutron Stars,
+    Fourier Methods, Statistical Methods for Astronomical Time Series'
+  fullname: !!python/unicode 'Daniela Huppenkothen'
+  namelink: !!python/unicode '"https://www.linkedin.com/pub/daniela-huppenkothen/7b/4a9/b4"'
+  titles: !!python/unicode 'Moore-Sloan Data Science Fellow'

@@ -1,7 +1,10 @@
 import urllib2
 import time
 from bs4 import BeautifulSoup
+#from yaml import load, Loader
+
 import yaml
+import json
 
 #get contents of CDS-NYU page
 URL = "http://cds.nyu.edu/people/"
@@ -21,6 +24,7 @@ contents = soup.find_all('h3', attrs={"class": "accent"})
 
 # get and print NAME, EXPERTISE, TITLE, LINK of faculty member
 people = []
+# people = dict()
 
 def get_person_data():
 	for item in contents:
@@ -37,19 +41,19 @@ def get_person_data():
 	    link = linkblock.split("=")[1]	# extract link
 	    namelink = link.split(" ")[0] #slice off extra stuff
 	
+	    people.append({'titles': titles, 'fullname': fullname, 'expertise': expertise, 'namelink': namelink})
 
-	people.append({'titles': titles})
-	people.append({'fullname': fullname})
-	people.append({'expertise': expertise})
-	people.append({'namelink': namelink})
+
 	# only returning last value... this is why: http://stackoverflow.com/questions/20398242/python-list-iteration-only-returns-last-value
 
 get_person_data()
 
+# #print as JSON
+# print json.dumps(people, sort_keys=True, indent=2)
+
 
 with open('cds-data.yaml', 'w') as outfile:
-	for p in people:
-		outfile.write( yaml.dump(p, default_flow_style=True) )
+	outfile.write( yaml.dump(people, default_flow_style=False) )
 
 
 
