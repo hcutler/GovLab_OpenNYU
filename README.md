@@ -13,5 +13,5 @@ twitter:
 cds-nyu:
 scrapes Faculty page on Center for Data Science @ NYU "people" page
 
-
+now on new computer.
 
