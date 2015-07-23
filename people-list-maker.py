@@ -24,7 +24,8 @@ person_list_unique = [] #generate set to remove duplicates
 
 # i = 0
 for person in people:
-    fullname = person.text.encode('utf-8') # get rid of '!!python/unicode' 's
+    fullname = person.text.encode('utf-8') # remove '!!python/unicode' 's
+    fullname.strip("!!python/str")
     person_list.append(fullname)
 
     for p in person_list:
@@ -32,15 +33,14 @@ for person in people:
     		person_list_unique.append(p)
     		# i +=1
 
+with open('people-list.yaml', 'w') as outfile:
+	outfile.write( yaml.dump(person_list_unique, default_flow_style=False) )
+	# generate files for each of these people in directory /profile-data/{p0,...,pn}
+
+
+########
 # print '# of faculty: ' + str(i)
 
 # with open("people-list.txt", "w") as txt_file:
 # 	txt_file.write(str(person_list))
-
-with open('people-list.yaml', 'w') as outfile:
-	outfile.write( yaml.dump(person_list_unique, default_flow_style=False) )
-
-
-
-
-
+########
