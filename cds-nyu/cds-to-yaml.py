@@ -1,8 +1,6 @@
 import urllib2
 import time
 from bs4 import BeautifulSoup
-#from yaml import load, Loader
-
 import yaml
 import json
 
@@ -55,11 +53,7 @@ get_person_data()
 with open('cds-data.yaml', 'w') as outfile:
 	outfile.write( yaml.dump(people, default_flow_style=False) )
 
-
-
 #####
-
-
 	   # print namelink
 	    # nl = namelink.find_all('href')
 	    # ('a', attrs={"href":'meta-info'})
@@ -71,3 +65,4 @@ with open('cds-data.yaml', 'w') as outfile:
 
 	# for p in people:
 	# 	print p
+#####

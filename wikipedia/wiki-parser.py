@@ -2,6 +2,7 @@ import urllib
 import time
 import wikipedia #https://wikipedia.readthedocs.org/en/latest/code.html
 from bs4 import BeautifulSoup
+import yaml
 
 topic = raw_input("\nPlease enter a topic: \n") #prompt user to enter topic
 
