@@ -28,7 +28,7 @@ source_dict = dict(zip(val_keys, [False]*len(val_keys))) #set all values as fals
 all_d = []
 i = 0
 j = 0
-for n in names[0:1]:
+for n in names[0:3]:
     d = {n: source_dict}
     all_d.append(d)
     #print all_d  # e.g. {Paul Glimcher : {"Wikipedia": False, "Center for Data Science NYU": False}}
@@ -40,17 +40,21 @@ for n in names[0:1]:
         outlinks = title.links
         sections = title.sections
         refs = title.references
-        content = title.content
+        # content = title.content
         imageurl = title.images
         # print p + " has wiki"
     
         #set wikipedia value in dictionary to true
         source_dict.update({"Wikipedia":True})
         i += 1
-        data.append({'pageurl': str(pageurl), 'title': str(title), 'url': pageurl.read(), 'summary': str(summary),
-                     'categories': str(categs), 'outlinks': str(outlinks),'sections': str(sections),
-                     'references': refs,'content': content, 'imageurl': imageurl})
+        # data.append({'pageurl': str(pageurl), 'title': title, 'url': pageurl.read(), 'summary': str(summary),
+        # 'categories': str(categs), 'outlinks': str(outlinks),'sections': str(sections),
+        # 'references': refs,'content': content, 'imageurl': imageurl})
         
+        data.append({'title': title, 'summary': summary, 'url': 'http://en.wikipedia.org/wiki/' + n,
+        	'categories': categs, 'outlinks': outlinks,'sections': sections,
+        	'references': refs, 'imageurl': imageurl})  #'content': content,
+
     except wikipedia.exceptions.DisambiguationError as e: #if reach this, they aren't on wikipedia
         #print e.options 
 #         print p + " no wiki"
@@ -60,6 +64,9 @@ for n in names[0:1]:
 #       print p + " no wiki"
         pass
 
-with open(p + '-wiki.yaml', 'w') as outfile:
-    outfile.write( yaml.dump(data, default_flow_style=False) )
-    print "finished!"
+with open('wiki-data.yaml', 'w') as outfile:
+	outfile.write( yaml.dump(data, default_flow_style=False) )
+	print "finished!"
+
+
+

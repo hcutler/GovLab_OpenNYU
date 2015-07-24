@@ -41,9 +41,6 @@ def get_person_data():
 	
 	    people.append({'titles': titles, 'fullname': fullname, 'expertise': expertise, 'namelink': namelink})
 
-
-	# only returning last value... this is why: http://stackoverflow.com/questions/20398242/python-list-iteration-only-returns-last-value
-
 get_person_data()
 
 # #print as JSON
