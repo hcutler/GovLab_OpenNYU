@@ -43,7 +43,6 @@ for n in names[0:3]:
         # content = title.content
         imageurl = title.images
         # print p + " has wiki"
-    
         #set wikipedia value in dictionary to true
         source_dict.update({"Wikipedia":True})
         i += 1

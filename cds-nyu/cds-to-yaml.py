@@ -33,7 +33,6 @@ def get_person_data():
 	    titles = item.parent.parent.find('h6').text
 	    titles.split('; ')
 
-
 	    #get link
 	    linkblock = item.parent.prettify()  # extract codeblock with link
 	    link = linkblock.split("=")[1]	# extract link
