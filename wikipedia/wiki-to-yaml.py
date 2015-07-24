@@ -1,35 +1,65 @@
 import urllib
+from urllib2 import urlopen
+import urllib2
 import time
-import wikipedia #https://wikipedia.readthedocs.org/en/latest/code.html
+import wikipedia
 from bs4 import BeautifulSoup
 import yaml
 import json
+import sys
 
+names = []
+data = []
 
-#create list of names
-queries = []
 with open("people-list-copy.yaml", "r") as yaml_file:
-    queries.append(str(yaml_file.read()))
+    entries = yaml_file.read().splitlines()
     
-for q in queries:
-	url = urllib.urlopen("http://en.wikipedia.org/wiki/" + q)
-	print url
+    num = 0
+    for e in entries:
+        e.strip("- ")
+        names.append(e) #append names to list
+#create dictionary to store whether source exists for the person
+        num += 1
+#     print num
 
-	#save contents of all pages
+val_keys = sources = ["Wikipedia", "Center for Data Science NYU"] #add to this as run each scraper
+source_dict = dict(zip(val_keys, [False]*len(val_keys))) #set all values as false
 
-#feed names as queries to wikipedia
+all_d = []
+i = 0
+j = 0
+for n in names[0:1]:
+    d = {n: source_dict}
+    all_d.append(d)
+    #print all_d  # e.g. {Paul Glimcher : {"Wikipedia": False, "Center for Data Science NYU": False}}
+    try:
+        pageurl = urllib.urlopen("http://en.wikipedia.org/wiki/" + n)        
+        title = wikipedia.page(n)
+        summary = title.summary
+        categs = title.categories
+        outlinks = title.links
+        sections = title.sections
+        refs = title.references
+        content = title.content
+        imageurl = title.images
+        # print p + " has wiki"
+    
+        #set wikipedia value in dictionary to true
+        source_dict.update({"Wikipedia":True})
+        i += 1
+        data.append({'pageurl': str(pageurl), 'title': str(title), 'url': pageurl.read(), 'summary': str(summary),
+                     'categories': str(categs), 'outlinks': str(outlinks),'sections': str(sections),
+                     'references': refs,'content': content, 'imageurl': imageurl})
+        
+    except wikipedia.exceptions.DisambiguationError as e: #if reach this, they aren't on wikipedia
+        #print e.options 
+#         print p + " no wiki"
+        j += 0
+        pass
+    except wikipedia.exceptions.PageError as pe:
+#       print p + " no wiki"
+        pass
 
-
-
-# for q in queries:
-#feed people into wikipedia as queries. save data to yaml file.
-# topic = raw_input(
-
-# url = urllib.urlopen("http://en.wikipedia.org/wiki/" + topic)
-
-#get list of faculty (all NYU? just CDS?)
-#loop through list
-#query wikipedia for all people on list
-#if a page exists for a given faculty member, download contents of the page
-# 
-#get contents of wiki pages for all faculty if they exist
+with open(p + '-wiki.yaml', 'w') as outfile:
+    outfile.write( yaml.dump(data, default_flow_style=False) )
+    print "finished!"
