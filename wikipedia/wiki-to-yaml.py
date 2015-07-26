@@ -46,9 +46,9 @@ for n in names[0:3]:
         #set wikipedia value in dictionary to true
         source_dict.update({"Wikipedia":True})
         i += 1
-        # data.append({'pageurl': str(pageurl), 'title': title, 'url': pageurl.read(), 'summary': str(summary),
+        # data.append({'pageurl': str(pageurl), 'title': title, 'url': 'http://en.wikipedia.org/wiki/' + n, 'summary': str(summary),
         # 'categories': str(categs), 'outlinks': str(outlinks),'sections': str(sections),
-        # 'references': refs,'content': content, 'imageurl': imageurl})
+        # 'references': refs,'imageurl': imageurl}) #'content': content, 
         
         data.append({'title': title, 'summary': summary, 'url': 'http://en.wikipedia.org/wiki/' + n,
         	'categories': categs, 'outlinks': outlinks,'sections': sections,
@@ -64,8 +64,15 @@ for n in names[0:3]:
         pass
 
 with open('wiki-data.yaml', 'w') as outfile:
-	outfile.write( yaml.dump(data, default_flow_style=False) )
-	print "finished!"
+	# outfile.write( yaml.safe_dump(data, encoding='utf-8',default_flow_style=False, allow_unicode=True) )
+	outfile.write( yaml.safe_dump(data, encoding=None) )
+
+
+# yaml.safe_dump(data, file('wiki-data.yaml','w'), encoding='utf-8',default_flow_style=False, allow_unicode=True)
+
+# .safe_dump(person_list_unique, encoding='utf-8', default_flow_style=False, allow_unicode=True) )
+
+	# print "finished!"
 
 
 
