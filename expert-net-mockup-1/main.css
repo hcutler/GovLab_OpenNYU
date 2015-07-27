@@ -108,6 +108,16 @@
   font-weight: bold;
 }
 
+.landing-logo .col-md-4 h3 {
+  background-color: #f7f7f7;
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .learn-more a {
   color: #00b0ff;
 }
