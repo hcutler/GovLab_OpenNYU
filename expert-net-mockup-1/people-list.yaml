@@ -1,3 +1,5 @@
+---
+people:
 - S. R. Srinivasa Varadhan
 - David W. Hogg
 - Juliana Freire
@@ -15,7 +17,7 @@
 - Constantin Aliferis
 - Neal Beck
 - Juan Bello
-- !!python/str "G\xE9rard Ben Arous"
+- Gérard Ben Arous
 - Michael Blanton
 - Jan Blustein
 - Richard Bonneau
@@ -26,7 +28,7 @@
 - Gloria Coruzzi
 - Kyle Cranmer
 - Nathaniel Daw
-- !!python/str "Rohit\_Deo"
+- Rohit Deo
 - Vasant Dhar
 - Dustin T. Duncan
 - Rob Fergus
@@ -39,7 +41,7 @@
 - Peter Halpin
 - Daphna Harel
 - David Heeger
-- !!python/str "Lisa\_Hellerstein"
+- Lisa Hellerstein
 - Ming Hu
 - Clifford M. Hurvich
 - Panos Ipeirotis
@@ -47,9 +49,9 @@
 - John Jost
 - Robert Kohn
 - Petter Kolm
-- !!python/str "Steven\_Koonin"
+- Steven Koonin
 - Peter Lakner
-- !!python/str "John\_Leahy"
+- John Leahy
 - Jinyang Li
 - Mengling Liu
 - Alessandro Lizzeri
@@ -78,7 +80,8 @@
 - Sharon Weinberg
 - Margaret Wright
 - Laura Noren
-- !!python/str "Andreas M\xFCller"
+- Andreas Müller
 - Brian McFee
 - Brenden Lake
 - Daniela Huppenkothen
+...

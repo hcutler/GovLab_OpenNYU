@@ -40,11 +40,8 @@ for person in people:
     for p in person_list:
 		if p not in person_list_unique:
 			person_list_unique.append(p)
-
-# person_list_unique.sort()
-
-# for p in person_list_unique:
-#     print '<li>' + p + '</li>'
+    		# i +=1
+# print person_list
 
 with open('people-list.yaml', 'w') as outfile:
     outfile.write("---" + '\n' + "people:" + '\n')

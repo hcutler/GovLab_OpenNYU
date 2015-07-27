@@ -11,12 +11,11 @@ import sys
 names = []
 data = []
 
-with open("people-list-copy.yaml", "r") as yaml_file:
+with open("people-list copy.yaml", "r") as yaml_file:
     entries = yaml_file.read().splitlines()
     
     num = 0
     for e in entries:
-        e.strip("- ")
         names.append(e) #append names to list
 #create dictionary to store whether source exists for the person
         num += 1
@@ -63,10 +62,10 @@ for n in names[0:3]:
 #       print p + " no wiki"
         pass
 
-with open('wiki-data.yaml', 'w') as outfile:
-	# outfile.write( yaml.safe_dump(data, encoding='utf-8',default_flow_style=False, allow_unicode=True) )
-	outfile.write( yaml.safe_dump(data, encoding=None) )
-
+with open(u'wiki-data.yaml', 'w') as outfile:
+	outfile.write( yaml.dump(data, encoding='utf-8',default_flow_style=False, allow_unicode=True) )
+# 	outfile.write( yaml.dump(data, encoding='utf-16', default_flow_style=False, allow_unicode=False) )
+# yaml.dump(data, file(u'wiki-data.yaml','w'), default_flow_style=False, allow_unicode=True)
 
 # yaml.safe_dump(data, file('wiki-data.yaml','w'), encoding='utf-8',default_flow_style=False, allow_unicode=True)
 

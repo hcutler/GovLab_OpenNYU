@@ -1,17 +1,43 @@
 # GovLab_OpenNYU
 
-Scrapers and crawlers for The GovLab Open NYU project.
 
-nsf:
-Scrapes XML files of NSF grant data (2006-2014), converts >> .csv format >> SQL database that can be easily queried.
+Files:
 
-twitter:
---use twython to get stats for Twitter user (by username), prints out .json format and generates .txt file
---streams tweets containing a given keyword (supports hashtags)
---searches tweets for a term and stores data in SQLite database
+.py
+	run.py
+	people-list-maker.py
+	master_raw_maker.py
+	wikipedia.py
+	
 
-cds-nyu:
-scrapes Faculty page on Center for Data Science @ NYU "people" page
 
+.yaml
+	data.yaml
+	people-list.yaml
+
+
+.html
+
+.css
+	main.css
+
+
+scrapers:
+	-cds [at] nyu
+	-wikipedia
+	-linkedin
+	-twitter:
+		~ stream
+		~ search
+		~ get data about user
+	-nsf grants
+
+data repos:
+	-nsf grants (SQL)
+	-nih grant abstracts (SQL)
+
+to do:
+	-facebook
+	-google: site restrict
 
 
