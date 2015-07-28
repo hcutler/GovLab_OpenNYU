@@ -26,20 +26,21 @@ people = []
 
 def get_person_data():
 	for item in contents:
-	    fullname = item.text
-	    expertise = item.parent.parent.find('div', attrs={'class':'meta-info'}).text
+		fullname = item.text
+		expertise = item.parent.parent.find('div', attrs={'class':'meta-info'}).text
 	    
 	    #get titles
-	    titles = item.parent.parent.find('h6').text
-	    titles.split('; ')
-
+		titles = item.parent.parent.find('h6').text
+		titles.split('; ')
 	    #get link
-	    linkblock = item.parent.prettify()  # extract codeblock with link
-	    link = linkblock.split("=")[1]	# extract link
-	    namelink = link.split(" ")[0] #slice off extra stuff
-	
-	    people.append({'titles': titles, 'fullname': fullname, 'expertise': expertise, 'namelink': namelink})
-
+		linkblock = item.parent.prettify()  # extract codeblock with link
+		if "http://" in linkblock:
+		    link = linkblock.split("=")[1]	# extract link
+		    namelink = link.split(" ")[0] #slice off extra stuff
+		else:
+			namelink = ''
+		people.append({'titles': titles, 'fullname': fullname, 'expertise': expertise, 'namelink': namelink})
+	people.sort
 get_person_data()
 
 # #print as JSON
@@ -47,8 +48,10 @@ get_person_data()
 
 
 with open('cds-data.yaml', 'w') as outfile:
-	outfile.write( yaml.dump(people, default_flow_style=False) )
-
+	# outfile.write( yaml.dump(people, default_flow_style=False) )
+	outfile.write( yaml.safe_dump(people, encoding='utf-8',default_flow_style=False,allow_unicode=True))
+	# for p in people:
+	# 	str(p).strip(" ")
 #####
 	   # print namelink
 	    # nl = namelink.find_all('href')
