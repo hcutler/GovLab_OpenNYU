@@ -13,11 +13,12 @@ with open("people-list.yaml", "r") as yaml_file:
     for e in entries:
         names.append(e.replace("- ", ""))
         
-        #remove header and footers from list
-        if "---" in e:
-        	names.remove(e)
         if "people" in e:
         	names.remove(e)
+        elif "---" in e:
+        	names.remove(e)
+        else:
+        	continue
 
 def create_folders(dirname, path=os.getcwd()): # how to put the folder in a different (parent) directory?
     dirpath = os.path.join(path, dirname)
@@ -33,8 +34,6 @@ def create_files(dirname):
 	path = dirname
 	for n in names[0:82]:
 		# if "---" in n:
-		# 	pass
-		# if "people" in n:
 		# 	pass
 		# else:
 		n.replace("\n", "")
