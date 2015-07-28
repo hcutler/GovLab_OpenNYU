@@ -8,16 +8,16 @@ import sys
 
 names = []
 with open("people-list.yaml", "r") as yaml_file:
-    entries = yaml_file.read().split("- ")
-    
+    entries = yaml_file.read().splitlines()
     num = 0
     for e in entries:
-        # e.strip("- ")
-        names.append(e)
-
-# dirpath = 'S. R. Srinivasa Varadhan'
-# filename = dirpath + '/S. R. Srinivasa Varadhan.yaml'
-# filename = 'S. R. Srinivasa Varadhan/S. R. Srinivasa Varadhan.yaml'
+        names.append(e.replace("- ", ""))
+        
+        #remove header and footers from list
+        if "---" in e:
+        	names.remove(e)
+        if "people" in e:
+        	names.remove(e)
 
 def create_folders(dirname, path=os.getcwd()): # how to put the folder in a different (parent) directory?
     dirpath = os.path.join(path, dirname)
@@ -32,17 +32,19 @@ def create_folders(dirname, path=os.getcwd()): # how to put the folder in a diff
 def create_files(dirname):
 	path = dirname
 	for n in names[0:82]:
-		if "---" in n:
-			pass
-		else:
-			filename = path + '/' + n + '.yaml'
-			open(filename, 'a').close()
-			# filename.replace("\n", "")
+		# if "---" in n:
+		# 	pass
+		# if "people" in n:
+		# 	pass
+		# else:
+		n.replace("\n", "")
+		filename = path + '/' + n + '.yaml'
+		open(filename, 'a').close()
 
 create_folders("people-profiles")
 
 
-	# one folder with 84 yaml files
-	# toplevel folders
-	# output
-	# 
+
+# dirpath = 'S. R. Srinivasa Varadhan'
+# filename = dirpath + '/S. R. Srinivasa Varadhan.yaml'
+# filename = 'S. R. Srinivasa Varadhan/S. R. Srinivasa Varadhan.yaml'
