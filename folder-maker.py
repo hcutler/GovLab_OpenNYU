@@ -7,9 +7,8 @@ import os
 import sys
 
 names = []
-
 with open("people-list.yaml", "r") as yaml_file:
-    entries = yaml_file.read().splitlines()
+    entries = yaml_file.read().split("- ")
     
     num = 0
     for e in entries:
@@ -32,11 +31,15 @@ def create_folders(dirname, path=os.getcwd()): # how to put the folder in a diff
 
 def create_files(dirname):
 	path = dirname
-	for n in names:
-		filename = path + '/' + n + '.yaml'
-		open(filename, 'a').close()
+	for n in names[0:82]:
+		if "---" in n:
+			pass
+		else:
+			filename = path + '/' + n + '.yaml'
+			open(filename, 'a').close()
+			# filename.replace("\n", "")
 
-create_folders("People-profiles")
+create_folders("people-profiles")
 
 
 	# one folder with 84 yaml files
