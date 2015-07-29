@@ -5,6 +5,12 @@ from bs4 import BeautifulSoup
 import yaml
 import os
 import sys
+import encodings
+from encodings import aliases
+from unidecode import unidecode
+
+
+
 
 names = []
 with open("people-list.yaml", "r") as yaml_file:
@@ -18,5 +24,8 @@ with open("people-list.yaml", "r") as yaml_file:
         elif "---" in e:
         	names.remove(e)
         else:
-            continue
-    print names
+            strnames = str(names).replace("',", ".yaml',")
+
+with open("files.txt", 'w') as output_file:
+    output_file.write(strnames.encode('utf-8'))
+

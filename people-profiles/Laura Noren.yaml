@@ -1,0 +1,28 @@
+---
+fullname:
+firstname:
+lastname:
+position:
+department:
+school:
+institution:
+gender:
+
+location:
+    city:
+    state:
+
+contact:
+    phone:
+    email:
+    website:
+    twitter:
+    linkedin:
+    facebook:
+    github:
+
+skills:
+    - n/a
+sources:
+    - n/a
+...

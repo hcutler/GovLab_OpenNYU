@@ -1,0 +1,39 @@
+---
+fullname:   Aaron Tennebein
+firstname:  Aaron
+lastname:   Tennebein
+position:   Professor of Statistics and Actuarial Science, Faculty Director of Executive MBA Programs
+department: Information, Operations, and Management Sciences
+school:     Leonard N. Stern School of Business 
+institution: New York University
+gender:     M
+
+location:
+    city:   New York
+    state:  NY
+
+contact:
+    phone:      (212)998-0474
+    email:      atenenbe@stern.nyu.edu
+    website:    http://people.stern.nyu.edu/atenenbe/
+    twitter:    n/a
+    linkedin:   https://www.linkedin.com/pub/michael-laver/8a/630/289
+    facebook:   n/a
+    github:     n/a
+
+skills:
+  - Sampling
+  - Sample surveys
+  - Simulation methodology
+  - Fixed income instruments
+  - Statistical methods in risk management and actuarial science
+  - Regression analysis
+  - Application to actuarial problems in mortality estimation
+  - Risk theory
+
+
+sources:
+  - http://cds.nyu.edu/people/
+  - http://www.stern.nyu.edu/faculty/bio/aaron-tenenbein
+  - http://people.stern.nyu.edu/atenenbe/
+...

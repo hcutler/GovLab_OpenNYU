@@ -31,15 +31,38 @@ def create_folders(dirname, path=os.getcwd()): # how to put the folder in a diff
         print error
 
 def create_files(dirname):
-	path = dirname
-	for n in names[0:82]:
-		# if "---" in n:
-		# 	pass
-		# else:
-		n.replace("\n", "")
-		filename = path + '/' + n + '.yaml'
-		open(filename, 'a').close() # what does this do??
+    path = dirname
+    for n in names:
+        n.replace("\n", "")
+        filename = path + '/' + n + '.yaml'
+        populate_files(filename)
 
+def populate_files(fname):
+    with open(fname, 'w') as outfile:
+        outfile.write("---" + '\n' + "fullname:" + '\n')
+        outfile.write("firstname:" + '\n')
+        outfile.write("lastname:" + '\n')
+        outfile.write("position:" + '\n')
+        outfile.write("department:" + '\n')
+        outfile.write("school:" + '\n')
+        outfile.write("institution:" + '\n')
+        outfile.write("gender:" + '\n')
+        outfile.write('\n' + "location:" + '\n')
+        outfile.write("    " + "city:" + '\n')
+        outfile.write("    " + "state:" + '\n')
+        outfile.write('\n' + "contact:" + '\n')
+        outfile.write("    " + "phone:" + '\n')
+        outfile.write("    " + "email:" + '\n')
+        outfile.write("    " + "website:" + '\n')
+        outfile.write("    " + "twitter:" + '\n')
+        outfile.write("    " + "linkedin:" + '\n')
+        outfile.write("    " + "facebook:" + '\n')
+        outfile.write("    " + "github:" + '\n')
+        outfile.write('\n' + "skills:" + '\n' + "    - n/a")
+        outfile.write('\n' + "sources:" + '\n' + "    - n/a")
+        outfile.write('\n' + '...')    
+            # outfile.write( yaml.safe_dump(person_list_unique,encoding='utf-8',default_flow_style=False,allow_unicode=True))
+        # open(filename, 'a').close() # what does this do??
 
 create_folders("people-profiles")
 

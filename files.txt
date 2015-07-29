@@ -1,0 +1,23 @@
+['S. R. Srinivasa Varadhan.yaml', 'David W. Hogg.yaml', 'Juliana Freire.yaml', 'Roy Lowrance.yaml', 'Rebecca Liebe.yaml', 'David Clark.yaml', 'Jennifer Hill.yaml', 'Mik Laver.yaml', 'Yann LeCun.yaml', 'Foster Provost.yaml', 'Claudio Silva.yaml', 'Eero Simoncelli.yaml', 'David Sontag.yaml', 'Karen Adolph.yaml', 'Constantin Aliferis.yaml', 'Neal Beck.yaml', 'Juan Bello.yaml', 'G\xc3\xa9rard Ben Arous.yaml', 'Michael Blanton.yaml', 'Jan Blustein.yaml', 'Richard Bonneau.yaml', 'Adam Brandenburger.yaml', 'David Cai.yaml', 'Andrew Caplin.yaml', 'Xi Chen.yaml', 'Gloria Coruzzi.yaml', 'Kyle Cranmer.yaml', 'Nathaniel Daw.yaml', 'Rohit\xc2\xa0Deo.yaml', 'Vasant Dhar.yaml', 'Dustin T. Duncan.yaml', 'Rob Fergus.yaml', 'Halina Frydman.yaml', 'Judith D. Goldberg.yaml', 'Jonathan Goodman.yaml', 'Leslie Greengard.yaml', 'Sinan Gunturk.yaml', 'Todd Gureckis.yaml', 'Peter Halpin.yaml', 'Daphna Harel.yaml', 'David Heeger.yaml', 'Lisa\xc2\xa0Hellerstein.yaml', 'Ming Hu.yaml', 'Clifford M. Hurvich.yaml', 'Panos Ipeirotis.yaml', 'Srikanth Jagabathula.yaml', 'John Jost.yaml', 'Robert Kohn.yaml', 'Petter Kolm.yaml', 'Steven\xc2\xa0Koonin.yaml', 'Peter Lakner.yaml', 'John\xc2\xa0Leahy.yaml', 'Jinyang Li.yaml', 'Mengling Liu.yaml', 'Alessandro Lizzeri.yaml', 'Ying Lu.yaml', 'Andrew Majda.yaml', 'Suzanne McIntosh.yaml', 'Edward Melnick.yaml', 'Joel Middleton.yaml', 'Bud Mishra.yaml', 'Chuck Newman.yaml', 'Patrick Perry.yaml', 'Bijan Pesaran.yaml', 'Michael Purugganan.yaml', 'Keith Ross.yaml', 'Marc Scott.yaml', 'Youngzhao Shao.yaml', 'Dennis Shasha.yaml', 'Jeff Simonoff.yaml', 'Alexander Statnikov.yaml', 'Lakshminarayanan Subramanian.yaml', 'Torsten Suel.yaml', 'Arun Sundararajan.yaml', 'Esteban Tabak.yaml', 'Aaron Tennebein.yaml', 'Eric Vanden-Eijnden.yaml', 'Sharon Weinberg.yaml', 'Margaret Wright.yaml', 'Laura Noren.yaml', 'Andreas M\xc3\xbcller.yaml', 'Brian McFee.yaml', 'Brenden Lake.yaml', 'Daniela Huppenkothen.yaml']
+
+
+
+['S. R. Srinivasa Varadhan.yaml', 'David W. Hogg.yaml', 'Juliana Freire.yaml','Roy Lowrance.yaml', 
+'Rebecca Liebe.yaml', 'David Clark.yaml', 'Jennifer Hill.yaml', 'Mik Laver.yaml', 'Yann LeCun.yaml', 
+'Foster Provost.yaml', 'Claudio Silva.yaml', 'Eero Simoncelli.yaml', 'David Sontag.yaml', 'Karen Adolph.yaml',
+ 'Constantin Aliferis.yaml', 'Neal Beck.yaml', 'Juan Bello.yaml', u'Gérard Ben Arous.yaml', 
+'Michael Blanton.yaml', 'Jan Blustein.yaml', 'Richard Bonneau.yaml', 'Adam Brandenburger.yaml', 'David Cai.yaml', 
+'Andrew Caplin.yaml', 'Xi Chen.yaml', 'Gloria Coruzzi.yaml', 'Kyle Cranmer.yaml', 'Nathaniel Daw.yaml',
+u'Rohit Deo.yaml', 'Vasant Dhar.yaml', 'Dustin T. Duncan.yaml', 'Rob Fergus.yaml', 'Halina Frydman.yaml',
+'Judith D. Goldberg.yaml', 'Jonathan Goodman.yaml', 'Leslie Greengard.yaml', 'Sinan Gunturk.yaml', 
+'Todd Gureckis.yaml', 'Peter Halpin.yaml', 'Daphna Harel.yaml', 'David Heeger.yaml', u'Lisa Hellerstein.yaml', 
+'Ming Hu.yaml', 'Clifford M. Hurvich.yaml', 'Panos Ipeirotis.yaml', 'Srikanth Jagabathula.yaml', 
+'John Jost.yaml', 'Robert Kohn.yaml', 'Petter Kolm.yaml', u'Steven Koonin.yaml', 'Peter Lakner.yaml', 
+u'John Leahy.yaml', 'Jinyang Li.yaml', 'Mengling Liu.yaml', 'Alessandro Lizzeri.yaml', 'Ying Lu.yaml', 
+'Andrew Majda.yaml', 'Suzanne McIntosh.yaml', 'Edward Melnick.yaml', 'Joel Middleton.yaml', 'Bud Mishra.yaml',
+'Chuck Newman.yaml', 'Patrick Perry.yaml', 'Bijan Pesaran.yaml', 'Michael Purugganan.yaml', 'Keith Ross.yaml', 
+'Marc Scott.yaml', 'Youngzhao Shao.yaml', 'Dennis Shasha.yaml', 'Jeff Simonoff.yaml',
+'Alexander Statnikov.yaml', 'Lakshminarayanan Subramanian.yaml','Torsten Suel.yaml', 'Arun Sundararajan.yaml', 
+'Esteban Tabak.yaml', 'Aaron Tennebein.yaml', 'Eric Vanden-Eijnden.yaml', 'Sharon Weinberg.yaml',
+'Margaret Wright.yaml', 'Laura Noren.yaml', u'Andreas Müller.yaml', 'Brian McFee.yaml', 'Brenden Lake.yaml',
+'Daniela Huppenkothen.yaml']
