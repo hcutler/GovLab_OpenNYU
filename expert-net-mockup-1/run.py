@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from jinja2 import Environment, FileSystemLoader
 from yaml import load, Loader
 import shutil
@@ -18,17 +20,19 @@ except OSError:
 # 	template = env.get_template("links.html")
 # 	landing = template.render(data)
 
+
 # 	with open("output/sample-landing.html", 'w') as output_file:
 # 		output_file.write(landing)
+
 people_files = ['S. R. Srinivasa Varadhan.yaml', 'David W. Hogg.yaml', 'Juliana Freire.yaml','Roy Lowrance.yaml', 
 'Rebecca Liebe.yaml', 'David Clark.yaml', 'Jennifer Hill.yaml', 'Mik Laver.yaml', 'Yann LeCun.yaml', 
 'Foster Provost.yaml', 'Claudio Silva.yaml', 'Eero Simoncelli.yaml', 'David Sontag.yaml', 'Karen Adolph.yaml',
- 'Constantin Aliferis.yaml', 'Neal Beck.yaml', 'Juan Bello.yaml',  
+ 'Constantin Aliferis.yaml', 'Neal Beck.yaml', 'Juan Bello.yaml',
 'Michael Blanton.yaml', 'Jan Blustein.yaml', 'Richard Bonneau.yaml', 'Adam Brandenburger.yaml', 'David Cai.yaml', 
 'Andrew Caplin.yaml', 'Xi Chen.yaml', 'Gloria Coruzzi.yaml', 'Kyle Cranmer.yaml', 'Nathaniel Daw.yaml',
 'Vasant Dhar.yaml', 'Dustin T. Duncan.yaml', 'Rob Fergus.yaml', 'Halina Frydman.yaml',
 'Judith D. Goldberg.yaml', 'Jonathan Goodman.yaml', 'Leslie Greengard.yaml', 'Sinan Gunturk.yaml', 
-'Todd Gureckis.yaml', 'Peter Halpin.yaml', 'Daphna Harel.yaml', 'David Heeger.yaml', 
+'Todd Gureckis.yaml', 'Peter Halpin.yaml', 'Daphna Harel.yaml', 'David Heeger.yaml',  
 'Ming Hu.yaml', 'Clifford M. Hurvich.yaml', 'Panos Ipeirotis.yaml', 'Srikanth Jagabathula.yaml', 
 'John Jost.yaml', 'Robert Kohn.yaml', 'Petter Kolm.yaml', 'Peter Lakner.yaml', 
 'Jinyang Li.yaml', 'Mengling Liu.yaml', 'Alessandro Lizzeri.yaml', 'Ying Lu.yaml', 
@@ -40,7 +44,12 @@ people_files = ['S. R. Srinivasa Varadhan.yaml', 'David W. Hogg.yaml', 'Juliana 
 'Margaret Wright.yaml', 'Laura Noren.yaml', 'Brian McFee.yaml', 'Brenden Lake.yaml',
 'Daniela Huppenkothen.yaml']
 
-#
+# u'Gérard Ben Arous.yaml', 
+# u'Rohit Deo.yaml', 
+#  u'Steven Koonin.yaml',
+#  u'John Leahy.yaml', 
+#  u'Lisa Hellerstein.yaml',
+#  u'Andreas Müller.yaml',
 
 # pages = ['index', 'links']
 people_list = "people-list.yaml"
