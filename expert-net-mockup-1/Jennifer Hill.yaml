@@ -1,0 +1,36 @@
+---
+fullname:   Jennifer Hill
+firstname:  Jennifer
+lastname:   Hill
+position:   Associate Professor of Applied Statistics
+department: Humanities and Social Sciences
+school:     Steinhardt School of Culture Education and Human Development 
+institution: New York University
+gender:     F
+
+location:
+    city:   New York
+    state:  NY
+
+contact:
+    phone:      212-992-7677
+    email:      jlh17@nyu.edu
+    website:    n/a
+    twitter:    n/a
+    linkedin:   n/a
+    facebook:   n/a
+    github:     n/a
+
+skills:
+  - Causal inference
+  - Missing data
+  - Bayesian nonparametrics
+
+sources:
+  - http://cds.nyu.edu/people/
+  - http://steinhardt.nyu.edu/faculty/Jennifer_L_Hill
+  - http://steinhardt.nyu.edu/scmsAdmin/uploads/007/160/cv.pdf
+  - http://steinhardt.nyu.edu/priism/
+  - http://steinhardt.nyu.edu/humsocsci/interdepartmental
+  - https://shanghai.nyu.edu/research/social/faculty/jennifer-hill
+...

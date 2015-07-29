@@ -69,7 +69,7 @@ for n in names[0:10]:
         #set wikipedia value in dictionary to true
         str1 = "New York University"
         str2 = "NYU"
-        if (str1 or str1.lower() or str2 or str2.lower) not in content:
+        if (str1 or str1.lower() or str2 or str2.lower) not in outlinks:
             pass
         else:
             data.append({'summary': summary, 'url': pageurl ,

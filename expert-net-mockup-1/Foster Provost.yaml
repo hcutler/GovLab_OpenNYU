@@ -1,0 +1,41 @@
+---
+fullname:   Foster J. Provost
+firstname:  Foster
+lastname:   Provost
+position:   Professor of Information Systems
+department: Information Operations and Management Sciences Department; Computer Science and Engineering
+school:     Stern School of Business
+institution: New York University
+gender:      M
+
+location:
+    city:   New York
+    state:  NY
+
+contact:
+    phone:      1.212.998-0806 
+    email:      fprovost@stern.nyu.edu
+    website:    http://people.stern.nyu.edu/fprovost/
+    twitter:    n/a
+    linkedin:   n/a
+    facebook:   n/a
+    github:     n/a
+
+skills:
+    - Data science
+    - Data mining
+    - Knowledge discovery
+    - Machine learning
+    - Predictive modeling
+    - Integrating human and machine computation
+    - Learning
+    - Inference in network data
+    - Social network analysis
+    - Crowdsourcing
+    - Micro-outsourcing systems
+
+sources:
+  - http://cds.nyu.edu/people/
+  - http://www.stern.nyu.edu/faculty/bio/foster-provost
+  - http://people.stern.nyu.edu/fprovost/
+...

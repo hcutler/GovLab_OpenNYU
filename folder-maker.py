@@ -38,7 +38,8 @@ def create_files(dirname):
 		# else:
 		n.replace("\n", "")
 		filename = path + '/' + n + '.yaml'
-		open(filename, 'a').close()
+		open(filename, 'a').close() # what does this do??
+
 
 create_folders("people-profiles")
 

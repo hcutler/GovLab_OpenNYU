@@ -41,7 +41,7 @@ for person in people:
 		if p not in person_list_unique:
 			person_list_unique.append(p)
     		# i +=1
-# print person_list
+print person_list
 
 with open('people-list.yaml', 'w') as outfile:
     outfile.write("---" + '\n' + "people:" + '\n')

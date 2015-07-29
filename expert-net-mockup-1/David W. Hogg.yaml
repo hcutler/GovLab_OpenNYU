@@ -1,0 +1,33 @@
+---
+fullname:   David W. Hogg
+firstname:  David
+lastname:   Hogg
+position:   Deputy Director of Center for Data Science; Executive Director of the Moore-Sloan Data Science Environment; Associate Professor of Physics
+department: Physics
+school:     Courant Institute of Mathematical Sciences
+institution: New York University
+gender:     M
+
+location:
+    city:   New York
+    state:  NY
+
+contact:
+    phone:      n/a
+    email:      david.hogg@nyu.edu
+    website:    <a href="http://cosmo.nyu.edu/hogg/">Personal website</a>
+    twitter:    <a href="https://twitter.com/davidwhogg">Twitter</a>
+    linkedin:   n/a
+    facebook:   n/a
+    github:     <a href="https://github.com/davidwhogg">GitHub</a>
+
+skills:
+    - Astronomy
+    - Cosmology
+    - Probabilistic inference
+    - MCMC
+
+sources:
+  - http://cds.nyu.edu/people/
+  - http://cosmo.nyu.edu/hogg/
+...

@@ -1,0 +1,34 @@
+---
+fullname:   Juliana Freire
+firstname:  Juliana
+lastname:   Freire
+position:   Director of Graduate Studies; Professor of Computer Science and Engineering and Data Science
+department: Computer Science and Engineering
+school:     Polytechnic School of Engineering (NYU Poly)
+institution: New York University
+gender:      F
+
+location:
+    city:   Brooklyn
+    state:  NY
+
+contact:
+    phone:      n/a
+    email:      juliana.freire@nyu.edu
+    website:    http://vgc.poly.edu/~juliana/
+    twitter:    n/a
+    linkedin:   https://www.linkedin.com/pub/juliana-freire/0/5b6/a58
+    facebook:   n/a
+    github:     n/a
+
+skills:
+    - Large-scale information integration
+    - Information visualization and visual analytics
+    - Provenance management
+    - Big data management and analysis
+
+sources:
+  - http://cds.nyu.edu/people/
+  - http://vgc.poly.edu/~juliana/
+  - https://en.wikipedia.org/wiki/Juliana_Freire
+...

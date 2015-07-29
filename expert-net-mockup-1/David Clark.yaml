@@ -1,0 +1,30 @@
+---
+fullname:   David Clark
+firstname:  David
+lastname:   Clark
+position:   Program Administrator for Center for Data Science
+department: Center for Data Science
+school:     Courant Institute of Mathematical Sciences 
+institution: New York University
+gender:     M
+
+location:
+    city:   New York
+    state:  NY
+
+contact:
+    phone:      n/a
+    email:      david.clark@nyu.edu
+    website:    n/a
+    twitter:    n/a
+    linkedin:   n/a
+    facebook:   n/a
+    github:     n/a
+
+skills:
+  - n/a
+
+sources:
+  - http://cds.nyu.edu/people/
+  - http://cds.nyu.edu/author/david/
+...

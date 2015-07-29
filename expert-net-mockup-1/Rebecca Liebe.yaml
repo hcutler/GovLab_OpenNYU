@@ -1,0 +1,35 @@
+---
+fullname:   Rebecca Liebe
+firstname:  Rebecca
+lastname:   Liebe
+position:   Manager of Academic Affairs for the Data Science Program at New York Universit
+department: Center for Data Science
+school:     Courant Institute of Mathematical Sciences
+institution: New York University
+gender:     F
+
+location:
+    city:   New York
+    state:  NY
+
+contact:
+    phone:      n/a
+    email:      rebecca.liebe@nyu.edu
+    website:    n/a
+    twitter:    n/a
+    linkedin:   https://www.linkedin.com/in/ral715
+    facebook:   n/a
+    github:     n/a
+
+skills:
+  - Higher Education Operations Management
+  - Valuation
+  - Merger and Acquisition
+  - joint venture
+
+sources:
+  - http://cds.nyu.edu/people/
+  - https://www.linkedin.com/in/ral715
+  - http://cds.nyu.edu/author/rebecca/
+  - http://engineering.nyu.edu/people/roy-lowrance
+...

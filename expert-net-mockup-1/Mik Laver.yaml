@@ -1,0 +1,36 @@
+---
+fullname:   Michael (Mik) Laver
+firstname:  Michael (Mik)
+lastname:   Laver
+position:   Professor of Politics; Dean for the Social Sciences
+department: Wilf Family Department of Politics
+school:     Courant Institute of Mathematical Sciences 
+institution: New York University
+gender:     M
+
+location:
+    city:   New York
+    state:  NY
+
+contact:
+    phone:      (212) 998-8534
+    email:      michael.laver@nyu.edu
+    website:    n/a
+    twitter:    n/a
+    linkedin:   https://www.linkedin.com/pub/michael-laver/8a/630/289
+    facebook:   n/a
+    github:     n/a
+
+skills:
+  - Crowd-sourced data coding
+  - Automated text analysis
+  - Agent-based modeling
+  - Analytical computational and empirical accounts of political competition and decision-making
+
+sources:
+  - http://cds.nyu.edu/people/
+  - http://politics.as.nyu.edu/object/MichaelLaver
+  - http://politics.as.nyu.edu/page/people
+  - http://datascience.nyu.edu/nyu-professor-michael-laver-interview-on-data-science-and-the-moore-sloan-initiative/
+  - https://www.linkedin.com/pub/michael-laver/8a/630/289
+...

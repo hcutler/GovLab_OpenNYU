@@ -1,0 +1,36 @@
+---
+fullname:   Torsten Suel
+firstname:  Torsten
+lastname:   Suel
+position:   Professor of Computer Science and Engineering
+department: Computer Science and Engineering
+school:     Polytechnic School of Engineering (NYU Poly)
+institution: New York University
+gender:      M
+
+location:
+    city:   Brooklyn
+    state:  NY
+
+contact:
+    phone:      (718) 260 3354
+    email:      suel@poly.edu
+    website:    http://cis.poly.edu/suel/
+    twitter:    n/a
+    linkedin:   https://www.linkedin.com/pub/torsten-suel/2/362/3a3
+    facebook:   n/a
+    github:     n/a
+
+skills:
+    - Web Search Technology
+    - Algorithms
+    - Databases
+    - Data Compression
+    - Distributed Computation
+
+sources:
+  - http://cds.nyu.edu/people/
+  - http://cis.poly.edu/suel/
+  - https://www.linkedin.com/pub/torsten-suel/2/362/3a3
+
+...

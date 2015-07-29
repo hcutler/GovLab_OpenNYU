@@ -1,0 +1,41 @@
+---
+fullname:   Juliana Freire
+firstname:  Juliana
+lastname:   Freire
+position:   Courant Institute of Mathematical Sciences Silver Professor of Computer Science, Neural Science, and Electrical & Computer Engineering
+department: Computer Science and Engineering
+school:     Polytechnic School of Engineering (NYU Poly)
+institution: New York University
+gender:      M
+
+location:
+    city:   Brooklyn
+    state:  NY
+
+contact:
+    phone:      (212)998-3283
+    email:      yann@cs.nyu.edu; yann@fb.com
+    website:    http://vgc.poly.edu/~juliana/
+    twitter:    n/a
+    linkedin:   https://www.linkedin.com/pub/juliana-freire/0/5b6/a58
+    facebook:   n/a
+    github:     n/a
+
+skills:
+    - Machine learning
+    - Computer vision
+    - Mobile robotics
+    - Computational neuroscience
+    - Data Compression
+    - Digital Libraries
+    - the Physics of Computation
+    - applications of machine learning (Vision, Speech, Language, Document understanding, Data Mining, Bioinformatics)
+
+
+sources:
+  - http://cds.nyu.edu/people/
+  - http://yann.lecun.com/
+  - https://plus.google.com/+YannLeCunPhD/about
+  - https://www.linkedin.com/pub/yann-lecun/0/99/b9
+
+...

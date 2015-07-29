@@ -1,0 +1,33 @@
+---
+fullname:   Roy Lowrance
+firstname:  Roy
+lastname:   Lowrance
+position:   Managing Director at Center for Data Science
+department: Center for Data Science
+school:     Courant Institute of Mathematical Sciences
+institution: New York University
+gender:     M
+
+location:
+    city:   New York
+    state:  NY
+
+contact:
+    phone:      n/a
+    email:      lowrance@cims.nyu.edu
+    website:    https://roylowrance.wordpress.com/
+    twitter:    n/a
+    linkedin:   https://www.linkedin.com/in/roylowrance
+    facebook:   n/a
+    github:     n/a
+
+skills:
+    - machine learning
+    - mathematics
+
+sources:
+  - http://cds.nyu.edu/people/
+  - https://www.linkedin.com/in/roylowrance
+  - http://cds.nyu.edu/roy-e-lowrance-named-managing-director-of-nyu-center-for-data-science/
+  - http://engineering.nyu.edu/people/roy-lowrance
+...
