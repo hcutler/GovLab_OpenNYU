@@ -1,28 +1,34 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Claudio T. Silva
+firstname: Claudio
+lastname: Silva
+position: Professor of Computer Science and Engineering at NYU-Poly
+department: Computer Science and Engineering
+school: Polytechnic School of Engineering (NYU Poly)
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: Brooklyn
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: (718) 260-4093 (poly); (646) 997-0504 (cusp) 
+    email: csilva@nyu.edu
+    website: <a href="http://vgc.poly.edu/~csilva/">Website</a>
+    twitter: n/a
+    linkedin: <a href="https://www.linkedin.com/pub/claudio-silva/0/634/839">LinkedIn</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Big Data and Urban Systems
+    - Visualization and data analysis
+    - Sports Analytics & visualization
+    - Geometry processing
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://vgc.poly.edu/~csilva/
+    - https://www.linkedin.com/pub/claudio-silva/0/634/839
 ...

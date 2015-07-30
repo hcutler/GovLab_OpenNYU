@@ -1,28 +1,32 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Adam Brandenburger
+firstname: Adam
+lastname: Brandenburger
+position: J.P. Valles Professor, Stern School of Business; Distinguished Professor, Polytechnic School of Engineering; Member, Institute for the Interdisciplinary Study of Decision Making, New York University; Associated  Faculty Member, Center for Data Science, New York University; Goh Keng Swee Professor, National University of Singapore
+department: n/a
+school: Stern School of Business; Polytechnic School of Engineering
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: n/a
+    email: adam.brandenburger@stern.nyu.edu
+    website: <a href="http://adambrandenburger.com/">Website</a>
+    twitter: n/a
+    linkedin: n/a
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Game theory
+    - Business strategy
+    - Quantum information
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://adambrandenburger.com/
 ...

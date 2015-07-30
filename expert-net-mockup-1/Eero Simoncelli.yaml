@@ -1,28 +1,31 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Eero P. Simoncelli
+firstname: Eero
+lastname: Simoncelli
+position: Professor, Neural Science, Mathematics, and Psychology
+department: 
+school: 
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: (212) 998-3938
+    email: eero.simoncelli@nyu.edu
+    website: <a href="http://www.cns.nyu.edu/~eero/">Website</a>
+    twitter: n/a
+    linkedin: n/a
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Probabilistic analysis and representation in biological and machine vision (and audition)
+    - Statistical signal and image processing
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://www.cns.nyu.edu/~eero/
+    - http://www.cns.nyu.edu/~eero/vita.html
 ...

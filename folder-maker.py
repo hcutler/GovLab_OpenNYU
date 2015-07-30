@@ -59,7 +59,7 @@ def populate_files(fname):
         outfile.write("    " + "facebook:" + '\n')
         outfile.write("    " + "github:" + '\n')
         outfile.write('\n' + "skills:" + '\n' + "    - n/a")
-        outfile.write('\n' + "sources:" + '\n' + "    - n/a")
+        outfile.write('\n' + "sources:" + '\n' + "    - http://cds.nyu.edu/people/")
         outfile.write('\n' + '...')    
             # outfile.write( yaml.safe_dump(person_list_unique,encoding='utf-8',default_flow_style=False,allow_unicode=True))
         # open(filename, 'a').close() # what does this do??
