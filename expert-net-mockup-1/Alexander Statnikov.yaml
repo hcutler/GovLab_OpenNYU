@@ -1,28 +1,38 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Alexander Statnikov
+firstname: Alexander
+lastname: Statnikov
+position: Assistant Professor, Department of Medicine, Division of Clinical Pharmacology, NYU School of Medicine; Director, Computational Causal Discovery Laboratory, Center for Health Informatics and Bioinformatics
+department: Department of Medicine, Division of Clinical Pharmacology, NYU Center for Health Informatics and Bioinformatics
+school: NYU School of Medicine
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: n/a
+    email: statnikov@gmail.com
+    website: n/a
+    twitter: n/a
+    linkedin: <a href="https://www.linkedin.com/pub/alexander-statnikov/7a/86b/684">LinkedIn</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Computational causal discovery
+    - variable selection, and supervised learning in high-dimensional data
+    - Comprehensive empirical benchmarking of various machine learning methodologies
+    - Machine learning analysis of biomedical and other high-dimensional data
+    - Causal structure/network discovery and analysis
+    - Variable/feature selection
+    - Predictive modeling and supervised learning (classification and regression)
+    - Benchmarking/evaluation of methods for analysis of high-dimensional data
+    - Multicriteria optimization
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://www.med.nyu.edu/chibi/
+    - http://ccdlab.org/
 ...

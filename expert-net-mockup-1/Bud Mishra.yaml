@@ -1,28 +1,40 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Bud Mishra
+firstname: Bud
+lastname: Mishra
+position: Professor of Computer Science and Mathematics
+department: Computer Science and Engineering (Courant Institute of Mathematical Sciences)
+school:     Polytechnic School of Engineering (NYU Poly)
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: 212.998.3464
+    email: mishra@nyu.edu
+    website: <a href="http://cs.nyu.edu/mishra/">Website</a>
+    twitter: n/a
+    linkedin: <a href="https://www.linkedin.com/in/budmishra">LinkedIn</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Bayesian and Empirical Bayesian analysis
+    - Shrinkage
+    - Rate-distortion theory
+    - Redescription
+    - Phenomenological models
+    - Model checking and causality analysis
+    - "Joining the data scientists in silicon alley to make a BIG data scientist."
+    - applied contributions to bioinformatics, cybersecurity, and computational finance.
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://cs.nyu.edu/mishra/
+    - https://www.linkedin.com/in/budmishra
+    - https://en.wikipedia.org/wiki/Bud_Mishra
+    - https://scholar.google.com/citations?user=kXVBr20AAAAJ&hl=en&oi=ao
 ...

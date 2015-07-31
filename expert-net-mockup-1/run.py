@@ -43,6 +43,8 @@ people_files = ['S. R. Srinivasa Varadhan.yaml', 'David W. Hogg.yaml', 'Juliana 
 'Esteban Tabak.yaml', 'Aaron Tennebein.yaml', 'Eric Vanden-Eijnden.yaml', 'Sharon Weinberg.yaml',
 'Margaret Wright.yaml', 'Laura Noren.yaml', 'Brian McFee.yaml', 'Brenden Lake.yaml',
 'Daniela Huppenkothen.yaml']
+# 'andreas_muller.yaml']
+
 
 # u'Gérard Ben Arous.yaml', 
 # u'Rohit Deo.yaml', 
@@ -100,7 +102,6 @@ if __name__ == '__main__':
 		render_profile(p)
 	copy_css()
     # copy_links_file()
-
 
 			# # main.css -> main_output.css
 			# for char in basename:

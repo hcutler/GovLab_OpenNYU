@@ -1,28 +1,36 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Andreas Müller
+firstname: Andreas
+lastname: Müller
+position: Assistant Research Scientist
+department: Center for Data Science
+school: Courant Institute of Mathematical Sciences 
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: n/a
+    email: t3kcit+website@gmail.com
+    website: <a href="http://amueller.github.io/">Website</a> ; <a href="peekaboo-vision.blogspot.com">Blog</a>
+    twitter: <a href="https://twitter.com/t3kcit">Twitter</a>
+    linkedin: <a href="https://www.linkedin.com/pub/andreas-mueller/5a/26/b37">LinkedIn</a>
+    facebook: n/a
+    github: <a href="https://github.com/amueller">GitHub</a>
 
 skills:
-    - n/a
+    - Machine Learning
+    - Machine Learning Software
+    - Computer Vision
+    - Open Source Development
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://amueller.github.io/
+    - http://cds.nyu.edu/mooresloan/
+    - https://www.linkedin.com/pub/andreas-mueller/5a/26/b37
+    - peekaboo-vision.blogspot.com
 ...

@@ -1,28 +1,36 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Bijan Pesaran
+firstname: Bijan
+lastname: Pesaran
+position: Associate Professor of Neural Science
+department: Center for Neural Science (CNS)
+school: Faculty of Arts and Science
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: (212) 998-3578 
+    email: bijan@nyu.edu
+    website: <a href="">Website</a>
+    twitter: n/a
+    linkedin: <a href="https://www.linkedin.com/pub/bijan-pesaran/2/5b4/586">LinkedIn</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Neural dynamics and decision making; Brain-machine interface
+    - Investigating brain circuits underlying behavior
+    - Developing techniques to analyze neural activity and behavior
+    - Developing new technologies to treat brain disorders
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://www.cns.nyu.edu/~bijan/
+    - http://www.cns.nyu.edu/~bijan/BPesaranCV.pdf
+    - http://www.ncbi.nlm.nih.gov/pubmed?cmd=Search&term=Pesaran%20B&doptcmdl=DocSum
+    - www.cns.nyu.edu/corefaculty/Pesaran.php
 ...

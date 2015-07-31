@@ -1,28 +1,30 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Alessandro Lizzeri
+firstname: Alessandro
+lastname: Lizzeri
+position: Professor of Economics
+department: Department of Economics
+school: College of Arts and Science
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: (212) 998-8907
+    email: alessandro.lizzeri@nyu.edu
+    website: <a href="http://www.econ.nyu.edu/user/lizzeria/">Website</a>
+    twitter: n/a
+    linkedin: n/a
+    facebook: n/a
+    github: n/a
 
 skills:
     - n/a
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://www.econ.nyu.edu/user/lizzeria/
 ...

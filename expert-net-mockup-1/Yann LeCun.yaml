@@ -1,7 +1,7 @@
 ---
-fullname:   Juliana Freire
-firstname:  Juliana
-lastname:   Freire
+fullname:   Yann LeCun
+firstname:  Yann
+lastname:   LeCun
 position:   Courant Institute of Mathematical Sciences Silver Professor of Computer Science, Neural Science, and Electrical & Computer Engineering
 department: Computer Science and Engineering
 school:     Polytechnic School of Engineering (NYU Poly)
@@ -15,9 +15,9 @@ location:
 contact:
     phone:      (212)998-3283
     email:      yann@cs.nyu.edu; yann@fb.com
-    website:    http://vgc.poly.edu/~juliana/
+    website:    <a href="http://yann.lecun.com/">Website</a>
     twitter:    n/a
-    linkedin:   https://www.linkedin.com/pub/juliana-freire/0/5b6/a58
+    linkedin:  <a href="https://www.linkedin.com/pub/yann-lecun/0/99/b9">LinkedIn</a> 
     facebook:   n/a
     github:     n/a
 
@@ -30,12 +30,23 @@ skills:
     - Digital Libraries
     - the Physics of Computation
     - applications of machine learning (Vision, Speech, Language, Document understanding, Data Mining, Bioinformatics)
-
+    - deep learning
+    - optical character recognition and computer vision using convolutional neural networks (CNN)
+    - a founding father of convolutional nets
+    - research
+    - technical consulting
+    - scientific advising
 
 sources:
   - http://cds.nyu.edu/people/
   - http://yann.lecun.com/
   - https://plus.google.com/+YannLeCunPhD/about
   - https://www.linkedin.com/pub/yann-lecun/0/99/b9
+  - https://en.wikipedia.org/wiki/Yann_LeCun
+  - http://www.cs.nyu.edu/~yann/
+  - http://www.reddit.com/r/MachineLearning/comments/25lnbt/ama_yann_lecun
+  - http://yann.lecun.com/exdb/lenet/
+  - http://yann.lecun.com/exdb/publis/
+  - http://phdtree.org/scholar/lecun-yann/
 
 ...

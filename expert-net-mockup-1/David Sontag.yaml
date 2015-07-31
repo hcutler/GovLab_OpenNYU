@@ -1,28 +1,34 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: David Sontag
+firstname: David
+lastname: Sontag
+position: Assistant Professor of Computer Science and Data Science
+department: Computer Science and Engineering (Courant Institute of Mathematical Sciences)
+school:  Polytechnic School of Engineering (NYU Poly)
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: Brooklyn
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: 212-998-3498 (office) 
+    email: dsontag@cs.nyu.edu
+    website: <a href="http://cs.nyu.edu/~dsontag/">Website</a>
+    twitter: n/a
+    linkedin: <a href="https://www.linkedin.com/pub/david-sontag/3/7a5/b74">LinkedIn</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Theoretical and practical aspects of machine learning and probabilistic inference
+    - Medical informatics
+    - Information retrieval
+    - Natural language processing
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://cs.nyu.edu/~dsontag/
+    - http://www.med.nyu.edu/chibi/about-us/affiliate-faculty/david-sontag-phd
 ...

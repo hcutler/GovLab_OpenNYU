@@ -1,28 +1,33 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Andrew Caplin
+firstname: Andrew
+lastname: Caplin
+position: Silver Professor of Economics; Co-Director of the Center for Experimental Social Science (CESS);  and Deputy Director of the Institute for the Interdisciplinary Study of Decision Making (IISDM)
+department: Department of Economics
+school: College of Arts and Science
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: 212 998 8950
+    email: andrew.caplin@nyu.edu
+    website: <a href="http://128.122.11.92/caplin/">Website</a>
+    twitter: n/a
+    linkedin: <a href="https://www.linkedin.com/pub/andrew-caplin/26/a7/7a3">LinkedIn</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Combining theoretical and machine learning methods to optimize financial offers and financial decisions at household level
+    - Economic data engineering
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://128.122.11.92/caplin/
+    - http://cess.nyu.edu/caplin/teaching/
+    - https://www.linkedin.com/pub/andrew-caplin/26/a7/7a3
 ...

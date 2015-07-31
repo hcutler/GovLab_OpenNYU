@@ -1,28 +1,35 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Brian McFee
+firstname: Brian
+lastname: McFee
+position: Moore-Sloan Data Science Fellow ata science fellow
+department:  Center for Data Science and Music and Audio Research Lab 
+school: Courant Institute of Mathematical Sciences
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: +1 212 998 3067
+    email: brian.mcfee@nyu.edu
+    website: <a href="http://bmcfee.github.io/">Website</a>
+    twitter: n/a
+    linkedin: <a href="">Website</a>
+    facebook: <a href="">Website</a>
+    github: n/a
 
 skills:
-    - n/a
+    - Machine learning
+    - Music Information Retrieval
+    - Recommender Systems
+    - Multimedia Signal Processing
+
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://bmcfee.github.io/
+    - http://bmcfee.github.io/cv-brianmcfee.pdf
 ...

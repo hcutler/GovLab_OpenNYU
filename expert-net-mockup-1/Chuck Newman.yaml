@@ -1,28 +1,36 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Charles (Chuck) M. Newman
+firstname: Chuck
+lastname: Newman
+position: Silver Professor of Mathematics
+department: Department of Mathematics
+school: Courant Institute of Mathematical Sciences
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: (212) 998-3309
+    email: newman@cims.nyu.edu
+    website: <a href="http://math.nyu.edu/faculty/newman/">Website</a>
+    twitter: n/a
+    linkedin: n/a
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Probability Theory, especially interacting particle systems and percolation models
+    - Statistical Physics, especially Ising, spin glass and coarsening models Monte Carlo
+    - Analytic approaches to the above areas
+    - fields where probability mixes with physics, including metastability, spin glasses, the mathematics of food webs and the Ising model
+    - percolation theory including its connections to Schramm–Loewner evolutions and the Brownian web
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://math.nyu.edu/faculty/newman/
+    - http://math.nyu.edu/faculty/newman/cv.html
+    - https://en.wikipedia.org/wiki/Charles_M._Newman
+    - http://as.nyu.edu/object/CharlesNewman.html
 ...

@@ -1,28 +1,34 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Clifford M. Hurvich
+firstname: Clifford
+lastname: Hurvich
+position: Leonard N. Stern Professor of Statistics & Operations Research, Doctoral Coordinator of IOMS-Statistics
+department: Information, Operations and Management Science (IOMS)
+school:     Leonard N. Stern School of Business
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: (212) 998-0449
+    email: churvich@stern.nyu.edu
+    website: <a href="http://people.stern.nyu.edu/churvich/">Website</a>
+    twitter: n/a
+    linkedin: <a href="https://www.linkedin.com/in/budmishra">LinkedIn</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Time Series Analysis
+    - Model selection for parametric models as well as smoothing parameters and regularization parameters
+    - FFT-Based Algorithms for solving large ill-conditioned Toeplitz systems with applications to forecasting
+    - Point process methods with applications to high-frequency financial data
+    - Long-Range Dependence (scaling laws)
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://people.stern.nyu.edu/churvich/
 ...

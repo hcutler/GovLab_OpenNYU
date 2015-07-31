@@ -1,28 +1,35 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Brenden Lake
+firstname: Brenden
+lastname: Lake
+position: Moore-Sloan Data Science Fellow
+department: n/a
+school: Courant Institute of Mathematical Sciences
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: n/a
+    email: brenden@nyu.edu
+    website: <a href="http://cims.nyu.edu/~brenden/">Website</a>
+    twitter: n/a
+    linkedin: n/a
+    facebook: n/a
+    github: n/a 
 
 skills:
-    - n/a
+    - Computational Cognitive Science
+    - Structured Probabilistic Models
+    - One-Shot Learning
+    - Human-Inspired Machine Learning
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://cims.nyu.edu/~brenden/charactervideos.html
+    - http://cims.nyu.edu/~brenden/
+    - https://angel.co/brenden-lakes
 ...

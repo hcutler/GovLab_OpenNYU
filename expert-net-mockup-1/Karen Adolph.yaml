@@ -1,28 +1,32 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Karen E. Adolph
+firstname: Karen
+lastname: Adolph
+position: Professor in the Department of Psychology and the Center for Neuroscience
+department: Department of Psychology
+school: n/a
+institution: New York University
+gender: F
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: (212) 998-3552 office ; (212) 998-9058 lab
+    email: karen.adolph@nyu.edu
+    website: <a href="http://www.psych.nyu.edu/adolph/">Website</a>
+    twitter: n/a
+    linkedin: n/a
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Perceptual-motor learning and development
+    - Open video data sharing
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://www.psych.nyu.edu/adolph/
+    - http://www.psych.nyu.edu/adolph/files/AdolphVita.pdf
 ...

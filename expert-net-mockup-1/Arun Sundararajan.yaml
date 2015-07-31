@@ -1,28 +1,40 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Arun Sundararajan
+firstname: Arun
+lastname: Sundararajan
+position: Associate Professor of Information, Operations and Management Sciences; NEC Faculty Fellow; Doctoral Coordinator, IOMS-Information Systems
+department: Department of Information, Operations & Management Sciences (IOMS)
+school: Leonard N. Stern School of Business
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: New York
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: n/a
+    email: asundara@stern.nyu.edu
+    website: <a href="http://oz.stern.nyu.edu/">Website</a>
+    twitter: <a href="https://twitter.com/digitalarun">Twitter</a>
+    linkedin: <a href="https://www.linkedin.com/in/digitalarun">LinkedIn</a>
+    facebook: <a href="https://www.facebook.com/digitalarun">Facebook</a>
+    github: n/a
 
 skills:
-    - n/a
+    - Online privacy
+    - Social network analysis
+    - Computational social science
+    - Causal inference; Econometrics
+    - Text mining
+    - Network effects
+    - Digital rights management
+    - Price discrimination
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://www.stern.nyu.edu/faculty/bio/arun-sundararajan
+    - https://en.wikipedia.org/wiki/Arun_Sundararajan
+    - http://oz.stern.nyu.edu/
+
 ...

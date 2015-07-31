@@ -3,6 +3,7 @@ from urllib2 import urlopen
 import time
 from bs4 import BeautifulSoup
 import yaml
+from slugify import slugify
 import os
 import sys
 
@@ -12,13 +13,13 @@ with open("people-list.yaml", "r") as yaml_file:
     num = 0
     for e in entries:
         names.append(e.replace("- ", ""))
-        
         if "people" in e:
         	names.remove(e)
         elif "---" in e:
         	names.remove(e)
         else:
         	continue
+        # mySlug(n)
 
 def create_folders(dirname, path=os.getcwd()): # how to put the folder in a different (parent) directory?
     dirpath = os.path.join(path, dirname)
@@ -32,9 +33,10 @@ def create_folders(dirname, path=os.getcwd()): # how to put the folder in a diff
 
 def create_files(dirname):
     path = dirname
+    mySlug = lambda x: slugify(x, separator='_', to_lower=True)
     for n in names:
         n.replace("\n", "")
-        filename = path + '/' + n + '.yaml'
+        filename = path + '/' + mySlug(n) + '.yaml'
         populate_files(filename)
 
 def populate_files(fname):
@@ -64,7 +66,7 @@ def populate_files(fname):
             # outfile.write( yaml.safe_dump(person_list_unique,encoding='utf-8',default_flow_style=False,allow_unicode=True))
         # open(filename, 'a').close() # what does this do??
 
-create_folders("people-profiles")
+create_folders("people-profiles-2")
 
 
 

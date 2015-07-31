@@ -1,28 +1,43 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Andrew J. Majda
+firstname: Andrew
+lastname: Majda
+position: Morse Professor of Arts and Sciences, Professor of Mathematics and Atmosphere/Ocean Science
+department: Department of Mathematics and Climate, Atmosphere, Ocean Science (CAOS)
+school: Courant Institute of Mathematical Sciences
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: 212.998.3323
+    email: jonjon@cims.nyu.edu
+    website: <a href="http://www.math.nyu.edu/faculty/majda/">Website</a>
+    twitter: n/a
+    linkedin: n/a
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Modern applied mathematics
+    - merging asymptotic methods
+    - numerical methods
+    - physical reasoning and rigorous mathematical analysis
+    - partial differential equations
+    - shock waves
+    - combustion
+    - incompressible flow
+    - vortex dynamics
+    - atmospheric sciences
+    - cross-disciplinary research with modern applied mathematics in climate modeling and prediction
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://www.math.nyu.edu/faculty/majda/
+    - http://www.math.nyu.edu/faculty/majda/Updated%20Andrew%20Majda%20CV.pdf
+    - http://www.math.nyu.edu/faculty/majda/MajdaBio.html
+    - https://en.wikipedia.org/wiki/Andrew_Majda
 ...
