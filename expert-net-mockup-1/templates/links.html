@@ -8,12 +8,12 @@
     <meta charset="UTF-8">
 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
   </head>
-  
-    <div class="nav">
+
+    <div class="nav1">
       <div class="container">
         <ul class="pull-left">
           <li><a href="table-contents.html">Home</a></li>
-<!--           <li><a href="#">Search </a></li> -->
+          <li><a href="#">About</a></li>
         </ul>
         <ul class="pull-right">
           <li><a href="#">Sign Up</a></li>
@@ -24,7 +24,11 @@
     </div>
   
   <body>
-	<div class="directory-title">
+
+  <div class="jumbotron">
+  </div>
+	
+  <div class="directory-title">
    		<h1 id="home_people_list">ExpertNet People Directory</h1>
   </div>
 
@@ -38,26 +42,35 @@
 		</ul>
 	</div> -->
 
-<div class="people-list">
 <section class="container">
-    <input type="search" class="light-table-filter" data-table="order-table" placeholder="Filter">
+    
+    <div class="search-box">
+      <input type="search" class="light-table-filter" data-table="order-table" placeholder="Search a person">
+    </div>
 
+    <div class="people-list">
     <table class="order-table table">
         <thead>
             <tr>
                 <th>Name</th>
+                <th>What they know about...</th>
             </tr>
         </thead>
         <tbody>
         {% for p in people %}
           <tr>
             <td> <a href= "{{ p }}.html" > {{ p }} </a> </td>
-          </tr> 
+          </tr>
+          {% for skill in "{{ p }}.html".skills %}
+          <tr>
+            <td> {{ skill }} </td>
+          </tr>
+          {% endfor %}
         {% endfor %}
         </tbody>
     </table>
+    </div>
 </section>
-</div>
 
 <!-- javascript for table -->
 <script>

@@ -55,13 +55,12 @@ people_files = ['S. R. Srinivasa Varadhan.yaml', 'David W. Hogg.yaml', 'Juliana 
 # pages = ['index', 'links']
 people_list = "people-list.yaml"
 # function must have a template name
+
+
 def render_profile(filename):
-	# data_file = open("data.yaml", 'r')
-	# render_template('template.html', **data)
-	# data_file.close()
 
 	# with open("data.yaml", 'r') as data_file:
-	with open(filename, 'r') as data_file:		#not correct here!
+	with open(filename, 'r') as data_file:
 		template_data = load(data_file, Loader=Loader)
 
 		#-------------profile pages
@@ -69,13 +68,23 @@ def render_profile(filename):
 		profile = template.render(template_data)
 		output_name = filename.replace(".yaml","")
 
+		# ## also grab skills here
+		# for p in people_files:
+		# 	grab_skills(p)
 
 	with open("output/" + output_name + ".html", 'w') as output_file:
 		output_file.write(profile.encode('utf-8'))
 
+
+# def grab_skills(filename):
+# 	with open(filename, 'r') as data_file:	
+# 		template_data = load(data_file, Loader=Loader)
+
+
+
 def render_landing(filename):
 
-	with open(filename, 'r') as data_file:		#not correct here!
+	with open(filename, 'r') as data_file:
 		template_data = load(data_file, Loader=Loader)
 
 		#-------------landing page
@@ -94,6 +103,7 @@ def copy_css():
 		if basename.endswith(".css"):
 			# delete existing .css file in new directory
 			shutil.copy2(basename,dest)
+
 
 if __name__ == '__main__':
 	render_landing(people_list)
