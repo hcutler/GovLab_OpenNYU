@@ -1,28 +1,40 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Judith D. Goldberg, ScD
+firstname: Judith
+lastname: Goldberg
+position: Professor of Biostatistics
+department: Department of Population Health; Department of Environmental Medicine
+school: NYU School of Medicine
+institution: New York University
+gender:      F
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212-263-0314
+    email:      JD.Goldberg@nyumc.org
+    website:    n/a
+    twitter:    n/a
+    linkedin:   n/a
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Statistical methods for the design, conduct, and analysis of clinical and translational research
+    - Statistical methods for epidemiology Survival analysis Statistical methods for the analysis of observational data
+    - Statistical issues in medical screening 
+    - Survival Analysis
+    - Clinical Trials
+    - Methods for the Analysis of Screening and Diagnostic Tests
+    - Misclassification; Methods for the Analysis of Observational Data
+    - Statistical Methods in Epidemiology
+    - Statistical Genomics
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://www.med.nyu.edu/biosketch/goldbj04
+  - http://www.med.nyu.edu/pophealth/faculty/goldbj04
+  - http://www.researchgate.net/profile/Judith_Goldberg
 ...

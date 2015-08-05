@@ -1,28 +1,47 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Marc A. Scott
+firstname: Marc
+lastname: Scott
+position: Associate Professor of Educational Statistics
+department: Humanities and Social Sciences
+school: Steinhardt School of Culture, Education, and Human Development
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212-992-9407
+    email:      marc.scott@nyu.edu
+    website:    n/a
+    twitter:    n/a
+    linkedin:   <a href="https://www.linkedin.com/pub/marc-scott/45/554/b9">LinkedIn</a>
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Computationally Intensive Statistics (e.g. Applied Spatial Statistics)
+    - Categorical Data Models & Clustering Techniques
+    - Statistics in Social Science and Health Applications
+    - development of statistical models for longitudinal data
+    - Using latent variable technology
+    - development of covariance models
+    - examining recent trends in wage inequality
+    - medical histories
+    - models for longitudinal sequence analysis
+    - influence of the entire pathway (e.g., the timing of educational and employment spells and interruptions to these) on an outcome measure such as wages or degree completion
+    - examining low-wage labor markets to find similar structure in the career histories and education of workers to identify more and less successful career ladders
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://steinhardt.nyu.edu/faculty/Marc_A._Scott
+  - http://steinhardt.nyu.edu/m/art/faculty/Marc_A._Scott
+  - https://files.nyu.edu/ms184/public/
+  - http://steinhardt.nyu.edu/scmsAdmin/uploads/003/072/E10.2041_Fa09_Syl.pdf
+  - https://vimeo.com/84785542
+  - http://capseecenter.org/wp-content/uploads/2011/08/CV-Scott_Marc.pdf
+  - https://scholar.google.com/citations?user=AqwZtWcAAAAJ&hl=en
+
 ...

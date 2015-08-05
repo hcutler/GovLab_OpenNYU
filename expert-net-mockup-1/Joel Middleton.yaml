@@ -1,28 +1,39 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Joel Middleton
+firstname: Joel
+lastname: Middleton
+position: Assistant Professor of Political Science at University of California, Berkeley (UC Berkeley)
+department: The Charles and Louise Travers Department of Political Science
+school: College of Letters & Science
+institution: University of California, Berkeley (UC Berkeley)
+gender: M
 
 location:
-    city:
-    state:
+    city: Berkeley
+    state: CA
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: 202 431 1412 
+    email: joel.middleton@gmail.com
+    website: <a href="http://www.joelmiddleton.com/">Website</a>
+    twitter: n/a
+    linkedin: <a href="https://www.linkedin.com/pub/joel-middleton/2a/37a/505">LinkedIn</a>
+    facebook: <a href="https://www.facebook.com/joel.middleton.758?fref=ts">Facebook</a>
+    github: n/a
 
 skills:
-    - n/a
+    - Data-driven politics
+    - Design-based estimation and causal inference in randomized experiments
+    - Experiments in voter behavior and political persuasion
+    - survey sampling and design
+    - field experiments
+    - data analysis
+    - political decision making
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://www.joelmiddleton.com/
+    - http://www.joelmiddleton.com/uploads/4/3/1/4/4314860/20130829_cv.middleton_academic_11.pdf
+    - https://www.facebook.com/joel.middleton.758?fref=ts
+    - https://www.linkedin.com/pub/joel-middleton/2a/37a/505
 ...

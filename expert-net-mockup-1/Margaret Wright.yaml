@@ -1,28 +1,34 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Margaret H. Wright
+firstname: Margaret
+lastname: Wright
+position: Silver Professor of Computer Science
+department: Department of Computer Science and Engineering (Courant Institute of Mathematical Sciences)
+school: NYU Polytechnic School of Engineering (NYU Poly)
+institution: New York University
+gender:      F
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      (212) 998-3056
+    email:      mhw@cs.nyu.edu ; mhw@cims.nyu.edu
+    website:    <a href="http://www.cs.nyu.edu/mhw/">Website</a>
+    twitter:    n/a
+    linkedin:   n/a
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Optimization methods in science and engineering, especially derivative-free methods and constrained nonlinear optimization.
+    - linear algebra, scientific computing, and their applications
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://www.cs.nyu.edu/mhw/
+  - http://silverdialogues.fas.nyu.edu/docs/CP/308/wright_cv.pdf
+  - http://math.nyu.edu/people/profiles/WRIGHT_Margaret.html
+  - https://en.wikipedia.org/wiki/Margaret_H._Wright
 ...

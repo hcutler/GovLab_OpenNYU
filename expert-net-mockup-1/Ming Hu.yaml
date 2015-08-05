@@ -1,28 +1,43 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Ming Hu
+firstname: Ming
+lastname: Hu
+position: Assistant Professor of Biostatistics
+department: Department of Population Health (Division of Biostatistics)
+school: NYU School of Medicine
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212-263-3327
+    email:      ming.hu@nyumc.org
+    website:    <a href="https://sites.google.com/site/afhuming/">Website</a>
+    twitter:    n/a
+    linkedin:   <a href="https://www.linkedin.com/pub/ming-hu/1b/a08/103">LinkedIn</a>
+    facebook:   <a href="https://www.facebook.com/profile.php?id=2259117&fref=ts">Facebook</a>
+    github:     n/a
 
 skills:
-    - n/a
+    - Bayesian analysis in bioinformatics and statistical genetics, with particular focus on analyzing the next generation sequencing data
+    - cancer genomics
+    - Bayesian inference of spatial organizations of chromosomes using Hi-C data
+    - analyzing ChIP-Seq and single-cell RNA-Seq data
+    - alyzing next-generation DNA sequencing data and studying complex human diseases, such as asthma, chronic obstructive pulmonary diseases (COPD) and age-related macular degeneration (AMD)
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - https://sites.google.com/site/afhuming/
+  - https://scholar.google.com/citations?user=Wf7bdaEAAAAJ&hl=en
+  - https://sites.google.com/site/afhuming/publications
+  - https://sites.google.com/site/afhuming/software
+  - https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxhZmh1bWluZ3xneDozYmFiYjY3YzY1NWYxM2Ji
+  - http://www.med.nyu.edu/pophealth/faculty/hum03
+  - http://www.med.nyu.edu/biosketch/hum03/
+  - https://www.linkedin.com/pub/ming-hu/1b/a08/103
+  - https://www.facebook.com/profile.php?id=2259117&fref=ts
+
 ...

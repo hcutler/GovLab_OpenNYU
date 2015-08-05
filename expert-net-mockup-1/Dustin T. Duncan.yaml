@@ -1,28 +1,35 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Dustin T. Duncan
+firstname: Dustin
+lastname: Duncan
+position: Assistant Professor of Population Health
+department:  Department of Population Health 
+school: NYU School of Medicine
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: 646/501-2674 
+    email: Dustin.Duncan@nyumc.org
+    website: <a href="https://twitter.com/drdustinduncan">Twitter</a>
+    twitter: <a href="https://twitter.com/drdustinduncan">Twitter</a>
+    linkedin: n/a
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Social Epidemiology
+    - Spatial Epidemiology
+    - Neighborhoods
+    - Health Disparities
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://spatialepilab.org/meet-the-team/
+    - http://www.med.nyu.edu/biosketch/duncad05
+    - https://scholar.google.com/citations?user=3A_u8-sAAAAJ&hl=en&oi=ao
 ...

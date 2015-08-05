@@ -1,28 +1,46 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Panagiotis G. Ipeirotis (Panos)
+firstname: Panos
+lastname: Ipeirotis
+position: Associate Professor of Information, Operations and Management Sciences ; George A. Kellner Faculty Fellow
+department: Department of Information, Operations, and Management Sciences (IOMS)
+school: Leonard N. Stern School of Business
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      (212) 998-0803
+    email:      panos@stern.nyu.edu
+    website:    <a href="http://www.ipeirotis.com/">Website</a>
+    twitter:    <a href="https://twitter.com/ipeirotis">Twitter</a>
+    linkedin:   <a href="https://www.linkedin.com/in/ipeirotis">LinkedIn</a>
+    facebook:   <a href="https://www.facebook.com/ipeirotis">Facebook</a>
+    github:     <a href="https://github.com/ipeirotis">GitHub</a>
 
 skills:
-    - n/a
+    - Crowdsourcing
+    - Text mining
+    - Web mining
+    - Data mining
+    - Machine learning
+    - Databases
+    - Online Labor Markets
+    - Social Media Analytics
+    - Information Retrieval
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://www.stern.nyu.edu/faculty/bio/panagiotis-ipeirotis
+  - http://www.stern.nyu.edu/faculty/static/cv/cv_panos_20110722.pdf
+  - http://people.stern.nyu.edu/panos/
+  - https://scholar.google.com/citations?user=PA9La6oAAAAJ&hl=en
+  - http://www.behind-the-enemy-lines.com/
+  - https://twitter.com/ipeirotis
+  - https://www.linkedin.com/in/ipeirotis
+  - https://www.facebook.com/ipeirotis
+  - https://github.com/ipeirotis
 ...

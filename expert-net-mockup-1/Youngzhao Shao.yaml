@@ -1,28 +1,37 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Youngzhao Shao
+firstname: Youngzhao
+lastname: Shao
+position: Professor of Biostatistics and Deputy Director of NYU Cancer Institute Biostatistics Shared Resources (BSR)
+department: Department of Population Health (Division of Biostatistics); Department of Environmental Medicine 
+school: NYU School of Medicine
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212-263-0324
+    email:      Yongzhao.Shao@nyumc.org
+    website:    n/a
+    twitter:    n/a
+    linkedin:   <a href="https://www.linkedin.com/pub/shao-yongzhao/6b/a34/3a3">LinkedIn</a>
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Statistical methodology and applications to medical research
+    - independent methodological research in developing innovative statistical methods and study designs and as an investigator participating on a wide spectrum of NIH funded research projects on cancer studies and population and environmental health research.
+    - cancer research
+    - population and environmental health research
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://www.med.nyu.edu/pophealth/faculty/shaoy01
+  - http://www.med.nyu.edu/biosketch/shaoy01/
+  - http://www.researchgate.net/profile/Yongzhao_Shao
+  - http://www.genealogy.ams.org/id.php?id=40521
+  - https://www.linkedin.com/pub/shao-yongzhao/6b/a34/3a3
 ...

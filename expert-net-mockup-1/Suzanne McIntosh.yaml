@@ -1,28 +1,53 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Suzanne McIntosh
+firstname: Suzanne
+lastname: McIntosh
+position: Adjunct Professor of Computer Science and Engineering
+department: Department of Computer Science (Courant Institute of Mathematical Sciences)
+school: NYU Polytechnic School of Engineering (NYU Poly)
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      n/a
+    email:      mcintosh@cs.nyu.edu
+    website:    n/a
+    twitter:    n/a
+    linkedin:   <a href="https://www.linkedin.com/in/suzannekranjacmcintosh">LinkedIn</a>
+    facebook:   <a href="https://www.facebook.com/suzanne.mcintosh.121">Facebook</a>
+    github:     n/a
 
 skills:
-    - n/a
+    - High performance computing architectures
+    - Big Data analytics
+    - realtime systems
+    - secure software engineering
+    - virtualization
+    - Computer Science
+    - Distributed Systems
+    - Algorithms
+    - Cloud computing
+    - Hadoop
+    - Operating Systems
+    - Embedded Systems
+    - System architecture
+    - Machine Learning
+    - SQL
+    - Enterprise Architecture
+    - Integration
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - https://www.linkedin.com/in/suzannekranjacmcintosh
+  - http://cs.nyu.edu/courses/spring13/CSCI-GA.3033-008/
+  - http://engineering.nyu.edu/people/suzanne-mcintosh
+  - http://www.researchgate.net/profile/Suzanne_McIntosh/stats
+  - https://www.facebook.com/suzanne.mcintosh.121
+  - https://scholar.google.com/citations?user=PyjFqd0AAAAJ&hl=en
+  - http://math-nyu.academia.edu/SuzanneMcIntosh
+  - http://blog.cloudera.com/blog/2014/01/nyu-analytics-and-clouderas-quickstart-vm/
 ...

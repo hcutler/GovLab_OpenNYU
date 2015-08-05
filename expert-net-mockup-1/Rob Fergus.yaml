@@ -1,28 +1,40 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Rob Fergus
+firstname: Rob
+lastname: Fergus
+position: Associate Professor of Computer Science (on sabbatical)
+department: Department of Computer Science (Courant Institute of Mathematical Sciences) ; Vision, Learning and Graphics group
+school: College of Arts and Science
+institution: New York University
+gender: M
+
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      (212) 998-3353
+    email:      fergus@nyu.edu ; robfergus@fb.com
+    website:    <a href="http://cs.nyu.edu/~fergus/pmwiki/pmwiki.php">Website</a>
+    twitter:    n/a
+    linkedin:   n/a
+    facebook:   <a href="https://www.facebook.com/rob.fergus.75?fref=ts">Facebook</a>
+    github:     n/a
 
-skills:
-    - n/a
+skills: 
+    - Computer Vision
+    - Large scale object recognition
+    - Deep learning
+    - Machine learning
+    - Statistical methods in astronomy
+    - Computational photography
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://cs.nyu.edu/~fergus/pmwiki/pmwiki.php
+  - http://www.cs.nyu.edu/~fergus/cv.pdf
+  - https://research.facebook.com/researchers/1522313361316754/rob-fergus/
+  - https://scholar.google.com/citations?user=GgQ9GEkAAAAJ
+  - https://www.facebook.com/rob.fergus.75?fref=ts
 ...

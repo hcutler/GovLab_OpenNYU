@@ -1,28 +1,43 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Edward Melnick
+firstname: Edward
+lastname: Melnick
+position: Professor of Statistics;  Deputy Chair, Department of Information, Operations and Management Sciences
+department: Department of Statistics; Department of Information, Operations and Management Sciences (IOMS)
+school: Leonard N. Stern School of Business
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: (212)998-0444
+    email: emelnick@stern.nyu.edu
+    website: <a href="http://people.stern.nyu.edu/emelnick/">Website</a>
+    twitter: n/a
+    linkedin: n/a
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Analysis of time series data
+    - Developing time series models and their statistical properties
+    - Issues related to risk and especially to homeland security
+    - Forecasting
+    - Theory of Estimation
+    - Information Theory
+    - Quantitative Risk Analysis and Assessment
+    - Advanced Theory of Statistics
+    - Forecasting Time Series Data
+    - Introduction to the Theory of Probability
+    - Statistical Inference and Regression
+    - formulation of analytical models and the development of statistical methodology needed to analyze them
+    - order statistics
+    - the occurrence of low probability events that result with catastrophic consequences.
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://www.stern.nyu.edu/faculty/bio/edward-melnick
 ...

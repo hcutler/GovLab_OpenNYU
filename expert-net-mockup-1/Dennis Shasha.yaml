@@ -1,28 +1,36 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Dennis Shasha
+firstname: Dennis
+lastname: Shasha
+position: Professor of Computer Science
+department: Computer Science and Engineering (Courant Institute of Mathematical Sciences)
+school:     Polytechnic School of Engineering (NYU Poly)
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: Nwe York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:  212.998.3086 ; 212.998.3078
+    email: shasha@cs.nyu.edu
+    website: <a href="http://www.cs.nyu.edu/shasha/">Website</a>
+    twitter: n/a
+    linkedin: <a href="https://www.linkedin.com/pub/dennis-shasha/7/a56/a91">LinkedIn</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Computational methods in biology, finance, and wireless communication
+    - Pattern recognition; Querying in trees and graphs
+    - Pattern discovery in time series
+    - Cryptographic file systems
+    - Database tuning
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://www.cs.nyu.edu/shasha/
+    - https://en.wikipedia.org/wiki/Dennis_Shasha
+    - http://cs.nyu.edu/shasha/papers/resume.pdf
+    - https://www.linkedin.com/pub/dennis-shasha/7/a56/a91
 ...

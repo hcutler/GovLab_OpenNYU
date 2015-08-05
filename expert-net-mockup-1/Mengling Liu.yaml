@@ -1,28 +1,37 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Mengling Liu
+firstname: Mengling
+lastname:  Liu
+position: Associate Professor ; Interim Director of the Division of Biostatistics
+department: Department of Population Health (Division of Biostatistics) ; Department of Environmental Medicine
+school: NYU School of Medicine
+institution: New York University
+gender:      F
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212-263-6614
+    email:      mengling.liu@nyumc.org
+    website:    <a href="https://files.nyu.edu/lium05/public/">Website</a>
+    twitter:    n/a
+    linkedin:   <a href="https://www.linkedin.com/pub/mengling-liu/0/402/46b">LinkedIn</a>
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Semiparametric modeling and inference for survival data, including survival endpoint in joint analysis with longitudinal data
+    - Biomarkers and Breast Cancer Risk Prediction in Younger Women
+    - Integration and Evaluation of Pooled Cancer Studies with Heterogeneity
+    - Statistical Genetics and Clinical Trials
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://www.med.nyu.edu/pophealth/faculty/lium05
+  - http://www.med.nyu.edu/biosketch/lium05
+  - https://www.mskcc.org/event/seminar-mengling-liu
+  - https://www.linkedin.com/pub/mengling-liu/0/402/46b
+  - http://biostatistics.oxfordjournals.org/content/early/2013/04/30/biostatistics.kxt015
 ...

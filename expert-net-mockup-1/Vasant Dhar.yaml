@@ -1,28 +1,54 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Vasant Dhar
+firstname: Vasant
+lastname: Dhar
+position: Professor and Head of the Information Systems Group, Co-Director of the Center for Business Analytics
+department: Department of Information, Operations, and Management Sciences (IOMS)
+school: Leonard N. Stern School of Business
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212.998.0816 
+    email:      vdhar@stern.nyu.edu
+    website:    <a href="http://people.stern.nyu.edu/vdhar/">Website</a>
+    twitter:    <a href="https://twitter.com/VasantDhar">Twitter</a>
+    linkedin:   <a href="https://www.linkedin.com/pub/vasant-dhar/0/175/931">LinkedIn</a>
+    facebook:   <a href="https://www.facebook.com/pages/Vasant-Dhar/129794140497852?fref=ts">Facebook</a>
+    github:     n/a
 
 skills:
-    - n/a
+    - Data Science
+    - Predictive Analytics
+    - Prediction
+    - finance
+    - healthcare
+    - education
+    - Business- sports
+    - digital marketing
+    - Trading Strategies
+    - social media
+    - data mining
+    - machine learning
+    - big data
+    - small data
+    - artificial intelligence
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://people.stern.nyu.edu/vdhar/
+  - http://people.stern.nyu.edu/vdhar/DharVasant-CV.pdf
+  - http://www.stern.nyu.edu/faculty/bio/vasant-dhar
+  - https://twitter.com/VasantDhar
+  - https://www.linkedin.com/pub/vasant-dhar/0/175/931
+  - https://en.wikipedia.org/wiki/Vasant_Dhar
+  - https://www.facebook.com/pages/Vasant-Dhar/129794140497852?fref=ts
+  - http://www.liebertpub.com/global/pressrelease/vasant-dhar-director-of-nyu-sterns-center-for-business-analytics-appointed-editor-in-chief-of-big-data/1394/
+  - http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2086734
+  - https://www.youtube.com/watch?v=oI7H1Bk-3OI
+  - http://dblp.uni-trier.de/pers/hd/d/Dhar:Vasant
 ...

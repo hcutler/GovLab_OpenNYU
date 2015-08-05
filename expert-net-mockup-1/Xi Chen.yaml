@@ -1,28 +1,51 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Xi Chen
+firstname: Xi
+lastname: Chen
+position: Assistant Professor of Information, Operations and Management Sciences
+department: Department of Information, Operations and Management Sciences (IOMS)
+school: Leonard N. Stern School of Business
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212-998-4017
+    email:      xchen3@stern.nyu.edu ; xichen@nyu.edu
+    website:    <a href="http://people.stern.nyu.edu/xchen3/">Website</a>
+    twitter:    n/a
+    linkedin:   <a href="https://www.linkedin.com/pub/xi-chen/10/b27/900">LinkedIn</a>
+    facebook:   <a href="https://www.facebook.com/xi.chen.5095">Facebook</a>
+    github:     n/a
 
 skills:
-    - n/a
+    - Machine learning
+    - High-dimensional statistics
+    - Optimization under Uncertainty
+    - Operations Research
+    - Statistics for Business Control, Regression, and Forecasting Models
+    - Regression and Forecasting Models
+    - Stochastic modeling
+    - Machine learning and Statistical Inference for high-dimensional and structured data analysis
+    - Optimization methods and theory for large-scale and high-dimensional data analysis.
+    - Learning from collective intelligence
+    - statistical learning and online decision making for crowdsourcing
+    - Operations research/management problems, such as the optimal network design in process flexibility, approximate dynamic programming and revenue management.
+    - Applications to web text mining
+    - recommendation systems
+    - financial data anlaysis
+    - environmental data analysis
+    - bioinformatics
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://www.stern.nyu.edu/faculty/bio/xi-chen
+  - http://people.stern.nyu.edu/xchen3/Xi_Chen_CV.pdf
+  - https://www.linkedin.com/pub/xi-chen/10/b27/900
+  - https://www.facebook.com/xi.chen.5095
+  - http://www.cs.cmu.edu/~./xichen/
+  - http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2400768
 ...

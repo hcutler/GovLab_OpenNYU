@@ -1,28 +1,37 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Esteban Tabak
+firstname: Esteban
+lastname: Tabak
+position: Professor of Mathematics, Chair of the Department of Mathematics
+department: Department of Mathematics
+school: Courant Institute of Mathematical Sciences
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: 212.998.3088
+    email: tabak@cims.nyu.edu
+    website: <a href="http://www.math.nyu.edu/faculty/tabak/">Website</a>
+    twitter: n/a
+    linkedin: <a href="http://vgc.poly.edu/~juliana/">Website</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Density estimation
+    - Dimensional reduction
+    - Classification
+    - Data-driven optimal transport
+    - Bio-statistics
+    - Data-based medical diagnosis
+    - Applied Mathematics and Physics
+    - Fluid Dynamics, Atmosphere and Ocean Science
+    - Data Analysis
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
 ...

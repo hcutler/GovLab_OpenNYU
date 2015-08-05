@@ -1,28 +1,32 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: David Cai
+firstname: David
+lastname: Cai
+position: Professor of Mathematics and Neural Science
+department: Department of Mathematics
+school: Courant Institute for the Mathematical Sciences
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    email: cai @ cims.nyu.edu
+    phone: 212-998-3310
+    website: <a href="http://www.math.nyu.edu/~cai/">Website</a>
+    twitter: a href="https://www.linkedin.com/pub/michael-laver/8a/630/289">LinkedIn
+    linkedin: n/a
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Theoretical and computational neuroscience
+    - Applied dynamical systems
+    - Stochastic processe
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - https://shanghai.nyu.edu/academics/faculty/david-cai
 ...

@@ -1,28 +1,47 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Lakshminarayanan Subramanian
+firstname: Lakshminarayanan
+lastname: Subramanian
+position: Associate Professor of Computer Science
+department: Department of Computer Science and Engineering (Courant Institute of Mathematical Sciences)
+school: NYU Polytechnic School of Engineering (NYU Poly)
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212 998 3485
+    email:      lakshmi@cs.nyu.edu
+    website:    <a href="http://www.cs.nyu.edu/~lakshmi/Home.html">Website</a>
+    twitter:    n/a
+    linkedin:   <a href="https://www.linkedin.com/pub/lakshminarayanan-subramanian/34/799/b65">LinkedIn</a>
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Big Data Analytics
+    - Networked Systems
+    - Computing for Development
+    - Wireless and Mobile Systems
+    - Connectivity and Web access
+    - Crowdsourcing
+    - Mobile security
+    - Networks and Markets
+    - Inference
+    - Data privacy
+    - bridging the digital divide
+    - developing innovative computing solutions to address real-world societal challenges, especially those pertaining to enhancing global development
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://www.cs.nyu.edu/~lakshmi/Home.html
+  - http://www.cs.nyu.edu/~lakshmi/cv.pdf
+  - https://cs.nyu.edu/~lakshmi/Lakshmi/Home.html
+  - https://cs.nyu.edu/~lakshmi/Lakshmi/bio.html
+  - https://angel.co/lakshminarayanan-subramanian
+  - https://scholar.google.com/citations?user=sNeVyqoAAAAJ&hl=en
+  - http://dblp.uni-trier.de/pers/hd/s/Subramanian:Lakshminarayanan
 ...

@@ -1,28 +1,45 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: David J. Heeger
+firstname: David
+lastname: Heeger
+position: Professor of Psychology and Neural Science
+department: Department of Psychoogy
+school: College of Arts and Science
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: 212-998-7868
+    email: david.heeger@nyu.edu
+    website: <a href="http://www.cns.nyu.edu/~david/">Website</a>
+    twitter: n/a
+    linkedin: <a href="https://www.linkedin.com/profile/view?id=76911333&trk=nav_responsive_tab_profile">LinkedIn</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Computational neuroscience (developing and testing computational theories of brain function)
+    - Characterizing how the activity of large numbers of neurons represent sensory stimuli, motor actions, and cognitive states
+    - Dimensionality reduction; Vision and image processing
+    - Statistics of images
+    - Bayesian estimation, inference, and prediction
+    - neuroimaging
+    - Autism
+    - Neuroethics and NeuroLaw
+    - Functional Brain Imaging
+    - Human Vision/Psychophysics
+    - Electrophysiology
+    - Image Processing, Computer Graphics, and Computer Vision
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://www.cns.nyu.edu/~david/
+    - http://www.cns.nyu.edu/~david/heeger-vita-short.pdf
+    - https://en.wikipedia.org/wiki/David_Heeger
+    - https://www.linkedin.com/profile/view?id=76911333&trk=nav_responsive_tab_profile
+    - http://www.cns.nyu.edu/heegerlab/?page=research
 ...

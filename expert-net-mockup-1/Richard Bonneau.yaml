@@ -1,28 +1,47 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Richard A. Bonneau
+firstname: Richard
+lastname: Bonneau
+position: Associate Professor of Biology and Computer Science
+department: Department of Biology (Courant Institute of Mathematical Sciences)
+school: College of Arts of Science
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      (212) 992-9516
+    email:      bonneau@nyu.edu
+    website:    <a href="http://www.cims.nyu.edu/~kolm/">Website</a>
+    twitter:    <a href="https://twitter.com/richbonneaunyu">Twitter</a>
+    linkedin:   <a href="https://www.linkedin.com/pub/rich-bonneau/3/867/45b">LinkedIn</a>
+    facebook:   <a href="https://www.facebook.com/richard.bonneau1">Facebook</a>
+    github:     n/a
 
 skills:
-    - n/a
+    - Systems biology and protein modeling
+    - protein structure prediction
+    - network inference
+    - bioinformatics
+    - systems biology
+    - learning networks from functional genomics data
+    - predicting and designing protein and peptoid structure
+    - experimental psychologists to apply methods for learning network structure from time series to social media time series data (using Twitter, online blogs about politics, and Facebook as initial data sources)
+    - computational biology
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://biology.as.nyu.edu/object/RichardBonneau
+  - http://bonneaulab.bio.nyu.edu/
+  - http://www.ncbi.nlm.nih.gov/pubmed/?term=(Bonneau+R%5BAuthor%5D+OR+Bonneau+R%5BInvestigator%5D)+NOT+Bonneau+RH%5BAuthor%5D
+  - https://scholar.google.com/citations?hl=en&user=Wq8XTykAAAAJ&view_op=list_works&pagesize=100
+  - https://en.wikipedia.org/wiki/Richard_Bonneau
+  - http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1709593
+  - https://twitter.com/richbonneaunyu
+  - https://www.facebook.com/richard.bonneau1
+  - https://www.linkedin.com/pub/rich-bonneau/3/867/45b
+  - https://www.linkedin.com/pub/rich-bonneau/45/68b/721
 ...

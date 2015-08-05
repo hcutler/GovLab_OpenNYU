@@ -1,28 +1,37 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Peter F. Halpin
+firstname: Peter
+lastname: Halpin
+position:  Associate Professor of Applied Statistics
+department: Department of Humanities and Social Sciences
+school: Steinhardt School of Culture, Education, and Human Development
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      (212) 998-5197 
+    email:      peter.halpin@nyu.edu
+    website:    <a href="https://files.nyu.edu/pfh3/public/">Website</a>
+    twitter:    n/a
+    linkedin:   n/a
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Psychometrics
+    - Educational data mining
+    - Computer supported collaborative learning and assessment
+    - Scalable methods for non-stationary time series
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - https://files.nyu.edu/pfh3/public/
+  - https://files.nyu.edu/pfh3/public/Halpin_CV.pdf
+  - http://steinhardt.nyu.edu/faculty/Peter_F._Halpin
+  - http://steinhardt.nyu.edu/priism/community/facultyreflections
+  - http://steinhardt.nyu.edu/site/ataglance/2013/03/halpin-kieffer-teacher-effectiveness.html
 ...

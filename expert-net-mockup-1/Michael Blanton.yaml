@@ -1,28 +1,43 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Michael Blanton
+firstname: Michael
+lastname: Blanton
+position: Associate Professor in the Department of Physics
+department: Department of Physics
+school: College of Arts and Science
+institution: New York University
+gender:      F
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212-998-7770
+    email:      blanton@physics.nyu.edu ; michael.blanton@nyu.edu ; blanton@nyu.edu
+    website:    <a href="http://cosmo.nyu.edu/mb144/">Website</a>
+    twitter:    n/a
+    linkedin:   n/a
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Astronomical spectroscopy and image analysis
+    - clustering statistics in large-scale galaxy maps
+    - demographics of the galaxy population
+    - Realistic Models of Galaxy Formation and Large-Scale Structure Statistics
+    - Astrophysics
+    - formation and evolution of galaxies, by confronting theoretical predictions with results from large observational data sets
+    - the population of extremely low luminosity galaxies, using data from the Magellan 6.5m telescopes, the Kitt Peak National Observatory 4m telescope, the Green Bank Telescope, Arecibo, and the Very Large Array
+    - the change in the galaxy population since early epochs, using a new instrument for obtaining huge numbers of high redshifts -- a low dispersion prism on the IMACS instrument at Magellan
+    - the large-scale structure in the galaxy distribution, using huge maps of the Universe (helping to create) such as the Sloan Digital Sky Survey --- and its successors
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://cosmo.nyu.edu/mb144/
+  - http://physics.as.nyu.edu/object/MichaelBlanton.html
+  - http://www.ccpp.nyu.edu/michael_blanton.html
+  - http://howdy.physics.nyu.edu/index.php/Michael_Blanton
+  - http://cosmo.nyu.edu/blanton/cv.pdf
+  - http://cosmo.nyu.edu/blanton/thesis/index.html
 ...

@@ -1,28 +1,47 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Leslie F. Greengard
+firstname: Leslie
+lastname: Greengard
+position: Professor of Mathematics
+department: Department of Mathematics (Courant Institute of Mathematical Sciences)
+school: NYU Polytechnic School of Engineering (NYU Poly)
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      (212) 998-3306
+    email:      greengard@cims.nyu.edu
+    website:    <a href="https://www.linkedin.com/pub/leslie-greengard/0/177/45b">LinkedIn</a>
+    twitter:    n/a
+    linkedin:   <a href="https://www.linkedin.com/pub/leslie-greengard/0/177/45b">LinkedIn</a>
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Quantitative methods in biology and medicine
+    - Scientific computing
+    - Electromagnetics
+    - Acoustics
+    - Fluid dynamics
+    - Solid mechanics
+    - fast algorithms
+    - fast multipole method (FMM)
+    - adaptive methods
+    - integral equations
+    - potential theory
+    - electromagnetics
+    - computational chemistry
+    - computational biology
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://www.math.nyu.edu/faculty/greengar/
+  - https://en.wikipedia.org/wiki/Leslie_Greengard
+  - https://www.simonsfoundation.org/features/foundation-news/leslie-greengard-named-director-simons-center-for-data-analysis-2/
+  - https://scholar.google.com/citations?user=lW-MnjMAAAAJ
+  - https://twitter.com/search?q=Leslie%20Greengard&src=tyah
 ...

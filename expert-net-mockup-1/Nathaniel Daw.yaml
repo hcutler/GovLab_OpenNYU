@@ -1,28 +1,47 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Nathaniel Daw
+firstname: Nathaniel
+lastname: Daw
+position: Associate Professor of Neural Science and Psychology; Affiliated Associate Professor of Computer Science
+department: Center for Neural Science and Department of Psychology; Department of Computer Science
+school: College of Arts and Science ; NYU Polytechnic School of Engineering (NYU Poly)
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212-998-2104
+    email:      daw@cns.nyu.edu
+    website:    <a href="http://www.cns.nyu.edu/~daw/">Website</a>
+    twitter:    <a href="https://twitter.com/nathanieldaw">Twitter</a>
+    linkedin:   n/a
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Quantitative methods in neuroscience
+    - Computational neuroscience
+    - Machine learning
+    - Data analysis
+    - how people and animals learn from trial and error (and from rewards and punishments) to make decisions, combining computational, neural, and behavioral perspectives
+    - understanding how subjects cope with computationally demanding decision situations, notably choice under uncertainty and in tasks (such as mazes or chess) requiring many decisions to be made sequentially
+    - using computational frameworks of reinforcement learning and Bayesian decision theory as a basis for analyzing and understanding biological decision making
+    - Computational models in neuroscientific experiments
+    - interactions between multiple decision-making systems
+    - Learning and neuromodulation
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://www.cns.nyu.edu/~daw/
+  - http://www.cns.nyu.edu/~daw/cv-new.pdf
+  - http://www.psych.nyu.edu/daw/
+  - http://www.cns.nyu.edu/corefaculty/Daw.php
+  - https://scholar.google.com/citations?user=BxlScrEAAAAJ&hl=en
+  - http://molbio.princeton.edu/events/archive/event/189-Daw
+  - http://computationalpsychiatry.org/nathaniel-daw/
+  - https://twitter.com/nathanieldaw
+  - http://www.shanghai-neuroeconomics.org/daw-page/
 ...

@@ -1,28 +1,41 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Kyle Cranmer
+firstname: Kyle
+lastname: Cranmer
+position: Assistant Professor of Physics
+department: Department of Physics
+school: College of Arts and Science
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212-998-7736
+    email:      kyle.cranmer@nyu.edu
+    website:    <a href="http://theoryandpractice.org/">Website</a>
+    twitter:    <a href="https://twitter.com/KyleCranmer">Twitter</a>
+    linkedin:   <a href="https://www.linkedin.com/in/kylecranmer">LinkedIn</a>
+    facebook:   <a href="https://www.facebook.com/kyle.cranmer?fref=ts">Facebook</a>
+    github:     <a href="https://github.com/cranmer">GitHub</a>
 
 skills:
-    - n/a
+    - Collaborative statistical modeling
+    - Statistical methods in particle physics
+    - Data preservation and open access
+    - Digital publishing
+    - Data-analysis
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://physics.as.nyu.edu/object/kylecranmer.html
+  - https://en.wikipedia.org/wiki/Kyle_Cranmer
+  - http://datascience.nyu.edu/data-science-professor-profiles-kyle-cranmer-physics/
+  - http://physics.nyu.edu/experimentalparticle/
+  - http://theoryandpractice.org/
+  - https://twitter.com/KyleCranmer
+  - https://www.linkedin.com/in/kylecranmer
+  - https://github.com/cranmer
 ...

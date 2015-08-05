@@ -1,28 +1,41 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Jonathan Goodman
+firstname: Jonathan
+lastname: Goodman
+position: Professor of Mathematics
+department: Courant Institute of Mathematical Sciences
+school: Faculty of Arts & Science
+institution: New York University
+gender:      F
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      (212) 998-3326
+    email:      goodman@cims.nyu.edu
+    website:    <a href="http://www.math.nyu.edu/faculty/goodman/">Work website</a> ; <a href="http://jonathangoodman.net/">Personal website</a>
+    twitter:    n/a
+    linkedin:   <a href="https://www.linkedin.com/pub/juliana-freire/0/5b6/a58">LinkedIn</a>
+    facebook:   <a href="https://www.facebook.com/profile.php?id=817571&fref=ts">Facebook</a>
+    github:     n/a
 
 skills:
-    - n/a
+    - Monte Carlo methods
+    - Bayesian methods in astrophysics and finance
+    - Stochastic and deterministic optimization
+    - Large time behavior of viscous planar shock profiles
+    - Anisotropic adaptive refinement in finite elements
+    - Large time behavior of linear and nonlinear waves in multidimensional lattices
+    - A nonlinear parabilic evolution equation
+    - Some problems in finance
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://www.math.nyu.edu/faculty/goodman/
+  - http://jonathangoodman.net/
+  - http://www.jonathangoodman.net/homebrew.html
+  - http://www.math.nyu.edu/faculty/goodman/teaching/teaching.html
+  - https://www.facebook.com/profile.php?id=817571&fref=ts
 ...

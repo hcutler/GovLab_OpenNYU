@@ -1,28 +1,64 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Robert V. Kohn
+firstname: Robert
+lastname: Kohn
+position: Professor of Mathematics
+department: Department of Mathematics (Courant Institute of Mathematical Sciences)
+school: College of Arts and Science
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212-998-3217
+    email:      kohn@cims.nyu.edu
+    website:    <a href="http://math.nyu.edu/faculty/kohn/">Website</a>
+    twitter:    n/a
+    linkedin:   n/a
+    facebook:   <a href="https://www.facebook.com/pages/Robert-V-Kohn/486723384770623?fref=ts">Facebook</a>
+    github:     n/a
 
 skills:
-    - n/a
+    - Mathematical aspects of materials science
+    - cloaking
+    - coarsening due to energydriven motion
+    - composite materials
+    - effective moduli
+    - epitaxial growth
+    - interface motion laws
+    - martensitic transformation
+    - micromagnetics
+    - photonics
+    - pattern formation due to energy minimization
+    - polycrystal plasticity
+    - shape–memory materials
+    - structural optimization
+    - surface energy as a selection mechanism
+    - thermally-activated switching
+    - wrinkling of thin elastic sheets
+    - Nonlinear partial differential equations and nonconvex variational problems
+    - bounds and extremal microstructures for composites
+    - electric current tomography
+    - homogenization
+    - r–convergence
+    - image segmentation
+    - motion by curvature
+    - relaxation of nonconvex
+    - variational problems
+    - self-similarity in solutions of nonlinear evolution equations
+    - singularly perturbed variational problems
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://math.nyu.edu/faculty/kohn/
+  - http://www.math.nyu.edu/faculty/kohn/cv-jan2014.pdf
+  - http://www.math.nyu.edu/faculty/kohn/pde_finance.html
+  - https://de.wikipedia.org/wiki/Robert_V._Kohn
+  - http://www.mathunion.org/Videos/ICM2006/muster.php?kohn2006
+  - http://www.ratemyprofessors.com/ShowRatings.jsp?tid=788151
+  - http://genealogy.math.ndsu.nodak.edu/id.php?id=17379
+  - http://www.math.sissa.it/users/robert-v-kohn
 ...

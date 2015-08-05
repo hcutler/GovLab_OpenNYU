@@ -1,28 +1,37 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Jinyang Li (李金扬)
+firstname: Jinyang
+lastname: Li
+position: Associate Professor
+department: Department of Computer Science and Engineering
+school: Polytechnic School of Engineering (NYU Poly)
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: 212-9983098
+    email: jinyang@cs.nyu.edu
+    website: <a href="http://www.news.cs.nyu.edu/~jinyang/">Website</a>
+    twitter: n/a
+    linkedin: <a href="https://www.linkedin.com/pub/jinyang-li/4/1b1/794">LinkedIn</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Semiparametric modeling and inference for survival data including survival endpoint in joint analysis with longitudinal data
+    - Distributed systems
+    - operating systems
+    - wireless networks
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://www.news.cs.nyu.edu/~jinyang/
+    - http://www.news.cs.nyu.edu/~jinyang/cv.pdf
+    - https://www.linkedin.com/pub/jinyang-li/4/1b1/794
+    - http://pdos.csail.mit.edu/~jinyang/
+    - https://scholar.google.com/citations?user=MrWIWNwAAAAJ&hl=en
 ...

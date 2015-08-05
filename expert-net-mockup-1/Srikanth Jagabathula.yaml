@@ -1,28 +1,41 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Srikanth Jagabathula
+firstname: Srikanth
+lastname: Jagabathula
+position: Assistant Professor of Information, Operations & Management Sciences
+department: Department of Information, Operations & Management Sciences (IOMS)
+school: Leonard N. Stern School of Business
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212 998 0839
+    email:      sjagabat@stern.nyu.edu
+    website:    <a href="http://people.stern.nyu.edu/sjagabat/">Website</a>
+    twitter:    n/a
+    linkedin:   <a href="https://www.linkedin.com/pub/srikanth-jagabathula/a/a19/286">LinkedIn</a>
+    facebook:   <a href="https://www.facebook.com/srikanth.jagabathula?fref=ts">Facebook</a>
+    github:     n/a
 
 skills:
-    - n/a
+    - intersection of Operations Management, Marketing, and Machine Learning
+    - building data-driven models that inform operational decisions of businesses
+    - predictive choice modeling
+    - fitting choice models and then solving the resulting assortment optimization decision problems.
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://www.stern.nyu.edu/faculty/bio/srikanth-jagabathula
+  - http://people.stern.nyu.edu/sjagabat/
+  - https://www.linkedin.com/pub/srikanth-jagabathula/a/a19/286
+  - http://indiatoday.intoday.in/education/story/indian-researcher-srikanth-jagabathula-awarded-with-500000-dollars/1/419395.html
+  - http://www.marketwatch.com/story/nyu-stern-professor-srikanth-jagabathula-receives-national-science-foundation-career-award-2015-02-11
+  - https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=srikanth+jagabathula+mit
+  - http://web.mit.edu/devavrat/www/Srikanth-Thesis.pdf
+  - https://www.facebook.com/srikanth.jagabathula?fref=ts
+  - https://twitter.com/search?q=Srikanth%20Jagabathula&src=typd
 ...

@@ -1,28 +1,35 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Ying Lu
+firstname: Ying
+lastname: Lu
+position: Assistant Professor of Applied Statistics (Biostatistics)
+department: Department of Humanities and Social Sciences
+school: Steinhardt School of Culture, Education, and Human Development
+institution: New York University
+gender:      F
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212-998-5560
+    email:      yl46@nyu.edu
+    website:    n/a
+    twitter:    n/a
+    linkedin:   <a href="https://www.linkedin.com/pub/ying-lu/12/3a7/577">LinkedIn</a>
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Quantitative methodology in social and behavioral sciences
+    - Applications in demography
+    - Health and political behavior
+    - General statistical methodology such as model selection and hypothesis testing
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://steinhardt.nyu.edu/faculty/ying_lu
+  - https://www.linkedin.com/pub/ying-lu/12/3a7/577
+  - http://steinhardt.nyu.edu/research_alliance/research/projects/gifted_talented
 ...

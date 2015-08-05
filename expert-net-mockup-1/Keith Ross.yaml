@@ -1,28 +1,41 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Keith W. Ross
+firstname: Keith
+lastname: Ross
+position: Dean of Engineering and Computer Science, NYU Shanghai; Leonard J. Shustek Chair Professor in Computer Science, NYU Poly
+department: Department of Computer Science and Engineering
+school: NYU Shanghai; NYU Polytechnic School of Engineering (NYU Poly)
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   Shanghai
+    state:  China
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      646.997.3859
+    email:      keithwross@nyu.edu
+    website:    <a href="https://sites.google.com/a/nyu.edu/keithross/">Website</a>
+    twitter:    n/a
+    linkedin:   n/a
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Data-driven privacy analysis
+    - online social networks
+    - applied probability
+    - Markov decision processes
+    - Computer Networking
+    - Network Security
+    - Privacy
+    - Teaching fundamentals of Computer Science
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - https://sites.google.com/a/nyu.edu/keithross/
+  - http://engineering.nyu.edu/people/keith-w-ross
+  - https://shanghai.nyu.edu/leadership-render/nojs/353
+  - http://www.ratemyprofessors.com/ShowRatings.jsp?tid=233352
+  - https://scholar.google.com/citations?user=RhUcYmQAAAAJ
 ...

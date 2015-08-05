@@ -1,28 +1,35 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Daniela Huppenkothen
+firstname: Daniela
+lastname: Huppenkothen
+position: Moore-Sloan Data Science Fellow
+department: n/a
+school: Courant Institute of Mathematical Sciences
+institution: New York University
+gender: F
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: n/a
+    email:  n/a
+    website: <a href="http://www.huppenkothen.org/">Website</a>
+    twitter: <a href="https://twitter.com/tiana_athriel">Twitter</a>
+    linkedin: <a href="https://www.linkedin.com/pub/daniela-huppenkothen/7b/4a9/b4">LinkedIn</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - High-energy Astrophysics
+    - Black Holes and Neutron Stars
+    - Fourier Methods
+    - Statistical Methods for Astronomical Time Series
+    - applying recent advances in statistics and computer science to data from X-ray and gamma-ray telescopes
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - https://www.linkedin.com/pub/daniela-huppenkothen/7b/4a9/b4
+    - http://www.huppenkothen.org/
+    - http://www.huppenkothen.org/cv/4580697138
 ...

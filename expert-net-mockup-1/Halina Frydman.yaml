@@ -1,28 +1,41 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Halina Frydman
+firstname: Halina
+lastname: Frydman
+position: Professor of Statistics and Operations Research
+department: Department of Statistics
+school: Leonard N. Stern School of Business
+institution: New York University
+gender: F
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: (212) 998-0453
+    email: hfrydman@stern.nyu.edu
+    website: <a href="http://people.stern.nyu.edu/hfrydman/">Website</a>
+    twitter: n/a
+    linkedin: <a href="https://www.linkedin.com/pub/halina-frydman/13/470/b66">LinkedIn</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Statistics
+    - Survival analysis
+    - Stochastic models in finance and labor economics
+    - Corporate credit ratings migration
+    - Mixtures of Markov chains
+    - Estimation in continuous and discrete time Markov chains from incomplete data
+    - Modeling intensities of corporate default and other credit events
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - https://www.linkedin.com/pub/halina-frydman/13/470/b66
+    - http://www.stern.nyu.edu/faculty/bio/halina-frydman#.URU8eLVn7T0.email
+    - http://people.stern.nyu.edu/hfrydman/
+    - http://people.stern.nyu.edu/hfrydman/HFrydmanCV_Spr2012.pdf
+    - http://www.researchgate.net/profile/Halina_Frydman
+    - http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1058390
 ...

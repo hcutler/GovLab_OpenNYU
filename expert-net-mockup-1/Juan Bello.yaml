@@ -1,28 +1,40 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Juan Bello
+firstname: Juan
+lastname: Bello
+position: Associate Professor of Music and Music Education
+department: Department of Music and Performing Arts Professions; Department of Electrical and Computer Engineering
+school: NYU Steinhardt School of Culture, Education, and Human Development; NYU Polytechnic School of Engineering (NYU Poly)
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212 998 5736
+    email:      jpbello@nyu.edu
+    website:    <a href="https://files.nyu.edu/jb2843/public/Home.html">Website</a>
+    twitter:    n/a
+    linkedin:   n/a
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Computer-based analysis of musical signals and its application to music information retrieval
+    - Digital audio effects and interactive music systems
+    - Machine learning
+    - Data mining
+    - Audio signal processing
+    - Digital Signal Processing
+    - Computer Audition
+    - Music and audio research
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://steinhardt.nyu.edu/faculty/Juan_Pablo_Bello
+  - https://files.nyu.edu/jb2843/public/Home.html
+  - https://files.nyu.edu/jb2843/public/Teaching.html
+  - https://files.nyu.edu/jb2843/public/Group.html
 ...

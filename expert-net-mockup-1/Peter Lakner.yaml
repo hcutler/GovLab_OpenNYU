@@ -1,28 +1,42 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Peter Lakner
+firstname: Peter
+lastname: Lakner
+position: Associate Professor of Statistics and Operations Research
+department: Department of Information, Operations, and Management Sciences (IOMS)
+school: Leonard N. Stern School of Business
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      (212)998-0476
+    email:      plakner@stern.nyu.edu
+    website:    <a href="http://people.stern.nyu.edu/plakner/">Website</a>
+    twitter:    n/a
+    linkedin:   <a href"https://www.linkedin.com/pub/peter-lakner/8/22a/482">LinkedIn</a>
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Probability
+    - Stochastic optimization and control
+    - Applied Stochastic Processes in Finance
+    - Stochastic Models in Finance
+    - Continuous Time Processes
+    - Statistics and Data Analysis 
+
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://people.stern.nyu.edu/plakner/
+  - http://pages.stern.nyu.edu/~plakner/resume6_01.pdf
+  - http://www.stern.nyu.edu/faculty/bio/peter-lakner
+  - https://www.linkedin.com/pub/peter-lakner/8/22a/482
+  - http://www.ratemyprofessors.com/AddRating.jsp?tid=1812219
+  - https://nyustern.campusbolt.com/professor/peter-lakner/
+  - http://www.researchgate.net/profile/Peter_Lakner
 ...

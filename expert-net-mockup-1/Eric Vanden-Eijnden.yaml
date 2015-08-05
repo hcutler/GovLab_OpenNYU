@@ -1,28 +1,31 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Eric Vanden-Eijnden
+firstname: Eric
+lastname:  Vanden-Eijnden
+position: Professor of Mathematics
+department: Department of Mathematics
+school: Courant Institute of Mathematical Sciences
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: (212) 998-3154 
+    email: eve2@cims.nyu.edu ; eve2@courant.nyu.edu
+    website: <a href="http://cims.nyu.edu/~eve2/">Website</a>
+    twitter: n/a
+    linkedin: n/a
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Development of mathematical tools and numerical methods for the analysis of dynamical system which are both stochastic and multiscale.
+    - theoretical physics
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://cims.nyu.edu/~eve2/cv.pdf
 ...

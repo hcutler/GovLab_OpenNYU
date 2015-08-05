@@ -1,28 +1,39 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Michael Purugganan
+firstname: Michael
+lastname: Purugganan
+position: Dorothy Schiff Professor of Genomics, Professor of Biology, Dean for Science
+department: Department of Biology
+school: College of Arts and Science
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      (212) 992-9628
+    email:      mp132@nyu.edu
+    website:    <a href="http://biology.as.nyu.edu/object/MichaelPurugganan">Website</a>
+    twitter:    n/a
+    linkedin:   <a href="https://www.linkedin.com/pub/michael-purugganan/9/b91/330">LinkedIn</a>
+    facebook:   <a href="https://www.facebook.com/michael.purugganan?fref=ts">Facebook</a>
+    github:     n/a
 
 skills:
-    - n/a
+    - Evolutionary and ecological genomics of plant adaptations
+    - Genetics of Plant Domestication
+    - The Evolution of Multicellularity and Social Behaviour
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://biology.as.nyu.edu/object/MichaelPurugganan
+  - http://puruggananlab.bio.nyu.edu/
+  - https://www.linkedin.com/pub/michael-purugganan/9/b91/330
+  - https://en.wikipedia.org/wiki/Michael_Purugganan
+  - http://www.ncbi.nlm.nih.gov/pubmed/?term=(Purugganan+M%5BAuthor%5D+OR+Purugganan+M%5BInvestigator%5D)+NOT+retraction%5BAll+Fields%5D
+  - https://scholar.google.com/citations?hl=en&user=bcCYp-0AAAAJ&view_op=list_works&pagesize=100
+  - https://www.facebook.com/michael.purugganan?fref=ts
+  - http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1044369
 ...

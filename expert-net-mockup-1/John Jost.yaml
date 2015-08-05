@@ -1,28 +1,37 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: John Jost
+firstname: John
+lastname: Jost
+position: Professor of Psychology and Politics; Co-Director of the Center for Social and Political Behavior
+department: Department of Psychology
+school: College of Arts and Science
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: (212) 998-7665
+    email: john.jost@nyu.edu
+    website: n/a
+    twitter: <a href="https://twitter.com/JohnJost1">Twitter</a>
+    linkedin: n/a
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Experimental social psychology
+    - Public opinion survey research methods
+    - Quantitative and qualitative analysis of behavioral data in the social sciences
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://www.psych.nyu.edu/jost/
+    - http://jost.socialpsychology.org/
+    - https://thesituationist.wordpress.com/2009/07/19/bloggingheads-tv-percontations-system-justification-theory/
+    - https://scholar.google.com/citations?user=Zh1vTeMAAAAJ&hl=en
+    - http://politics.as.nyu.edu/object/johnjost.html
+    - http://www.ratemyprofessors.com/ShowRatings.jsp?tid=806264
 ...

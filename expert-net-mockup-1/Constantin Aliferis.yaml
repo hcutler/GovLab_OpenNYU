@@ -1,28 +1,36 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Constantin Aliferis
+firstname: Constantin
+lastname: Aliferis
+position: Director or NYU Center for Health Informatics and Bioinformatics; Director of Biomedical Informatics Cores of NYU Clinical and Translational Science Institute and the NYU Cancer Center; Associate Professor, Department of Pathology
+department: NU Center for Health Informatics and Bioinformatics; Department of Pathology
+school: NYU School of Medicine (NYU Langone Medical Center)
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: 212-263-5281
+    email: constantin.aliferis@nyumc.org
+    website: n/a
+    twitter: n/a
+    linkedin: <a href="https://www.linkedin.com/pub/constantin-aliferis/3/6b/901">LinkedIn</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Machine learning in medicine and biology
+    - Causality discovery
+    - Data analytics methodology
+    - Citation analysis
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://www.med.nyu.edu/chibi/about-us/faculty/constantin-aliferis-md-ms-phd-fellow-american-college-medical-informatics
+    - http://www.med.nyu.edu/chibi/sites/default/files/chibi/Aliferis_CV.pdf
+    - http://www.researchgate.net/profile/Constantin_Aliferis
+    - https://www.linkedin.com/pub/constantin-aliferis/3/6b/901
 ...

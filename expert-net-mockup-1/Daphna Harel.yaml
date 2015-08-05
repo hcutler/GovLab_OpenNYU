@@ -1,28 +1,37 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Daphna Harel
+firstname: Daphna
+lastname: Harel
+position: Assistant Professor of Applied Statistics
+department: Department of Humanities and Social Sciences in the Professions
+school: Steinhardt School of Culture, Education and Human Development
+institution: New York University
+gender: F
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: (212) 992-6701 
+    email:  Daphna.Harel@nyu.edu
+    website: n/a
+    twitter: n/a
+    linkedin: <a href="https://www.linkedin.com/pub/daphna-harel/41/b94/61">LinkedIn</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Psychometrics
+    - Item response theory
+    - Measurement in the applied health sciences
+    - Model misspecification
+    - Crowdsourcing
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://steinhardt.nyu.edu/faculty/Daphna_Harel
+    - http://steinhardt.nyu.edu/scmsAdmin/uploads/008/474/HarelCVSpring2015.pdf
+    - http://independent.academia.edu/DaphnaHarel
+    - https://www.linkedin.com/pub/daphna-harel/41/b94/61
 ...

@@ -1,28 +1,37 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Laura Noren
+firstname: Laura
+lastname: Noren
+position: Moore-Sloan Data Science Fellow; Adjunct Professor of Media, Culture, and Communications and Stern School of Business
+department: Department of Media, Culture and Communication
+school: Steinhardt School of Culture, Education, and Human Development; Leonard N. Stern School of Business
+institution: New York University
+gender:      F
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      646-302-2152
+    email:      laura.noren@nyu.edu ; lnoren@stern.nyu.edu
+    website:    <a href="https://about.me/lauranoren">Website</a>
+    twitter:    <a href="https://twitter.com/digitalflaneuse">Twitter</a>
+    linkedin:   n/a
+    facebook:   <a href="https://www.facebook.com/laura.noren?fref=ts">Facebook</a>
+    github:     n/a
 
 skills:
-    - n/a
+    - Workplace Ethnography especially Small Group Collaboration, Professionalization, and Fields
+    - Social media communities
+    - Research methods
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - https://ipk.nyu.edu/contacts/ipk-scholars/47-laura-noren
+  - http://nyu.academia.edu/LauraNoren
+  - http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1642472
+  - http://nyupress.org/books/9780814795897/
+  - http://socialmediacollective.org/author/0flaneuse0/
+  - http://w4.stern.nyu.edu/uc/research/jobs/id/RS000152
 ...

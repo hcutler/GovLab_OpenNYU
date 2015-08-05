@@ -1,28 +1,43 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Gloria Coruzzi
+firstname: Gloria
+lastname: Coruzzi
+position: Carroll & Milton Petrie Professor; Professor of Biology
+department: Department of Biology ; NYU Center for Genomics and Systems Biology (The Coruzzi Lab)
+school: College of Arts and Science
+institution: New York University
+gender: F
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: 212-998-3963
+    email: gloria.coruzzi@nyu.edu
+    website: <a href="">Website</a>
+    twitter: <a href="">Website</a>
+    linkedin: <a href="">Website</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Gene network analysis
+    - Data mining and visualization
+    - Systems biology and phylogenomics
+    - Plant Systems Biology
+    - combines genomic, bioinformatic, and system biology approaches to identify gene networks involved in biological regulatory mechanisms controlling nitrogen use and the evolution of seeds
+    - evolutionary genomics
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://coruzzilab.bio.nyu.edu/
+    - http://coruzzilab.bio.nyu.edu/wordpress/?page_id=5
+    - http://coruzzilab.bio.nyu.edu/wordpress/wp-content/uploads/2015/01/Coruzzi-cv-1.2015.for-posting.pdf
+    - https://en.wikipedia.org/wiki/Gloria_M._Coruzzi
+    - http://www.wiley-vch.de/publish/en/books/bySubjectLS00/bySubSubjectLS90/1-4051-6283-X/?sID=0pnmjdrkqu3ccmrampi0iv7jlw
+    - http://biology.as.nyu.edu/object/GloriaCoruzzi.html
+    - http://www.ncbi.nlm.nih.gov/pubmed/?term=Coruzzi+G%5BAuthor%5D+AND+(plant+OR+genome)
+    - https://scholar.google.com/citations?user=UVuQeJIAAAAJ&hl=en
+    - http://wps.aw.com/bc_campbell_biology_10_oa/244/62525/16006405.cw/index.html
 ...

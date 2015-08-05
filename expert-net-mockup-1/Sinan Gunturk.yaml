@@ -1,28 +1,42 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: C. Sinan Gunturk
+firstname: Sinan
+lastname: Gunturk
+position: Associate Professor of Mathematics
+department: Department of Mathematics (Courant Institute of Mathematical Sciences)
+school: College of Arts and Science
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      (212) 998-3246
+    email:      gunturk@cims.nyu.edu
+    website:    <a href="http://www.cims.nyu.edu/~gunturk/">Website</a>
+    twitter:    n/a
+    linkedin:   n/a
+    facebook:   <a href="https://www.facebook.com/sinan.gunturk.9?fref=ts">Facebook</a>
+    github:     n/a
 
 skills:
-    - n/a
+    - Mathematics of analog-to-digital conversion
+    - Sampling theory in signal processing and harmonic analysis
+    - Sparse representations and redundant representations of data in signal processing
+    - Approximation theory and harmonic analysis methods in data compression
+    - Harmonic Analysis
+    - efficient digital representations of analog signals
+    - quantization theory in information theory
+    - approximation power of sigma-delta modulation schemes in the classical setting of bandlimited functions
+    - building a quantization theory for compressive sampling
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://www.cims.nyu.edu/~gunturk/
+  - http://math.nyu.edu/people/profiles/GUNTURK_Sinan.html
+  - https://www.facebook.com/sinan.gunturk.9?fref=ts
+  - https://www.cims.nyu.edu/~gunturk/publications_CSG.html
+  - http://jointmathematicsmeetings.org/amsmtgs/2168_abstracts/1106-94-1968.pdf
 ...

@@ -1,28 +1,41 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Sharon L. Weinberg
+firstname: Sharon
+lastname: Weinberg
+position: Professor of Applied Statistics and Psychology
+department: Department of Humanities and Social Sciences
+school: Steinhardt School of Culture, Education, and Human Development
+institution: New York University
+gender:      F
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:   212-998-2373
+    email:      sharon.weinberg@nyu.edu
+    website:    n/a
+    twitter:    n/a
+    linkedin:   n/a
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Application of quantitative methods in the social sciences
+    - Statistics
+    - General Linear Model
+    - Multivariate Analysis
+    - Factor Analysis
+    - Multidimensional Scaling
+    - Research and Survey Design
+    - Computer Applications
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://steinhardt.nyu.edu/faculty/Sharon_L._Weinberg
+  - https://steinhardt.nyu.edu/scmsAdmin/uploads/006/513/Weinberg%20CV%20--%2007-07-11.pdf
+  - http://populationcenter.as.nyu.edu/object/soc.cassr.Weinberg
+  - http://www.jfew.org/?page=boardmember_bio_weis
+  - http://www.cambridge.org/us/academic/subjects/statistics-probability/statistics-social-sciences-behavioural-sciences-and-law/statistics-using-spss-integrative-approach-2nd-edition
 ...

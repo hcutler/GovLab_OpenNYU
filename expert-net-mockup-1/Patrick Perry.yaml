@@ -1,28 +1,46 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Patrick O. Perry
+firstname: Patrick
+lastname: Perry
+position: Assistant Professor of Information, Operations and Management Sciences
+department: Department of Information, Operations and Management Sciences (IOMS)
+school: Leonard N. Stern School of Business
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      n/a
+    email:      pperry@stern.nyu.edu
+    website:    <a href="http://ptrckprry.com/">Website</a>
+    twitter:    <a href="https://twitter.com/ptrckprry">Twitter</a>
+    linkedin:   n/a
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Modern multivariate statistics
+    - Network and text data
+    - Statistical computing
+    - Emerging data sources
+    - High-dimensional latent factor models
+    - Cross-validation for unsupervised learning
+    - Modeling and inference of network dynamics
+    - Social and economic networks
+    - Regression and Forecasting Models
+    - Statistics for Business Control and Regression and Forecasting Models
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://www.stern.nyu.edu/faculty/bio/patrick-perry
+  - http://ptrckprry.com/
+  - http://www.iq.harvard.edu/people/patrick-perry
+  - http://dimacs.rutgers.edu/Workshops/DynamicNetwork/Slides/perry.pdf
+  - https://scholar.google.com/citations?user=JyABkTwAAAAJ&hl=en
+  - https://www.myedu.com/NYU/Perry/professor/4795546/
+  - http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1747375
+  - https://twitter.com/ptrckprry
 ...

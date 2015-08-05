@@ -1,28 +1,38 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Nathaniel (Neal) Beck
+firstname: Neal
+lastname: Beck
+position: Professor of Politics
+department:  Wilf Family Department of Politics
+school: College of Arts and Science
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      (212) 998-8535
+    email:      nathaniel.beck@nyu.edu
+    website:    <a href="http://www.nyu.edu/gsas/dept/politics/faculty/beck/beck_web/">Website</a>
+    twitter:    n/a
+    linkedin:   n/a
+    facebook:   n/a
+    github:     n/a
 
 skills:
-    - n/a
+    - Political methodology, more specifically longitudinal data and non-linear methods
+    - Political Economy
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://www.nyu.edu/classes/nbeck/
+  - http://www.nyu.edu/gsas/dept/politics/faculty/beck/beck_home.html
+  - http://politics.as.nyu.edu/object/
+  - https://dl.dropboxusercontent.com/u/11527809/beck_cv_current.pdf
+  - https://dataverse.harvard.edu/dataverse/nbeck
+  - http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1696690
+  - https://scholar.google.com/citations?user=KxlIGYoAAAAJ&hl=en
+  - http://www.ratemyteachers.com/nathaniel-beck/3561489-ts
 ...

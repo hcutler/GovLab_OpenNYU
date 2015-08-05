@@ -1,28 +1,45 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Petter Nils Kolm
+firstname: Petter
+lastname: Kolm
+position: Director of the Mathematics in Finance M.S. Program, Clinical Associate Professor of Mathematics
+department: Department of Mathematics (Courant Institute of Mathematical Sciences)
+school: Faculty of Arts & Science
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      (212) 998-4855 
+    email:      kolm@cims.nyu.edu 
+    website:    <a href="http://www.cims.nyu.edu/~kolm/">Website</a>
+    twitter:    <a href="https://twitter.com/PetterKolm">Twitter</a>
+    linkedin:   <a href="https://www.linkedin.com/in/petterkolm">LinkedIn</a>
+    facebook:   <a href="https://www.facebook.com/petter.kolm">Facebook</a>
+    github:     n/a
 
 skills:
-    - n/a
+    - Algorithmic and quantitative trading strategies
+    - Econometrics
+    - Data exploration
+    - Forecasting models
+    - High frequency trading (HFT)
+    - Portfolio construction
+    - Portfolio optimization
+    - Transaction costs
+    - Risk management
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://www.cims.nyu.edu/~kolm/
+  - https://twitter.com/PetterKolm
+  - https://www.linkedin.com/in/petterkolm
+  - https://www.facebook.com/petter.kolm
+  - http://math.nyu.edu/people/profiles/KOLM_Petter.html
+  - http://www.thestreet.com/story/10395354/1/how-nyu-plans-to-create-the-super-quant.html
+  - http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2472768
+  - http://www.researchgate.net/profile/Petter_Kolm
 ...

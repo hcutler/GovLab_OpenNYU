@@ -1,28 +1,49 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Todd M. Gureckis
+firstname: Todd
+lastname: Gureckis
+position: Associate Professor of Psychology
+department: Department of Psychology 
+school: College of Arts and Science
+institution: New York University
+gender:      M
 
 location:
-    city:
-    state:
+    city:   New York
+    state:  NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone:      212.998-3794
+    email:     todd.gureckis@nyu.edu 
+    website:    <a href="http://www.cims.nyu.edu/~kolm/">Website</a>
+    twitter:    <a href="https://twitter.com/todd_gureckis">Twitter</a>
+    linkedin:   n/a
+    facebook:   <a href="https://www.facebook.com/todd.gureckis?fref=ts">Facebook</a>
+    github:     <a href="https://github.com/gureckis">GitHub</a>
 
 skills:
-    - n/a
+    - Computational cognitive science
+    - Unsupervised learning
+    - Active Learning
+    - Human decision making
+    - decision processes
+    - Research applications of crowdsourcing
+    - human learning
+    - memory
+    - combination of behavioral studies and computational modeling
+    - modeling approaches inspired by research in computer science on machine learning and artificial intelligence
+    - efforts to understand how people actively explore their environment when learning, how they generate and test hypotheses about the world, how they learn abstract concepts from concrete examples, and the influence of concept learning on perception.
+
 sources:
-    - n/a
+  - http://cds.nyu.edu/people/
+  - http://gureckislab.org/
+  - http://gureckislab.org/~gureckis/
+  - http://gureckislab.org/~gureckis/cv.pdf
+  - http://psych.nyu.edu/gureckis/
+  - http://gureckislab.org/blog/?author=1
+  - https://scholar.google.com/citations?user=4wcx4HMAAAAJ&hl=en
+  - https://twitter.com/todd_gureckis
+  - https://github.com/gureckis">GitHub
+  - https://www.facebook.com/todd.gureckis?fref=ts
+
 ...

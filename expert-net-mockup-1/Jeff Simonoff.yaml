@@ -1,28 +1,39 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Jeff Simonoff
+firstname: Jeff
+lastname: Simonoff
+position: Professor of Statistics
+department: Department of Statistics
+school:  Leonard N. Stern School of Business
+institution: New York University
+gender: M
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: (212) 998-0452
+    email: jsimonof@stern.nyu.edu 
+    website: n/a
+    twitter: n/a
+    linkedin: <a href="http://people.stern.nyu.edu/jsimonof/">Website</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Applications of statistics
+    - Statistical methodology
+    - Statistical properties of modern data analytic methods
+    - categorical data
+    - outlier identification and robust estimation
+    - smoothing methods
+    - computer intensive statistical methodology
+    - applications of statistics to business problems
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://www.stern.nyu.edu/faculty/bio/jeffrey-simonoff
+    - http://www.stern.nyu.edu/faculty/static/cv/cv_jsimonof_20130117.pdf
+    - http://people.stern.nyu.edu/jsimonof/
 ...

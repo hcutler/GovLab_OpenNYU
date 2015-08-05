@@ -1,28 +1,44 @@
 ---
-fullname:
-firstname:
-lastname:
-position:
-department:
-school:
-institution:
-gender:
+fullname: Jan Bluestein
+firstname: Jan
+lastname: Bluestein
+position: Professor of Health Policy and Associate Professor of Medicine
+department: Department of Health Policy and Medicine (???)
+school: Robert F. Wagner Graduate School of Public Service; NYU School of Medicine
+institution: New York University
+gender: F
 
 location:
-    city:
-    state:
+    city: New York
+    state: NY
 
 contact:
-    phone:
-    email:
-    website:
-    twitter:
-    linkedin:
-    facebook:
-    github:
+    phone: (212) 998-7427
+    email: jan.blustein@nyu.edu
+    website: n/a
+    twitter: n/a
+    linkedin: <a href="https://www.linkedin.com/pub/jan-blustein/31/837/a04">LinkedIn</a>
+    facebook: n/a
+    github: n/a
 
 skills:
-    - n/a
+    - Quantitative methods in policy research
+    - Health service equity
+    - chronic illness
+    - the Medicare program
+    - statistics
+    - program evaluation
+    - research methods
+    - Health management
+    - Health Policy
+    - inequality
+    - Law & regulation
+    - Public & Non-profit organizations
+    - Race, Class, Gender, & Diversity
+    - Social policy
+
 sources:
-    - n/a
+    - http://cds.nyu.edu/people/
+    - http://wagner.nyu.edu/blustein
+    - http://www.med.nyu.edu/biosketch/jb81
 ...
