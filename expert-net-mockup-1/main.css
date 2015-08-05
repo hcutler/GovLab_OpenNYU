@@ -34,30 +34,30 @@
   color: #0a;
 }
 
-.neighborhood-guides {
+.profile-content {
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
 }
 
-.neighborhood-guides h1 {
+.profile-content h1 {
     color: #393c3d;
     font-size: 24px;
 }
 
-.neighborhood-guides h3 {
+.profile-content h3 {
     font-size: 15px;
     margin-bottom: 13px;
 
 }
 
-.neighborhood-guides .container .row .col-md-5 .location {
+.profile-content .container .row .col-md-5 .location {
     border: 1px solid #000;
     margin-left: 65px;
     margin-right: 60px;
     border-radius: 10px;
 }
 
-.neighborhood-guides .container .row .col-md-5 .contact {
+.profile-content .container .row .col-md-5 .contact {
     border: 1px solid #000;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -67,29 +67,30 @@
 /*    padding: 90px 50px;*/
 }
 
-.neighborhood-guides .container .row .col-md-4 .name {
+.profile-content .container .row .col-md-4 .name {
     border: 2px solid #000;
     margin: 20px;
     border-radius: 10px;
 }
 
-.neighborhood-guides .container .row .col-md-4 .position {
+.profile-content .container .row .col-md-4 .position {
     border: 1px solid #000;
     margin: 20px;
     border-radius: 10px;
 }
 
 
-.neighborhood-guides .container .row .col-md-4 .skills-expertise {
+.profile-content .container .row .col-md-4 .skills-expertise {
     border: 1px solid #000;
     margin: 20px;
     border-radius: 10px;
 }
 
-.neighborhood-guides .container .row .col-md-4 .bibliography {
+.profile-content .container .row .col-md-4 .bibliography {
     border: 1px solid #000;
     margin: 20px;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 
@@ -134,7 +135,15 @@
   margin-right: auto;
 }
 
-.people-list ul li {
+/*.people-list ul li {
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  padding-left: 40%;
+
+}*/
+
+.people-list {
   margin-left: auto;
   margin-right: auto;
   list-style: none;

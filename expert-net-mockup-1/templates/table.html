@@ -1,68 +1,117 @@
-<table class="pure-table">
+<!-- <table class="pure-table">
+
+<script src="/templates/table.js"></script>
+
     <thead>
         <tr>
             <th>#</th>
-            <th>Make</th>
-            <th>Model</th>
-            <th>Year</th>
+            <th>Name</th>
         </tr>
     </thead>
 
     <tbody>
         <tr class="pure-table-odd">
             <td>1</td>
-            <td>Honda</td>
-            <td>Accord</td>
-            <td>2009</td>
+            <td>S. R. Srinivasa Varadhan</td>
         </tr>
 
         <tr>
             <td>2</td>
-            <td>Toyota</td>
-            <td>Camry</td>
-            <td>2012</td>
+            <td>David W. Hogg</td>
         </tr>
 
         <tr class="pure-table-odd">
             <td>3</td>
-            <td>Hyundai</td>
-            <td>Elantra</td>
-            <td>2010</td>
+            <td>Juliana Freire</td>
         </tr>
 
         <tr>
             <td>4</td>
-            <td>Ford</td>
-            <td>Focus</td>
-            <td>2008</td>
-        </tr>
-
-        <tr class="pure-table-odd">
-            <td>5</td>
-            <td>Nissan</td>
-            <td>Sentra</td>
-            <td>2011</td>
-        </tr>
-
-        <tr>
-            <td>6</td>
-            <td>BMW</td>
-            <td>M3</td>
-            <td>2009</td>
-        </tr>
-
-        <tr class="pure-table-odd">
-            <td>7</td>
-            <td>Honda</td>
-            <td>Civic</td>
-            <td>2010</td>
-        </tr>
-
-        <tr>
-            <td>8</td>
-            <td>Kia</td>
-            <td>Soul</td>
-            <td>2010</td>
+            <td>Roy Lowrance</td>
         </tr>
     </tbody>
-</table>
+</table> -->
+
+<section class="container">
+
+    <h2>Light Javascript Table Filter</h2>
+
+    <input type="search" class="light-table-filter" data-table="order-table" placeholder="Filter">
+
+    <table class="order-table table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>john.doe@gmail.com</td>
+                <td>0123456789</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <td>Jane Vanda</td>
+                <td>jane@vanda.org</td>
+                <td>9876543210</td>
+                <td>349</td>
+            </tr>
+            <tr>
+                <td>Alferd Penyworth</td>
+                <td>alfred@batman.com</td>
+                <td>6754328901</td>
+                <td>199</td>
+            </tr>
+        </tbody>
+    </table>
+
+</section>
+
+
+<script>
+
+(function(document) {
+    'use strict';
+
+    var LightTableFilter = (function(Arr) {
+
+        var _input;
+
+        function _onInputEvent(e) {
+            _input = e.target;
+            var tables = document.getElementsByClassName(_input.getAttribute('data-table'));
+            Arr.forEach.call(tables, function(table) {
+                Arr.forEach.call(table.tBodies, function(tbody) {
+                    Arr.forEach.call(tbody.rows, _filter);
+                });
+            });
+        }
+
+        function _filter(row) {
+            var text = row.textContent.toLowerCase(), val = _input.value.toLowerCase();
+            row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
+        }
+
+        return {
+            init: function() {
+                var inputs = document.getElementsByClassName('light-table-filter');
+                Arr.forEach.call(inputs, function(input) {
+                    input.oninput = _onInputEvent;
+                });
+            }
+        };
+    })(Array.prototype);
+
+    document.addEventListener('readystatechange', function() {
+        if (document.readyState === 'complete') {
+            LightTableFilter.init();
+        }
+    });
+
+})(document);
+
+</script>
