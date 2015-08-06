@@ -26,21 +26,20 @@
   height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Lato';
 }
 
 .jumbotron .container {
   position: relative;
   top:100px;
-  font-family: 'Lato';
 }
 
 .jumbotron h1 {
   color: #0a;
   font-size: 48px;  
-  font-family: 'Lato';
-  font-weight: bold;
-  text-transform: uppercase;
+  /*font-family: 'Lato';*/
+/*  font-family: 'Gloria Hallelujah';*/
+  /*font-weight: bold;
+  text-transform: uppercase;*/
 }
 
 .jumbotron p {
@@ -210,7 +209,6 @@
 }
 
 /* Nav
-
 
 
 }
