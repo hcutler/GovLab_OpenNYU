@@ -44,7 +44,6 @@ people_files = ['S. R. Srinivasa Varadhan.yaml', 'David W. Hogg.yaml', 'Juliana 
 'Daniela Huppenkothen.yaml']
 # 'andreas_muller.yaml']
 
-
 # u'Gérard Ben Arous.yaml', 
 # u'Rohit Deo.yaml', 
 #  u'Steven Koonin.yaml',
@@ -53,8 +52,7 @@ people_files = ['S. R. Srinivasa Varadhan.yaml', 'David W. Hogg.yaml', 'Juliana 
 #  u'Andreas Müller.yaml',
 
 # pages = ['index', 'links']
-people_list = "people-list.yaml"
-# function must have a template name
+people_list = ["people-list.yaml"]
 
 
 def render_profile(filename):
@@ -68,10 +66,6 @@ def render_profile(filename):
 		profile = template.render(template_data)
 		output_name = filename.replace(".yaml","")
 
-		# ## also grab skills here
-		# for p in people_files:
-		# 	grab_skills(p)
-
 	with open("output/" + output_name + ".html", 'w') as output_file:
 		output_file.write(profile.encode('utf-8'))
 
@@ -80,18 +74,36 @@ def render_profile(filename):
 # 	with open(filename, 'r') as data_file:	
 # 		template_data = load(data_file, Loader=Loader)
 
+# 		landing = env.get_template("links.html")
+# 		tblcontents = landing.render(template_data)
+# 		output_name = "table-contents"
+
+def render_landing(filearray):
+
+	# with open(filename, 'r') as data_file:
+	# 	template_data = load(data_file, Loader=Loader)
+
+	# 	#-------------landing page
+	# 	landing = env.get_template("links.html")
+	# 	tblcontents = landing.render(template_data)
+	# 	output_name = "table-contents"
 
 
-def render_landing(filename):
+	# with open("output/" + output_name + ".html", 'w') as output_file:
+	# 	output_file.write(tblcontents.encode('utf8'))
 
-	with open(filename, 'r') as data_file:
-		template_data = load(data_file, Loader=Loader)
+	landing = env.get_template("links.html")
+	output_name = "table-contents"
+	template_data = False
 
-		#-------------landing page
-		landing = env.get_template("links.html")
-		tblcontents = landing.render(template_data)
-		output_name = "table-contents"
+	for f in filearray:
+		with open(f, 'r') as data_file:
+			template_data = load(data_file, Loader=Loader)
 
+			#-------------landing page
+			# landing = env.get_template("links.html")
+			tblcontents = landing.render(template_data)
+			# output_name = "table-contents"
 
 	with open("output/" + output_name + ".html", 'w') as output_file:
 		output_file.write(tblcontents.encode('utf8'))
@@ -106,16 +118,11 @@ def copy_css():
 
 
 if __name__ == '__main__':
-	render_landing(people_list)
-	for p in people_files:
-		render_profile(p)
-	copy_css()
-    # copy_links_file()
+	render_landing(people_files)
 
-			# # main.css -> main_output.css
-			# for char in basename:
-			# 	i = len(basename) - 4
-			# 	oldbase = basename[0:i]
-			# 	newbase = basename[0:i] + '_output'
-			# 	newname = basename.replace(oldbase, newbase)
-			# 	basename = newname
+	for p in people_files:
+		# render_landing(p)
+		# render_landing(p)
+		render_profile(p)
+
+	copy_css()

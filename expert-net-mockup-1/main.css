@@ -1,17 +1,23 @@
 .nav1 a {
   color: #5a5a5a;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: bold;
-  padding: 14px 10px;
+  padding-top: 10px;
+  padding: 14px 20px;
   text-transform: uppercase;
+  font-family: 'Lato';
+
 }
 
 .nav1 li {
+  padding-top: 10px;
   display: inline;
+  font-family: 'Lato';
 }
 
 .profile-content {
   margin-top: 30px;
+  font-family: 'Lato';
 
 }
 
@@ -20,37 +26,51 @@
   height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Lato';
 }
 
 .jumbotron .container {
   position: relative;
   top:100px;
+  font-family: 'Lato';
 }
 
 .jumbotron h1 {
   color: #0a;
   font-size: 48px;  
-  font-family: 'Shift', sans-serif;
+  font-family: 'Lato';
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .jumbotron p {
   font-size: 20px;
   color: #0a;
+  text-transform: uppercase;
 }
 
 .profile-content {
-    background-color: #efefef;
+    background-color: #efefef
     border-bottom: 1px solid #dbdbdb;
 }
 
-.profile-content h1 {
+.profile-content h3 {
     color: #393c3d;
+    font-family: 'Lato';
     font-size: 24px;
 }
 
-.profile-content h3 {
+.profile-content .container .row .col-md-5 .thumbnail {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.profile-content h3 p {
     font-size: 15px;
+    font-family: 'Lato';
     margin-bottom: 13px;
 
 }
@@ -76,12 +96,17 @@
     border: 2px solid #000;
     margin: 20px;
     border-radius: 10px;
+    font-family: 'Lato';
+    text-align: center;
+    text-transform: uppercase;
+
 }
 
 .profile-content .container .row .col-md-4 .position {
     border: 1px solid #000;
     margin: 20px;
     border-radius: 10px;
+    font-family: 'Lato';
 }
 
 
@@ -89,6 +114,7 @@
     border: 1px solid #000;
     margin: 20px;
     border-radius: 10px;
+    font-family: 'Lato';
 }
 
 .profile-content .container .row .col-md-4 .bibliography {
@@ -96,6 +122,7 @@
     margin: 20px;
     border-radius: 10px;
     overflow: hidden;
+    font-family: 'Lato';
 }
 
 
@@ -105,13 +132,15 @@
   width: 70%;
 /*  border:3px solid #8AC007;*/
   padding: 10px;
+  font-family: 'Lato';
 
 }
 
 .learn-more h3 {
-  font-family: 'Shift', sans-serif;
+/*  font-family: 'proxima-nova', sans-serif;*/
   font-size: 18px;
   font-weight: bold;
+  font-family: 'Lato';
 }
 
 .container .row .landing-logo .col-md-3 h3 {
@@ -121,13 +150,14 @@
   padding: 10px;
   padding-right:100px;
   position: bottom;
-  font-family: 'Shift', sans-serif;
+  font-family: 'Lato';
   font-size: 18px;
   font-weight: bold;
 }
 
 .learn-more a {
   color: #00b0ff;
+  font-family: 'Lato';
 }
 
 .directory-title h1 {
@@ -138,6 +168,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Lato';
 }
 
 /*.people-list ul li {
@@ -155,14 +186,27 @@
   border: 1px solid #808080;
   width: 50%;
 }
+
+.people-list .order-table tr th {
+  font-family: 'Ubuntu';
+  text-transform: uppercase;
+}
+
+.people-list .order-table tr td {
+  font-family: 'Lato';
+}
+
 .container .search-box .light-table-filter {
 /*  padding-bottom: 10px;*/
 /*  margin-left: auto;
   margin-right: auto;*/
   text-align: center;
+  font-style: italic;
   position: absolute;
   top: 49%;
-  left: 45%;
+  left: 43%;
+  width: 14%;
+  font-family: 'Lato';
 }
 
 /* Nav

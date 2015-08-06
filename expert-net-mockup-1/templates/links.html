@@ -4,6 +4,9 @@
   <head>
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Aller">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="main.css">
     <meta charset="UTF-8">
 	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
@@ -45,7 +48,7 @@
 <section class="container">
     
     <div class="search-box">
-      <input type="search" class="light-table-filter" data-table="order-table" placeholder="Search a person">
+      <input type="search" class="light-table-filter" data-table="order-table" placeholder="Search a person or keyword">
     </div>
 
     <div class="people-list">
@@ -56,18 +59,23 @@
                 <th>What they know about...</th>
             </tr>
         </thead>
-        <tbody>
+<!--         <tbody>
         {% for p in people %}
           <tr>
             <td> <a href= "{{ p }}.html" > {{ p }} </a> </td>
+            <td> { {{ p }}.skills } </td>
           </tr>
-          {% for skill in "{{ p }}.html".skills %}
-          <tr>
-            <td> {{ skill }} </td>
-          </tr>
-          {% endfor %}
         {% endfor %}
+        </tbody> -->
+
+        <tbody>
+          <tr>
+            <td> <a href= "{{ fullname }}.html" > {{ fullname }} </a> </td>
+            <td> {% for skill in skills %} {{ skill }};  {% endfor %} </td>
+          </tr>
         </tbody>
+
+
     </table>
     </div>
 </section>
