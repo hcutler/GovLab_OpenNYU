@@ -68,6 +68,15 @@
   padding-bottom: 18px;
 }
 
+.about-project .code-link {
+  color: #0a;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Lato';
+  padding-bottom: 18px;
+}
+
 .profile-content {
     background-color: #efefef
     border-bottom: 1px solid #dbdbdb;
