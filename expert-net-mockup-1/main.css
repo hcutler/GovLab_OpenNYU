@@ -42,15 +42,36 @@
   text-transform: uppercase;*/
 }
 
+.jumbotron .directory-title h1 {
+  font-family: 'Gloria Hallelujah';
+}
+
+
 .jumbotron p {
   font-size: 20px;
   color: #0a;
   text-transform: uppercase;
 }
 
+.about-project h3 {
+  color: #0a;
+  text-align: center;
+  font-family: 'Lato';
+}
+
+.about-project p {
+  color: #0a;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Lato';
+  padding-bottom: 18px;
+}
+
 .profile-content {
     background-color: #efefef
     border-bottom: 1px solid #dbdbdb;
+
 }
 
 .profile-content h3 {

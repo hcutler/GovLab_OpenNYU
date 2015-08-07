@@ -108,6 +108,7 @@ def render_landing(filearray):
 	with open("output/" + output_name + ".html", 'w') as output_file:
 		output_file.write(tblcontents.encode('utf8'))
 
+
 def copy_css():
 	source = os.getcwd() + "/"
 	dest = "/Users/Hannah-Cutler/Documents/Dev/GovLab_OpenNYU/expert-net-mockup-1/output/"
@@ -115,7 +116,8 @@ def copy_css():
 		if basename.endswith(".css"):
 			# delete existing .css file in new directory
 			shutil.copy2(basename,dest)
-
+		if basename.endswith(".html"):
+			shutil.copy2(basename,dest)
 
 if __name__ == '__main__':
 	render_landing(people_files)
