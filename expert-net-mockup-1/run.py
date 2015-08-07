@@ -96,13 +96,21 @@ def render_landing(filearray):
 	output_name = "table-contents"
 	template_data = False
 
+
+
+	people_skills = []
+
+
 	for f in filearray:
 		with open(f, 'r') as data_file:
 			template_data = load(data_file, Loader=Loader)
 
-			#-------------landing page
-			# landing = env.get_template("links.html")
-			tblcontents = landing.render(template_data)
+			people_skills.append({
+				'fullname': template_data['fullname'],
+				'skills': template_data['skills']
+			})
+
+	tblcontents = landing.render(people=people_skills)
 			# output_name = "table-contents"
 
 	with open("output/" + output_name + ".html", 'w') as output_file:

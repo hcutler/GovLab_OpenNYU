@@ -35,12 +35,12 @@
   <div class="directory-title">
    		<h1 id="home_people_list">ExpertNet People Directory
 
-       <style>
+<!--       <style>
       h1 {
-        font-family: 'Gloria Hallelujah';
-/*        text-transform: uppercase;*/
+        font-family: 'Gloria Hallelujah' !important;
+       text-transform: uppercase;
       }
-      </style>
+      </style> -->
       </h1>
   </div>
 
@@ -78,10 +78,12 @@
         </tbody> -->
 
         <tbody>
+        {% for p in people %}
           <tr>
-            <td> <a href= "{{ fullname }}.html" > {{ fullname }} </a> </td>
-            <td> {% for skill in skills %} {{ skill }};  {% endfor %} </td>
+            <td> <a href= "{{ p.fullname }}.html" > {{ p.fullname }} </a> </td>
+            <td> {% for skill in p.skills %} {{ skill }};  {% endfor %} </td>
           </tr>
+          {% endfor %}
         </tbody>
 
 
