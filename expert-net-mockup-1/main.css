@@ -46,6 +46,13 @@
   font-family: 'Gloria Hallelujah';
 }
 
+.jumbotron .directory-title h3 {
+  font-family: 'Gloria Hallelujah';
+  font-size: 20px;
+  color: black;
+
+}
+
 
 .jumbotron p {
   font-size: 20px;
